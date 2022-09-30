@@ -7,7 +7,7 @@ PacletObject[
     "Creator" -> "Peter Cullen Burbery",
     "License" -> "MIT",
     "PublisherID" -> "PeterBurbery",
-    "Version" -> "1.2.0",
+    "Version" -> "1.4.0",
     "WolframVersion" -> "13.1+",
     "Extensions" -> {
       {
@@ -20,9 +20,11 @@ PacletObject[
           }
         },
         "Symbols" -> {
+          "PeterBurbery`RecreationalMathematics`BalancedTernary",
           "PeterBurbery`RecreationalMathematics`EulerLinePoints",
           "PeterBurbery`RecreationalMathematics`FivePointConic",
-          "PeterBurbery`RecreationalMathematics`NinePointCubic"
+          "PeterBurbery`RecreationalMathematics`NinePointCubic",
+          "PeterBurbery`RecreationalMathematics`NinePointQuadric"
         }
       },
       {"Documentation", "Language" -> "English"}

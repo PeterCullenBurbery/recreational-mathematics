@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      8463,        213]
-NotebookOptionsPosition[      6196,        162]
-NotebookOutlinePosition[      7894,        204]
-CellTagsIndexPosition[      7851,        201]
+NotebookDataLength[     10841,        273]
+NotebookOptionsPosition[      8223,        216]
+NotebookOutlinePosition[      9919,        258]
+CellTagsIndexPosition[      9876,        255]
 WindowTitle->Math Puzzles
 WindowFrame->Normal*)
 
@@ -28,11 +28,11 @@ Cell[BoxData[GridBox[{
            "Spacer1"], Cell[
           "PETER BURBERY/ RECREATIONAL MATHEMATICS GUIDE", "PacletNameCell",
            TextAlignment->Center,ExpressionUUID->
-           "66639483-fe8a-4cd6-bbf5-5ddc18ce02a8"], 
+           "16ee87ea-b741-4c85-a05f-54ad39bdbd11"], 
           TemplateBox[{8},
            "Spacer1"]}]],
          TextAlignment->Center,ExpressionUUID->
-         "93a136b4-26b0-4cd2-9c09-61e76b79108b"],
+         "585a725c-638b-4bd5-b8f7-36da9f7473f4"],
         Background->RGBColor[0.85098, 0.396078, 0],
         ItemSize->Full], ""}
      },
@@ -52,17 +52,23 @@ Cell[BoxData[GridBox[{
             AspectRatio->1,
             ImageSize->20,
             PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
-           "57a7a9e7-7a8f-42f9-a4d5-bde6290282f9"]
-         }],ExpressionUUID->"bb4d05f8-1a65-4b24-bfd8-cf636be7cabc"],
-         StripOnInput->False], {"\<\"FivePointConic\"\>":>
+           "4af3063b-b833-4a2c-bd29-a747f2ef096f"]
+         }],ExpressionUUID->"5ef03d24-015e-45a1-9ea2-01b36f77b8de"],
+         StripOnInput->False], {"\<\"EulerLinePoints\"\>":>
         Documentation`HelpLookup[
-        "paclet:PeterBurbery/RecreationalMathematics/ref/FivePointConic"]},
+        "paclet:PeterBurbery/RecreationalMathematics/ref/EulerLinePoints"], "\
+\<\"FivePointConic\"\>":>Documentation`HelpLookup[
+        "paclet:PeterBurbery/RecreationalMathematics/ref/FivePointConic"], \
+"\<\"NinePointCubic\"\>":>Documentation`HelpLookup[
+        "paclet:PeterBurbery/RecreationalMathematics/ref/NinePointCubic"], \
+"\<\"NinePointQuadric\"\>":>Documentation`HelpLookup[
+        "paclet:PeterBurbery/RecreationalMathematics/ref/NinePointQuadric"]},
         Appearance->None,
         MenuAppearance->Automatic,
         MenuStyle->"GuideFunction"],
        MouseAppearanceTag["LinkHand"]]],
       LineSpacing->{1.4, 0},ExpressionUUID->
-      "f4b8bd89-064c-4e02-a780-2eeccf031fe1"],
+      "1eb3ea3d-4c41-47c1-8546-d4a4a427ad18"],
      "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
 \[ThickSpace]",
      Cell[BoxData[
@@ -78,8 +84,8 @@ Cell[BoxData[GridBox[{
             AspectRatio->1,
             ImageSize->20,
             PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
-           "190cb6c7-0724-44d8-b250-7bb5aadb29a0"]
-         }],ExpressionUUID->"215d454e-7a4c-43c1-8de5-27a59029d92c"],
+           "75cf19fc-2f8d-4e05-b42f-e6026d383da3"]
+         }],ExpressionUUID->"140802a1-b125-4e8e-bba2-3446c8dfd214"],
          StripOnInput->
           False], {"\<\"PeterBurbery/RecreationalMathematics/guide/\
 MathPuzzles\"\>":>None, "\<\"Copy Wolfram Documentation Center URL\"\>":>
@@ -108,7 +114,7 @@ RecreationalMathematics/guide/MathPuzzles.html"], StandardForm]], "Input",
          Null], "\<\"Go to web URL\"\>":>FrontEndExecute[{
           NotebookLocate[{
             URL[If[
-               TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$180887], 
+               TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$33684], 
                "http://reference.wolfram.com/system-modeler/", 
                "http://reference.wolfram.com/language/"] <> 
              "PeterBurbery/RecreationalMathematics/guide/MathPuzzles" <> 
@@ -118,16 +124,16 @@ RecreationalMathematics/guide/MathPuzzles.html"], StandardForm]], "Input",
         MenuStyle->"URLMenu"],
        MouseAppearanceTag["LinkHand"]]],
       LineSpacing->{1.4, 0},ExpressionUUID->
-      "bb44ec91-571c-4a97-aac1-52e2302520c4"]
+      "bea3f3f3-07d2-4284-8f82-0119619844be"]
     }], "AnchorBar",
      CacheGraphics->False,ExpressionUUID->
-     "edf9591d-1d94-4342-8515-ac450ea1b2e1"]}
+     "ba9dafca-b573-4cd7-a23f-5e83b1d1f994"]}
   }]], "AnchorBarGrid",
  GridBoxOptions->{GridBoxItemSize->{"Columns" -> {
      Scaled[0.65], {
       Scaled[0.34]}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
    "RowsIndexed" -> {}}},
- CellID->1,ExpressionUUID->"fc1b3172-f66c-4951-8c3e-dab39cfb52fe"],
+ CellID->1,ExpressionUUID->"43b7979f-f86f-4052-956d-1aba6ac18b1c"],
 
 Cell[CellGroupData[{
 
@@ -139,7 +145,7 @@ This paclet contains functions for recreational mathematics and math puzzles.\
 \>", "GuideAbstract",
  CellID->766522471,ExpressionUUID->"d75cb774-9ecb-470b-977a-6b0cd1540771"],
 
-Cell["\t", "GuideDelimiterSubsection",ExpressionUUID->"c90caf84-50a1-449e-a2ad-c11b1a3d4c28"],
+Cell["\t", "GuideDelimiterSubsection",ExpressionUUID->"08cb4504-7561-4ef6-985a-5c43000d0a9f"],
 
 Cell[TextData[{
  Cell[BoxData[
@@ -155,10 +161,58 @@ Cell[TextData[{
  StyleBox["\[LongDash]", "GuideEmDash"],
  " Find a conic equation that passes through five given points"
 }], "GuideText",
- CellID->53745090,ExpressionUUID->"4a15b041-8d58-433f-a248-b8dcd715c567"]
+ CellID->53745090,ExpressionUUID->"4a15b041-8d58-433f-a248-b8dcd715c567"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["NinePointCubic"]], 
+    "paclet:PeterBurbery/RecreationalMathematics/ref/NinePointCubic", 
+    "PeterBurbery Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",ExpressionUUID->
+  "40b8e402-4eca-4746-bff2-3102bdaa8bb9"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " Find a cubic plane curve that passes through nine given 2D points"
+}], "GuideText",
+ CellID->63230984,ExpressionUUID->"cf779964-80df-4cb6-adc3-5a23d457d8d6"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["NinePointQuadric"]], 
+    "paclet:PeterBurbery/RecreationalMathematics/ref/NinePointQuadric", 
+    "PeterBurbery Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",ExpressionUUID->
+  "a8503148-a16c-4def-9ee9-c0a51e73adde"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " Find a quadric surface that passes through nine given 3D points"
+}], "GuideText",
+ CellID->690571822,ExpressionUUID->"0acf0fe4-d049-474e-980a-bc0a6a7a8076"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["EulerLinePoints"]], 
+    "paclet:PeterBurbery/RecreationalMathematics/ref/EulerLinePoints", 
+    "PeterBurbery Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",ExpressionUUID->
+  "c1beb137-8a7f-451b-82ea-28ce4cffb082"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " Get the four main points of the Euler line of a triangle"
+}], "GuideText",
+ CellID->644878940,ExpressionUUID->"1e9e3716-024d-41f2-84a4-ac18f01a0fb4"]
 }, Open  ]],
 
-Cell[" ", "FooterCell",ExpressionUUID->"320b3c6e-18a6-4eff-a556-70a5eaa2a6b9"]
+Cell[" ", "FooterCell",ExpressionUUID->"6a8774be-4237-4c0b-8ba5-bed8833c8829"]
 },
 Saveable->False,
 ScreenStyleEnvironment->"Working",
@@ -173,7 +227,7 @@ TaggingRules->{
   "NewStyles" -> True, "CitationPopupData" -> {"", ""}, "ShowCitation" -> 
   False, "RootCaptions" -> "", 
   "Metadata" -> {
-   "built" -> "{2022, 9, 30, 16, 13, 26.7323680}", 
+   "built" -> "{2022, 9, 30, 17, 49, 7.0166627}", 
     "history" -> {"??", "", "", ""}, "context" -> 
     "PeterBurbery`RecreationalMathematics`", "keywords" -> {}, 
     "specialkeywords" -> {}, "tutorialcollectionlinks" -> {}, "index" -> True,
@@ -182,7 +236,7 @@ TaggingRules->{
     "None", "summary" -> 
     "This paclet contains functions for recreational mathematics and math \
 puzzles.", "synonyms" -> {}, "tabletags" -> 
-    DocumentationBuild`Make`Private`tabletaggingrules$180857, "title" -> 
+    DocumentationBuild`Make`Private`tabletaggingrules$33649, "title" -> 
     "Math Puzzles", "titlemodifier" -> "", "windowtitle" -> "Math Puzzles", 
     "type" -> "Guide", "uri" -> 
     "PeterBurbery/RecreationalMathematics/guide/MathPuzzles"}},
@@ -190,7 +244,7 @@ CacheGraphics->False,
 FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
 StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
   CharacterEncoding -> "UTF-8"],
-ExpressionUUID->"ba0c6023-ca13-4a6b-8ccf-9fcc5b0b1262"
+ExpressionUUID->"22a02ad2-3b37-4f32-bba1-f0f40ff8467f"
 ]
 (* End of Notebook Content *)
 
@@ -203,18 +257,24 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[584, 21, 4558, 108, 70, "AnchorBarGrid",ExpressionUUID->"fc1b3172-f66c-4951-8c3e-dab39cfb52fe",
+Cell[584, 21, 4950, 114, 70, "AnchorBarGrid",ExpressionUUID->"43b7979f-f86f-4052-956d-1aba6ac18b1c",
  CellID->1],
 Cell[CellGroupData[{
-Cell[5167, 133, 108, 1, 70, "GuideTitle",ExpressionUUID->"895af459-da26-4907-92e1-bafcbfc10d30",
+Cell[5559, 139, 108, 1, 70, "GuideTitle",ExpressionUUID->"895af459-da26-4907-92e1-bafcbfc10d30",
  CellID->47751474],
-Cell[5278, 136, 185, 3, 70, "GuideAbstract",ExpressionUUID->"d75cb774-9ecb-470b-977a-6b0cd1540771",
+Cell[5670, 142, 185, 3, 70, "GuideAbstract",ExpressionUUID->"d75cb774-9ecb-470b-977a-6b0cd1540771",
  CellID->766522471],
-Cell[5466, 141, 93, 0, 70, "GuideDelimiterSubsection",ExpressionUUID->"c90caf84-50a1-449e-a2ad-c11b1a3d4c28"],
-Cell[5562, 143, 537, 14, 70, "GuideText",ExpressionUUID->"4a15b041-8d58-433f-a248-b8dcd715c567",
- CellID->53745090]
+Cell[5858, 147, 93, 0, 70, "GuideDelimiterSubsection",ExpressionUUID->"08cb4504-7561-4ef6-985a-5c43000d0a9f"],
+Cell[5954, 149, 537, 14, 70, "GuideText",ExpressionUUID->"4a15b041-8d58-433f-a248-b8dcd715c567",
+ CellID->53745090],
+Cell[6494, 165, 543, 14, 70, "GuideText",ExpressionUUID->"cf779964-80df-4cb6-adc3-5a23d457d8d6",
+ CellID->63230984],
+Cell[7040, 181, 546, 14, 70, "GuideText",ExpressionUUID->"0acf0fe4-d049-474e-980a-bc0a6a7a8076",
+ CellID->690571822],
+Cell[7589, 197, 537, 14, 70, "GuideText",ExpressionUUID->"1e9e3716-024d-41f2-84a4-ac18f01a0fb4",
+ CellID->644878940]
 }, Open  ]],
-Cell[6114, 160, 78, 0, 70, "FooterCell",ExpressionUUID->"320b3c6e-18a6-4eff-a556-70a5eaa2a6b9"]
+Cell[8141, 214, 78, 0, 70, "FooterCell",ExpressionUUID->"6a8774be-4237-4c0b-8ba5-bed8833c8829"]
 }
 ]
 *)

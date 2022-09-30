@@ -11,7 +11,7 @@
             ,
             "Hash"
             ->
-            "768bbc6f0e97d75d03a4c82c8b5588c73c452f6a8e86790c6163720cb21d1025"
+            "20ceb512ade22c5e57d63b3b840ebae440c3b7cb2112e420f202a1a2322c6f4a"
                 
         |>
         ,
@@ -24,7 +24,21 @@
             ,
             "Hash"
             ->
-            "81bb50bd62f2f879d26c955f2a2d50c1a79b830552e8e0645f0a0a89299dfc4f"
+            "dad8489b57b044d51c75f1aae14eb4e34f4c382f58c6962ec241f7597e845af3"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\BalancedTernary.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "d58bb0a13f9e2647720762e53216cfe8d63a797d97168cc5614e7df2302c7ea1"
                 
         |>
         ,
@@ -52,7 +66,7 @@
             ,
             "Hash"
             ->
-            "61dcb311e84160bd2c1b4621b33a9b490ecffdcc6c9cf6934b8177b3ca08ec6c"
+            "dbe51bdd86465c6309baeb825ef3f1bc2d51d1f3d1fb1d40d5693a8beb48ba58"
                 
         |>
         ,
@@ -66,7 +80,21 @@
             ,
             "Hash"
             ->
-            "15c7bc20997438e2190e5aa0b4c2c2d355039845f21c3211b52f7601cb244fd9"
+            "d94340e62a761b2df3f49b7c9dff0dc20061e6e3edc2226e7c0d6d5b960982cd"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\NinePointQuadric.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "547687197dcb11fb36866cb06d361fe7aa25586af256769fc0a52211101789e6"
                 
         |>
     }

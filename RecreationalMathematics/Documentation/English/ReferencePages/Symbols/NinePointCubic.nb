@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    101903,       2267]
+NotebookDataLength[    101867,       2266]
 NotebookOptionsPosition[     91696,       2046]
-NotebookOutlinePosition[     92903,       2081]
-CellTagsIndexPosition[     92789,       2075]
+NotebookOutlinePosition[     92867,       2080]
+CellTagsIndexPosition[     92753,       2074]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -2044,9 +2044,8 @@ Cell[BoxData[""], "Template",
 }, Closed]]
 }, Open  ]]
 },
-WindowSize->{1152., 585.6},
-WindowMargins->{{
-  Automatic, -5.399999999999864}, {-5.399999999999977, Automatic}},
+WindowSize->{1141.2, 585.6},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
 TaggingRules-><|"Paclet" -> "PeterBurbery/RecreationalMathematics"|>,
 CellContext->"Global`",
 FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
@@ -2074,8 +2073,8 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"DefaultContent", 92262, 2061},
- {"ExtendedExamples", 92595, 2068}
+ {"DefaultContent", 92226, 2060},
+ {"ExtendedExamples", 92559, 2067}
  }
 *)
 (*NotebookFileOutline

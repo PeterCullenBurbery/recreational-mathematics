@@ -1,0 +1,1124 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     40311,       1114]
+NotebookOptionsPosition[     32268,        946]
+NotebookOutlinePosition[     34742,       1009]
+CellTagsIndexPosition[     34631,       1003]
+WindowTitle->BalancedTernary
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[GridBox[{
+   {GridBox[{
+      {
+       ItemBox[Cell[BoxData[
+         RowBox[{
+          TemplateBox[{12},
+           "Spacer1"], Cell[
+          "PETER BURBERY/ RECREATIONAL MATHEMATICS SYMBOL", "PacletNameCell",
+           TextAlignment->Center,ExpressionUUID->
+           "8b767b99-c7d4-4e49-98a3-1370dd3e1571"], 
+          TemplateBox[{8},
+           "Spacer1"]}]],
+         TextAlignment->Center,ExpressionUUID->
+         "aeb797d6-4468-4f24-ae1f-455f9815b03d"],
+        Background->RGBColor[0.490196, 0.576471, 0.690196],
+        ItemSize->Full], ""}
+     },
+     GridBoxAlignment->{"Rows" -> {{Center}}},
+     GridBoxItemSize->{"Columns" -> {Full, 
+         Scaled[0.02]}, "Rows" -> {{2.5}}}], Cell[TextData[Cell[BoxData[
+     TagBox[
+      ActionMenuBox[
+       FrameBox[Cell[TextData[{
+         "URL",
+         " ",
+         Cell[BoxData[
+          GraphicsBox[
+           {GrayLevel[0.66667], Thickness[0.13], 
+            LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+           AspectRatio->1,
+           ImageSize->20,
+           PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
+          "51615f72-61ba-4333-a9ec-a2948390ca4e"]
+        }],ExpressionUUID->"fa03f2d9-8740-4ecd-a157-2f7c7f4277c2"],
+        StripOnInput->
+         False], {"\<\"PeterBurbery/RecreationalMathematics/ref/\
+BalancedTernary\"\>":>None, "\<\"Copy Wolfram Documentation Center URL\"\>":>
+       Module[{DocumentationSearch`Private`nb$}, 
+        DocumentationSearch`Private`nb$ = NotebookPut[
+           Notebook[{
+             Cell[
+             "PeterBurbery/RecreationalMathematics/ref/BalancedTernary"]}, 
+            Visible -> False]]; 
+        SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+        FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+        NotebookClose[DocumentationSearch`Private`nb$]; Null], 
+       Delimiter, "\<\"Copy web URL\"\>":>
+       Module[{DocumentationSearch`Private`nb$}, 
+        DocumentationSearch`Private`nb$ = NotebookPut[
+           Notebook[{
+             Cell[
+              BoxData[
+               MakeBoxes[
+                Hyperlink[
+                "http://reference.wolfram.com/language/PeterBurbery/\
+RecreationalMathematics/ref/BalancedTernary.html"], StandardForm]], "Input", 
+              TextClipboardType -> "PlainText"]}, Visible -> False]]; 
+        SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+        FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+        NotebookClose[DocumentationSearch`Private`nb$]; 
+        Null], "\<\"Go to web URL\"\>":>FrontEndExecute[{
+         NotebookLocate[{
+           URL[If[
+              TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$34116], 
+              "http://reference.wolfram.com/system-modeler/", 
+              "http://reference.wolfram.com/language/"] <> 
+            "PeterBurbery/RecreationalMathematics/ref/BalancedTernary" <> 
+            ".html"], None}]}]},
+       Appearance->None,
+       MenuAppearance->Automatic,
+       MenuStyle->"URLMenu"],
+      MouseAppearanceTag["LinkHand"]]],
+     LineSpacing->{1.4, 0},ExpressionUUID->
+     "fc4ada09-47c5-4d5a-a98e-0b62da41fecf"]], "AnchorBar",
+     CacheGraphics->False,ExpressionUUID->
+     "541b9954-7504-44bd-8ef7-2fb9d6cd10ad"]}
+  }]], "AnchorBarGrid",
+ GridBoxOptions->{GridBoxItemSize->{"Columns" -> {
+     Scaled[0.65], {
+      Scaled[0.34]}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
+   "RowsIndexed" -> {}}},
+ CellID->1,ExpressionUUID->"9e4efd34-9e57-40b1-9ee9-645b4371694e"],
+
+Cell["PeterBurbery`RecreationalMathematics`", "ContextNameCell",ExpressionUUID->"c0289188-53ee-4ab0-8e97-68b837d0cb36"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[GridBox[{
+   {Cell[TextData[{
+     Cell[
+     "BalancedTernary", "ObjectName",ExpressionUUID->
+      "8a8d272d-e00f-4018-9c29-a6a36e07611a"],
+     Cell[BoxData[
+      TemplateBox[{8},
+       "Spacer1"]],ExpressionUUID->"650dad39-42cf-44a0-a080-4f4b42bf1c15"],
+     Cell[BoxData[
+     ""], "ObjectNameTranslation",ExpressionUUID->
+      "01ec1b4e-66a8-4f0b-9b91-70cb1f3c224f"]
+    }],ExpressionUUID->"4edd9539-d2a7-44d0-a9b5-5590b21dd7fc"], 
+    "\[SpanFromLeft]"}
+  }]], "ObjectNameGrid",ExpressionUUID->"0a47bb43-9a55-4653-ba21-\
+ff721876708f"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       TemplateBox[{
+         Cell[
+          TextData["BalancedTernary"]], 
+         "paclet:PeterBurberyRecreationalMathematics/ref/BalancedTernary", 
+         "PeterBurberyRecreationalMathematics Package Symbol"},
+        "PackageLink",
+        BaseStyle->"InlineFormula"], "[", 
+       StyleBox["n", "TI"], "]"}]], "InlineFormula",
+      FontFamily->"Source Sans Pro",ExpressionUUID->
+      "4737b599-f1f9-40dd-a918-855599d500a6"],
+     "\[LineSeparator]toggles the ",
+     Cell[BoxData[
+      StyleBox["n", "TI"]], "InlineFormula",
+      FontFamily->"Source Sans Pro",ExpressionUUID->
+      "24f0f9cb-1153-4b6f-a50a-c2cc98131cac"],
+     " between integer and balanced ternary format."
+    }],ExpressionUUID->"ea027986-23c0-46a7-aac3-5c58ae4757f0"]}
+  }]], "Usage",
+ CellID->35090780,ExpressionUUID->"44b57c69-c5a9-46d4-874b-64c310f1571b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[Cell[BoxData[
+ ButtonBox[Cell[TextData[{
+   Cell[BoxData[
+    DynamicBox[ToBoxes[
+      If[
+       MatchQ[
+        CurrentValue[
+         EvaluationNotebook[], {TaggingRules, "Openers", "NotesSection"}, 
+         Closed], 
+        Alternatives[Open, True]], 
+       Style[
+        Graphics[{
+          Thickness[0.18], 
+          RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+          Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+         PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+        0.68 Inherited], 
+       Rotate[
+        Style[
+         Graphics[{
+           Thickness[0.18], 
+           RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+           Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+          PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+         0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+     ImageSizeCache->{
+      13.600000000000001`, {0.5800000000000001, 13.020000000000001`}}]],
+    ExpressionUUID->"6d2ebbf5-9660-48ca-ab08-1f02d701fb40"],
+   Cell[BoxData[
+    TemplateBox[{1},
+     "Spacer1"]],ExpressionUUID->"c0617197-ef39-471c-986a-751b5cdbfa25"],
+   "Details and Options"
+  }], "NotesFrameText",ExpressionUUID->"8edd724b-b050-46d0-9ae9-c654e7097740"],
+  Appearance->{Automatic, None, "Normal", Automatic},
+  BaseStyle->None,
+  ButtonFunction:>(FrontEndExecute[{
+     FrontEnd`SelectionMove[
+      FrontEnd`SelectedNotebook[], All, ButtonCell], 
+     FrontEndToken["OpenCloseGroup"], 
+     FrontEnd`SelectionMove[
+      FrontEnd`SelectedNotebook[], After, CellContents]}]& ),
+  Evaluator->None,
+  Method->
+   "Preemptive"]],ExpressionUUID->"6b0df81c-c10f-4cc7-8ac0-f99d30ea9b63"]], \
+"NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CacheGraphics->False,
+ CellID->182918894,ExpressionUUID->"39e97a55-f5a7-4c27-8ec1-d540edde4e19"],
+
+Cell[TextData[{
+ Cell[BoxData["BalancedTernary"], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "07c39c24-ba45-46c5-9140-75793a547831"],
+ " toggles between ordinary integer format and a format specific to the \
+balanced ternary representation of an integer."
+}], "Notes",
+ CellID->728835234,ExpressionUUID->"9f0cd990-930b-42ee-ad29-f033429433e1"],
+
+Cell[TextData[{
+ "In balanced ternary, ",
+ Cell[BoxData[
+  StyleBox[
+   TagBox[
+    TemplateBox[{"1", 
+      UnderscriptBox["1", "_"], "0", "1", 
+      UnderscriptBox["1", "_"]},
+     "RowDefault"],
+    "ForceRasterization"], "MarkedForRasterization"]], "Output",
+  GeneratedCell->False,
+  CellAutoOverwrite->False,ExpressionUUID->
+  "c2dce555-11e3-4e82-a76a-0b4c5c32a600"],
+ " represents 56."
+}], "Notes",
+ CellTags->"TabNext",
+ CellID->831151134,ExpressionUUID->"541494f8-68b8-4ce9-a33f-02790789452e"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"+", "1"}], "\[Times]", 
+    SuperscriptBox["3", "4"]}], TraditionalForm]],ExpressionUUID->
+  "13d3e2df-0ba3-4f21-954e-206cc2482867"],
+ "-",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"1", "\[Times]", 
+    SuperscriptBox["3", "3"]}], TraditionalForm]],ExpressionUUID->
+  "adb3257e-1f33-4821-b6b7-fb3b7c80bd9d"],
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"+", "0"}], "\[Times]", 
+    SuperscriptBox["3", "2"]}], TraditionalForm]],ExpressionUUID->
+  "6a9d42f7-b29a-4d87-b29a-dd30d464822e"],
+ "+",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"1", "\[Times]", 
+    SuperscriptBox["3", "1"]}], TraditionalForm]],ExpressionUUID->
+  "67d706d4-92e9-477f-a43a-e1a09d39af66"],
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"-", "1"}], "\[Times]", 
+    SuperscriptBox["3", "0"]}], TraditionalForm]],ExpressionUUID->
+  "d332d949-7151-46c1-adfc-af8a71204560"],
+ " = 56."
+}], "Notes",
+ CellID->409912500,ExpressionUUID->"93378d90-9d7a-45e1-bf8f-1780d217a5c1"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"1", ",", 
+      RowBox[{"-", "1"}], ",", "0", ",", "1", ",", 
+      RowBox[{"-", "1"}]}], "}"}], 
+    SuperscriptBox[".3", 
+     RowBox[{"{", 
+      RowBox[{"4", ",", "3", ",", "2", ",", "1", ",", "0"}], "}"}]]}], 
+   TraditionalForm]],ExpressionUUID->"5a12b21f-17b2-4aba-b034-e0e780949455"],
+ " = 56."
+}], "Notes",
+ CellID->491122385,ExpressionUUID->"95662a51-1d23-4639-b2ff-19a1b56a5880"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"{", 
+    RowBox[{"1", ",", 
+     RowBox[{"-", "1"}], ",", "0", ",", "1", ",", 
+     RowBox[{"-", "1"}]}], "}"}], TraditionalForm]],ExpressionUUID->
+  "d8f2411a-e85a-46e7-a090-7a61bc6e62cc"],
+ " is rewritten as ",
+ Cell[BoxData[
+  StyleBox[
+   TagBox[
+    TemplateBox[{"1", 
+      UnderscriptBox["1", "_"], "0", "1", 
+      UnderscriptBox["1", "_"]},
+     "RowDefault"],
+    "ForceRasterization"], "MarkedForRasterization"]], "Output",
+  GeneratedCell->False,
+  CellAutoOverwrite->False,ExpressionUUID->
+  "2483ba75-1439-4cc6-b127-2131b8a3b8ad"],
+ " for balanced ternary."
+}], "Notes",
+ CellID->694730738,ExpressionUUID->"63d9b09b-17c8-455e-b827-bd2a140d75dc"]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "NotesSection"}, Closed]]]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  DynamicBox[ToBoxes[
+    If[
+     MatchQ[
+      CurrentValue[
+       EvaluationNotebook[], {
+       TaggingRules, "Openers", "PrimaryExamplesSection"}, Open], 
+      Alternatives[True, Open]], 
+     Style[
+      Graphics[{
+        Thickness[0.18], 
+        RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+        Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+       PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+      0.68 Inherited], 
+     Rotate[
+      Style[
+       Graphics[{
+         Thickness[0.18], 
+         RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+         Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+        PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+       0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+   ImageSizeCache->{13.600000000000001`, {5., 8.600000000000001}}]],
+  ExpressionUUID->"5dfdf8be-e3b0-4f86-b196-acb5f7bb52f0"],
+ Cell[BoxData[
+  TemplateBox[{1},
+   "Spacer1"]],ExpressionUUID->"7d3ab51c-bc75-4ffa-a8a1-284f9146f8d8"],
+ "Examples",
+ "\[NonBreakingSpace]\[NonBreakingSpace]",
+ Cell["(5)", "ExampleCount",ExpressionUUID->
+  "cc9f11b6-e510-4e18-b2d6-44061ea92be1"]
+}], "PrimaryExamplesSection",
+ WholeCellGroupOpener->True,
+ CacheGraphics->False,
+ CellTags->"PrimaryExamplesSection",
+ CellID->93095397,ExpressionUUID->"66f1a622-1f4c-4bce-893f-936f6f682087"],
+
+Cell[BoxData[
+ RowBox[{"Needs", "[", "\"\<PeterBurbery`RecreationalMathematics`\>\"", 
+  "]"}]], "Input", "ExampleInitialization",
+ CellLabel->"In[1]:=",
+ CellID->145654520,ExpressionUUID->"0d7211af-d196-4cdd-bd49-4dc64860636f"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  DynamicBox[ToBoxes[
+    If[
+     MatchQ[
+      CurrentValue[
+       EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "0"},
+        Closed], 
+      Alternatives[Open, True]], 
+     Style[
+      Graphics[{
+        Thickness[0.18], 
+        RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+        Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+       PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+      0.68 Inherited], 
+     Rotate[
+      Style[
+       Graphics[{
+         Thickness[0.18], 
+         RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+         Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+        PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+       0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+   ImageSizeCache->{13.600000000000001`, {5., 8.600000000000001}}]],
+  ExpressionUUID->"235cd3db-0333-4407-8e31-3da676e8deda"],
+ Cell[BoxData[
+  TemplateBox[{1},
+   "Spacer1"]],ExpressionUUID->"6c5ae785-8184-40af-ac92-15769a31294f"],
+ "Basic Examples",
+ "\[NonBreakingSpace]\[NonBreakingSpace]",
+ Cell["(1)", "ExampleCount",ExpressionUUID->
+  "e3355191-28fe-421c-b58f-f7165c4a4cd2"]
+}], "ExampleSection", "ExampleSection",
+ WholeCellGroupOpener->True,
+ CacheGraphics->False,
+ CellID->449003338,ExpressionUUID->"3fbf5e63-6cc8-40a5-8660-267c71724967"],
+
+Cell["Convert some integers to balanced ternary format:", "ExampleText",
+ CellID->477282792,ExpressionUUID->"32ac566f-30b6-4853-bf05-3326f6e91491"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"BalancedTernary", "/@", 
+  RowBox[{"Range", "[", 
+   RowBox[{
+    RowBox[{"-", "9"}], ",", "9"}], "]"}]}]], "Input",
+ CellProlog:>Needs["PeterBurbery`RecreationalMathematics`"],
+ CellLabel->"In[1]:=",
+ CellID->71946938,ExpressionUUID->"98abbf4f-5eff-4480-b51f-f25587e559a1"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   TemplateBox[{
+     UnderscriptBox["1", "_"], "0", "0"},
+    "RowDefault"], ",", 
+   TemplateBox[{
+     UnderscriptBox["1", "_"], "0", "1"},
+    "RowDefault"], ",", 
+   TemplateBox[{
+     UnderscriptBox["1", "_"], "1", 
+     UnderscriptBox["1", "_"]},
+    "RowDefault"], ",", 
+   TemplateBox[{
+     UnderscriptBox["1", "_"], "1", "0"},
+    "RowDefault"], ",", 
+   TemplateBox[{
+     UnderscriptBox["1", "_"], "1", "1"},
+    "RowDefault"], ",", 
+   TemplateBox[{
+     UnderscriptBox["1", "_"], 
+     UnderscriptBox["1", "_"]},
+    "RowDefault"], ",", 
+   TemplateBox[{
+     UnderscriptBox["1", "_"], "0"},
+    "RowDefault"], ",", 
+   TemplateBox[{
+     UnderscriptBox["1", "_"], "1"},
+    "RowDefault"], ",", 
+   TemplateBox[{
+     UnderscriptBox["1", "_"]},
+    "RowDefault"], ",", 
+   TemplateBox[{"0"},
+    "RowDefault"], ",", 
+   TemplateBox[{"1"},
+    "RowDefault"], ",", 
+   TemplateBox[{"1", 
+     UnderscriptBox["1", "_"]},
+    "RowDefault"], ",", 
+   TemplateBox[{"1", "0"},
+    "RowDefault"], ",", 
+   TemplateBox[{"1", "1"},
+    "RowDefault"], ",", 
+   TemplateBox[{"1", 
+     UnderscriptBox["1", "_"], 
+     UnderscriptBox["1", "_"]},
+    "RowDefault"], ",", 
+   TemplateBox[{"1", 
+     UnderscriptBox["1", "_"], "0"},
+    "RowDefault"], ",", 
+   TemplateBox[{"1", 
+     UnderscriptBox["1", "_"], "1"},
+    "RowDefault"], ",", 
+   TemplateBox[{"1", "0", 
+     UnderscriptBox["1", "_"]},
+    "RowDefault"], ",", 
+   TemplateBox[{"1", "0", "0"},
+    "RowDefault"]}], "}"}]], "Output",
+ CellLabel->"Out[1]=",
+ CellID->574838941,ExpressionUUID->"e6384802-7951-4c50-a9e2-d9c54781c95a"]
+}, Open  ]],
+
+Cell["Convert the balanced ternary numbers back into integers:", "ExampleText",
+ CellID->70552217,ExpressionUUID->"cdb027d1-73ef-413d-8022-bc8f979b0fea"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"BalancedTernary", "/@", "%"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`RecreationalMathematics`"],
+ CellLabel->"In[2]:=",
+ CellID->472353123,ExpressionUUID->"0b029197-1b2b-4273-bbef-458fc9cc2897"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"-", "9"}], ",", 
+   RowBox[{"-", "8"}], ",", 
+   RowBox[{"-", "7"}], ",", 
+   RowBox[{"-", "6"}], ",", 
+   RowBox[{"-", "5"}], ",", 
+   RowBox[{"-", "4"}], ",", 
+   RowBox[{"-", "3"}], ",", 
+   RowBox[{"-", "2"}], ",", 
+   RowBox[{"-", "1"}], ",", "0", ",", "1", ",", "2", ",", "3", ",", "4", ",", 
+   "5", ",", "6", ",", "7", ",", "8", ",", "9"}], "}"}]], "Output",
+ CellLabel->"Out[2]=",
+ CellID->327846684,ExpressionUUID->"5ec216af-e35b-4080-9a97-1496171ea627"]
+}, Open  ]]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "0"}, 
+  Closed]]]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  DynamicBox[ToBoxes[
+    If[
+     MatchQ[
+      CurrentValue[
+       EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "1"},
+        Closed], 
+      Alternatives[Open, True]], 
+     Style[
+      Graphics[{
+        Thickness[0.18], 
+        RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+        Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+       PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+      0.68 Inherited], 
+     Rotate[
+      Style[
+       Graphics[{
+         Thickness[0.18], 
+         RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+         Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+        PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+       0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+   ImageSizeCache->{
+    13.600000000000001`, {0.5800000000000001, 13.020000000000001`}}]],
+  ExpressionUUID->"128b768a-904b-4549-94fa-f50afdb180fe"],
+ Cell[BoxData[
+  TemplateBox[{1},
+   "Spacer1"]],ExpressionUUID->"6d53c427-478e-4773-ad37-3e2f3348f55f"],
+ "Scope",
+ "\[NonBreakingSpace]\[NonBreakingSpace]",
+ Cell["(2)", "ExampleCount",ExpressionUUID->
+  "2dab2f53-79d8-402b-8088-c25c07bc6b6d"]
+}], "ExampleSection", "ExampleSection",
+ WholeCellGroupOpener->True,
+ CacheGraphics->False,
+ CellID->197151231,ExpressionUUID->"7490b8d6-3bfb-45de-8ecf-2af6c65a8129"],
+
+Cell["Large numbers can be converted into balanced ternary:", "ExampleText",
+ CellID->872566538,ExpressionUUID->"1ece7886-a908-4a2a-b03a-e93cfc3259b1"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Column", "[", 
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"BalancedTernary", "[", 
+     RowBox[{"10", "^", "n"}], "]"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"n", ",", "1", ",", "12"}], "}"}]}], "]"}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`RecreationalMathematics`"],
+ CellLabel->"In[1]:=",
+ CellID->690057470,ExpressionUUID->"7495f0e2-febc-41be-8704-7caec841749f"],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {
+     TemplateBox[{"1", "0", "1"},
+      "RowDefault"]},
+    {
+     TemplateBox[{"1", "1", 
+       UnderscriptBox["1", "_"], "0", "1"},
+      "RowDefault"]},
+    {
+     TemplateBox[{"1", "1", "0", "1", "0", "0", "1"},
+      "RowDefault"]},
+    {
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], "0", "1", "1", "0", "1"},
+      "RowDefault"]},
+    {
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], "0", "1", 
+       UnderscriptBox["1", "_"], "1", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], "0", "1"},
+      "RowDefault"]},
+    {
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], "0", 
+       UnderscriptBox["1", "_"], "0", 
+       UnderscriptBox["1", "_"], "1", "1", 
+       UnderscriptBox["1", "_"], "1", 
+       UnderscriptBox["1", "_"], "0", "0", "1"},
+      "RowDefault"]},
+    {
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], "0", "1", 
+       UnderscriptBox["1", "_"], "1", "1", "0", "0", "1", "1", "1", 
+       UnderscriptBox["1", "_"], "1", "0", "1"},
+      "RowDefault"]},
+    {
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], "1", "0", "0", 
+       UnderscriptBox["1", "_"], "1", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], "1", 
+       UnderscriptBox["1", "_"], "0", 
+       UnderscriptBox["1", "_"], "0", "1"},
+      "RowDefault"]},
+    {
+     TemplateBox[{"1", "0", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], "1", 
+       UnderscriptBox["1", "_"], "0", "1", 
+       UnderscriptBox["1", "_"], "0", "0", "1", 
+       UnderscriptBox["1", "_"], "1", "0", "1", "0", "0", "0", "1"},
+      "RowDefault"]},
+    {
+     TemplateBox[{"1", "0", "0", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], "1", "1", "0", 
+       UnderscriptBox["1", "_"], "1", 
+       UnderscriptBox["1", "_"], "1", "0", 
+       UnderscriptBox["1", "_"], "0", 
+       UnderscriptBox["1", "_"], "0", "1", "0", "1", "0", "1"},
+      "RowDefault"]},
+    {
+     TemplateBox[{"1", "0", "1", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], "0", "0", "1", "0", "1", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], "0", 
+       UnderscriptBox["1", "_"], "1", "0", "0", "1", 
+       UnderscriptBox["1", "_"], "1", 
+       UnderscriptBox["1", "_"], "0", "1"},
+      "RowDefault"]},
+    {
+     TemplateBox[{"1", "1", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], "0", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], "1", "1", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], "0", "1", "1", "1", 
+       UnderscriptBox["1", "_"], "1", "1", 
+       UnderscriptBox["1", "_"], "1", "1", "1", "0", "0", "1"},
+      "RowDefault"]}
+   },
+   DefaultBaseStyle->"Column",
+   GridBoxAlignment->{"Columns" -> {{Left}}},
+   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+  "Column"]], "Output",
+ CellLabel->"Out[1]=",
+ CellID->346755852,ExpressionUUID->"440d25d8-fda8-46fd-b273-0aca05afbb07"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "\t", "ExampleDelimiter",ExpressionUUID->
+   "d636ae5f-1bc1-4dc6-aa16-6a0f6ad17691"],
+  $Line = 0; Null]], "ExampleDelimiter",
+ CellID->14107562,ExpressionUUID->"b0e10071-23b9-480f-8cb4-6408994ac88f"],
+
+Cell[TextData[{
+ "Create a random 20-digit balanced",
+ StyleBox[" ", "ExampleText"],
+ "ternary number:"
+}], "ExampleText",
+ CellID->852707325,ExpressionUUID->"1c5c0557-2e18-4ced-b019-b2eb86aa7fbc"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Row", "[", 
+  RowBox[{"RandomChoice", "[", 
+   RowBox[{
+    RowBox[{"Normal", "[", 
+     RowBox[{"BalancedTernary", "[", "6", "]"}], "]"}], ",", "20"}], "]"}], 
+  "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`RecreationalMathematics`"],
+ CellLabel->"In[1]:=",
+ CellID->17211622,ExpressionUUID->"f87361f2-51fd-4b86-bced-971e07d7b7d8"],
+
+Cell[BoxData[
+ TemplateBox[{
+   UnderscriptBox["1", "_"], "1", "0", "1", "0", 
+   UnderscriptBox["1", "_"], "0", "1", "1", "0", 
+   UnderscriptBox["1", "_"], "1", "0", "0", 
+   UnderscriptBox["1", "_"], 
+   UnderscriptBox["1", "_"], 
+   UnderscriptBox["1", "_"], "1", "0", "1"},
+  "RowDefault"]], "Output",
+ CellLabel->"Out[1]=",
+ CellID->126762691,ExpressionUUID->"b8321ea0-9b29-4d46-b76f-a2527f97e98b"]
+}, Open  ]],
+
+Cell["Convert to an integer:", "ExampleText",
+ CellID->481570006,ExpressionUUID->"daea414f-b5fe-4172-b773-f2936c7a787a"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"BalancedTernary", "[", "%", "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`RecreationalMathematics`"],
+ CellLabel->"In[2]:=",
+ CellID->949963227,ExpressionUUID->"1e5d2425-336e-4527-a004-79f5c278b562"],
+
+Cell[BoxData[
+ RowBox[{"-", "735882101"}]], "Output",
+ CellLabel->"Out[2]=",
+ CellID->6594924,ExpressionUUID->"44d06ae9-2b93-4d01-8239-312bb1ec5450"]
+}, Open  ]]
+}, Open  ]]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "1"}, 
+  Closed]]]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  DynamicBox[ToBoxes[
+    If[
+     MatchQ[
+      CurrentValue[
+       EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "3"},
+        Closed], 
+      Alternatives[Open, True]], 
+     Style[
+      Graphics[{
+        Thickness[0.18], 
+        RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+        Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+       PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+      0.68 Inherited], 
+     Rotate[
+      Style[
+       Graphics[{
+         Thickness[0.18], 
+         RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+         Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+        PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+       0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+   ImageSizeCache->{
+    13.600000000000001`, {0.5800000000000001, 13.020000000000001`}}]],
+  ExpressionUUID->"f060ee69-cf96-4a06-b322-09ce9d9d096c"],
+ Cell[BoxData[
+  TemplateBox[{1},
+   "Spacer1"]],ExpressionUUID->"1b1dffb7-b7bf-4cb4-9885-951020ed003f"],
+ "Properties & Relations",
+ "\[NonBreakingSpace]\[NonBreakingSpace]",
+ Cell["(1)", "ExampleCount",ExpressionUUID->
+  "635fd74f-e1b8-41dc-bc52-23d304785ad7"]
+}], "ExampleSection", "ExampleSection",
+ WholeCellGroupOpener->True,
+ CacheGraphics->False,
+ CellID->15774455,ExpressionUUID->"0db3e045-0e3d-4920-b03a-8ad6cf05050b"],
+
+Cell[TextData[{
+ "Balanced ternary numbers are expressed in ",
+ Cell[BoxData[
+  TagBox[
+   TemplateBox[{
+     Cell[
+      TextData[
+       StyleBox[
+       "Row", "SymbolsRefLink", ShowStringCharacters -> True, FontFamily -> 
+        "Source Sans Pro"]]], "paclet:ref/Row"},
+    "RefLink",
+    BaseStyle->{"InlineFormula"}],
+   MouseAppearanceTag["LinkHand"]]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "0495aceb-56cc-44df-96a9-49b01f7fb0a4"],
+ " form:"
+}], "ExampleText",
+ CellID->645035212,ExpressionUUID->"ca147bd0-22cd-42fb-9e84-16dc01c2448d"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Head", "[", 
+  RowBox[{"BalancedTernary", "[", "6", "]"}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`RecreationalMathematics`"],
+ CellLabel->"In[1]:=",
+ CellID->818479876,ExpressionUUID->"2ead8caf-f40d-4136-b126-1fdd31dab430"],
+
+Cell[BoxData["Row"], "Output",
+ CellLabel->"Out[1]=",
+ CellID->286107215,ExpressionUUID->"1790697b-db1a-4f88-9dbb-a6182a903e54"]
+}, Open  ]]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "3"}, 
+  Closed]]]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  DynamicBox[ToBoxes[
+    If[
+     MatchQ[
+      CurrentValue[
+       EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "4"},
+        Closed], 
+      Alternatives[Open, True]], 
+     Style[
+      Graphics[{
+        Thickness[0.18], 
+        RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+        Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+       PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+      0.68 Inherited], 
+     Rotate[
+      Style[
+       Graphics[{
+         Thickness[0.18], 
+         RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+         Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+        PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+       0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+   ImageSizeCache->{
+    13.600000000000001`, {0.5800000000000001, 13.020000000000001`}}]],
+  ExpressionUUID->"e3901ec1-83b0-4366-9b55-74a0f424914f"],
+ Cell[BoxData[
+  TemplateBox[{1},
+   "Spacer1"]],ExpressionUUID->"a3be8241-d0a0-4fde-bcae-453a51143720"],
+ "Neat Examples",
+ "\[NonBreakingSpace]\[NonBreakingSpace]",
+ Cell["(1)", "ExampleCount",ExpressionUUID->
+  "4d18d69b-7403-41a3-b354-b1e086a5049b"]
+}], "ExampleSection", "ExampleSection",
+ WholeCellGroupOpener->True,
+ CacheGraphics->False,
+ CellID->14057163,ExpressionUUID->"3f9db1e4-b1eb-4fae-a7c1-69659fd00153"],
+
+Cell["\<\
+Using weights of size 1, 3, 9, 27 and a 2-sided balance, measure weights 1 to \
+20:\
+\>", "ExampleText",
+ CellID->812662626,ExpressionUUID->"8a1bbfb0-13d9-4bb1-8cea-64859e27aa66"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Grid", "[", 
+  RowBox[{
+   RowBox[{"Transpose", "[", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"With", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"l", "=", 
+          RowBox[{"PadLeft", "[", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"Normal", "[", 
+              RowBox[{"BalancedTernary", "[", "k", "]"}], "]"}], "/.", 
+             RowBox[{
+              UnderscriptBox["1", "_"], "\[Rule]", " ", 
+              RowBox[{"-", "1"}]}]}], ",", "4"}], "]"}]}], "}"}], ",", 
+        "\[IndentingNewLine]", 
+        RowBox[{"Append", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"l", " ", 
+            RowBox[{"(", 
+             RowBox[{"3", "^", 
+              RowBox[{"Range", "[", 
+               RowBox[{"3", ",", "0", ",", 
+                RowBox[{"-", "1"}]}], "]"}]}], ")"}]}], "/.", " ", 
+           RowBox[{"0", "\[Rule]", "\"\<\>\""}]}], " ", ",", "k"}], "]"}]}], 
+       "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"k", ",", "1", ",", "20"}], "}"}]}], "]"}], "]"}], ",", 
+   RowBox[{"Frame", "\[Rule]", " ", "All"}], ",", " ", 
+   RowBox[{"Dividers", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"Automatic", ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"-", "2"}], "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"Red", ",", " ", "Thick"}], "}"}]}], "}"}]}], "}"}]}]}], 
+  "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`RecreationalMathematics`"],
+ CellLabel->"In[1]:=",
+ CellID->496855144,ExpressionUUID->"09713242-6ac9-447d-96a0-f429b703dfb5"],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {"\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", \
+"\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\
+\"\>", "27", "27", "27", "27", "27", "27", "27"},
+    {"\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "9", "9", "9", "9", "9", 
+     "9", "9", "9", "9", 
+     RowBox[{"-", "9"}], 
+     RowBox[{"-", "9"}], 
+     RowBox[{"-", "9"}], 
+     RowBox[{"-", "9"}], 
+     RowBox[{"-", "9"}], 
+     RowBox[{"-", "9"}], 
+     RowBox[{"-", "9"}]},
+    {"\<\"\"\>", "3", "3", "3", 
+     RowBox[{"-", "3"}], 
+     RowBox[{"-", "3"}], 
+     RowBox[{"-", "3"}], "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "3", "3", "3", 
+     RowBox[{"-", "3"}], 
+     RowBox[{"-", "3"}], 
+     RowBox[{"-", "3"}], "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "3"},
+    {"1", 
+     RowBox[{"-", "1"}], "\<\"\"\>", "1", 
+     RowBox[{"-", "1"}], "\<\"\"\>", "1", 
+     RowBox[{"-", "1"}], "\<\"\"\>", "1", 
+     RowBox[{"-", "1"}], "\<\"\"\>", "1", 
+     RowBox[{"-", "1"}], "\<\"\"\>", "1", 
+     RowBox[{"-", "1"}], "\<\"\"\>", "1", 
+     RowBox[{"-", "1"}]},
+    {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", 
+     "14", "15", "16", "17", "18", "19", "20"}
+   },
+   AutoDelete->False,
+   GridBoxDividers->{"Columns" -> {{Automatic}}, "RowsIndexed" -> {-2 -> {
+         RGBColor[1, 0, 0], 
+         Thickness[Large]}}},
+   GridBoxFrame->{"Columns" -> {{True}}, "Rows" -> {{True}}},
+   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+  "Grid"]], "Output",
+ CellLabel->"Out[1]=",
+ CellID->156194332,ExpressionUUID->"ab4b000e-f973-444f-83c9-1fcfda5f60a5"]
+}, Open  ]]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "4"}, 
+  Closed]]]]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "PrimaryExamplesSection"}, 
+  Closed]]]],
+
+Cell[" ", "FooterCell",ExpressionUUID->"384c8b89-f876-4970-9896-445db8ce4461"]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{900., 604.8},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"BalancedTernary",
+TaggingRules->{
+ "ModificationHighlight" -> False, "ColorType" -> "", "LinkTrails" -> "", 
+  "HasOptions" -> True, "ExampleCounter" -> 1, 
+  "Openers" -> {
+   "PrimaryExamplesSection" -> Open, 
+    "ExampleSection" -> {
+     "0" -> Open, "1" -> Closed, "3" -> Closed, "4" -> Closed}, 
+    "NotesSection" -> Closed}, "NewStyles" -> True, 
+  "CitationPopupData" -> $Failed, "ShowCitation" -> False, "RootCaptions" -> 
+  "", "Metadata" -> {
+   "built" -> "{2022, 9, 30, 18, 2, 32.5952006}", 
+    "history" -> {"XX", "", "", ""}, "context" -> 
+    "PeterBurbery`RecreationalMathematics`", "keywords" -> {}, 
+    "specialkeywords" -> {}, "tutorialcollectionlinks" -> {}, "index" -> True,
+     "label" -> "Peter Burbery/ Recreational Mathematics Symbol", "language" -> 
+    "en", "paclet" -> "PeterBurbery/RecreationalMathematics", "status" -> 
+    "None", "summary" -> 
+    "BalancedTernary[n] toggles the n between integer and balanced ternary \
+format.", "synonyms" -> {}, "tabletags" -> {}, "title" -> "BalancedTernary", 
+    "titlemodifier" -> "", "windowtitle" -> "BalancedTernary", "type" -> 
+    "Symbol", "uri" -> 
+    "PeterBurbery/RecreationalMathematics/ref/BalancedTernary"}},
+CellContext->"Global`",
+FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData[
+    StyleDefinitions -> FrontEnd`FileName[{"Wolfram"}, "Reference.nb"]]], 
+   Cell[
+    StyleData["Input"], CellContext -> "Global`"], 
+   Cell[
+    StyleData["Output"], CellContext -> "Global`"]}, Visible -> False, 
+  FrontEndVersion -> "13.1 for Microsoft Windows (64-bit) (June 16, 2022)", 
+  StyleDefinitions -> "Default.nb"],
+ExpressionUUID->"c1f2ccc8-e439-4313-916d-f6715b4b9cb2"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "TabNext"->{
+  Cell[8065, 210, 503, 16, 70, "Notes",ExpressionUUID->"541494f8-68b8-4ce9-a33f-02790789452e",
+   CellTags->"TabNext",
+   CellID->831151134]},
+ "PrimaryExamplesSection"->{
+  Cell[10903, 307, 1419, 37, 35, "PrimaryExamplesSection",ExpressionUUID->"66f1a622-1f4c-4bce-893f-936f6f682087",
+   CellTags->"PrimaryExamplesSection",
+   CellID->93095397]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"TabNext", 34260, 992},
+ {"PrimaryExamplesSection", 34432, 996}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[587, 21, 3516, 81, 56, "AnchorBarGrid",ExpressionUUID->"9e4efd34-9e57-40b1-9ee9-645b4371694e",
+ CellID->1],
+Cell[4106, 104, 119, 0, 23, "ContextNameCell",ExpressionUUID->"c0289188-53ee-4ab0-8e97-68b837d0cb36"],
+Cell[CellGroupData[{
+Cell[4250, 108, 558, 14, 56, "ObjectNameGrid",ExpressionUUID->"0a47bb43-9a55-4653-ba21-ff721876708f"],
+Cell[4811, 124, 924, 22, 111, "Usage",ExpressionUUID->"44b57c69-c5a9-46d4-874b-64c310f1571b",
+ CellID->35090780]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5772, 151, 1919, 48, 37, "NotesSection",ExpressionUUID->"39e97a55-f5a7-4c27-8ec1-d540edde4e19",
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellID->182918894],
+Cell[7694, 201, 368, 7, 70, "Notes",ExpressionUUID->"9f0cd990-930b-42ee-ad29-f033429433e1",
+ CellID->728835234],
+Cell[8065, 210, 503, 16, 70, "Notes",ExpressionUUID->"541494f8-68b8-4ce9-a33f-02790789452e",
+ CellTags->"TabNext",
+ CellID->831151134],
+Cell[8571, 228, 1010, 33, 70, "Notes",ExpressionUUID->"93378d90-9d7a-45e1-bf8f-1780d217a5c1",
+ CellID->409912500],
+Cell[9584, 263, 476, 14, 70, "Notes",ExpressionUUID->"95662a51-1d23-4639-b2ff-19a1b56a5880",
+ CellID->491122385],
+Cell[10063, 279, 713, 22, 70, "Notes",ExpressionUUID->"63d9b09b-17c8-455e-b827-bd2a140d75dc",
+ CellID->694730738]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "NotesSection"}, Closed]]]],
+Cell[CellGroupData[{
+Cell[10903, 307, 1419, 37, 35, "PrimaryExamplesSection",ExpressionUUID->"66f1a622-1f4c-4bce-893f-936f6f682087",
+ CellTags->"PrimaryExamplesSection",
+ CellID->93095397],
+Cell[12325, 346, 228, 4, 26, "Input",ExpressionUUID->"0d7211af-d196-4cdd-bd49-4dc64860636f",
+ CellID->145654520],
+Cell[CellGroupData[{
+Cell[12578, 354, 1398, 36, 30, "ExampleSection",ExpressionUUID->"3fbf5e63-6cc8-40a5-8660-267c71724967",
+ CellID->449003338],
+Cell[13979, 392, 147, 1, 38, "ExampleText",ExpressionUUID->"32ac566f-30b6-4853-bf05-3326f6e91491",
+ CellID->477282792],
+Cell[CellGroupData[{
+Cell[14151, 397, 298, 7, 26, "Input",ExpressionUUID->"98abbf4f-5eff-4480-b51f-f25587e559a1",
+ CellID->71946938],
+Cell[14452, 406, 1633, 59, 35, "Output",ExpressionUUID->"e6384802-7951-4c50-a9e2-d9c54781c95a",
+ CellID->574838941]
+}, Open  ]],
+Cell[16100, 468, 153, 1, 38, "ExampleText",ExpressionUUID->"cdb027d1-73ef-413d-8022-bc8f979b0fea",
+ CellID->70552217],
+Cell[CellGroupData[{
+Cell[16278, 473, 223, 4, 26, "Input",ExpressionUUID->"0b029197-1b2b-4273-bbef-458fc9cc2897",
+ CellID->472353123],
+Cell[16504, 479, 516, 14, 35, "Output",ExpressionUUID->"5ec216af-e35b-4080-9a97-1496171ea627",
+ CellID->327846684]
+}, Open  ]]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "0"}, Closed]]]],
+Cell[CellGroupData[{
+Cell[17169, 501, 1412, 37, 30, "ExampleSection",ExpressionUUID->"7490b8d6-3bfb-45de-8ecf-2af6c65a8129",
+ CellID->197151231],
+Cell[18584, 540, 151, 1, 70, "ExampleText",ExpressionUUID->"1ece7886-a908-4a2a-b03a-e93cfc3259b1",
+ CellID->872566538],
+Cell[CellGroupData[{
+Cell[18760, 545, 407, 10, 70, "Input",ExpressionUUID->"7495f0e2-febc-41be-8704-7caec841749f",
+ CellID->690057470],
+Cell[19170, 557, 3384, 100, 207, "Output",ExpressionUUID->"440d25d8-fda8-46fd-b273-0aca05afbb07",
+ CellID->346755852]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[22591, 662, 241, 5, 70, "ExampleDelimiter",ExpressionUUID->"b0e10071-23b9-480f-8cb4-6408994ac88f",
+ CellID->14107562],
+Cell[22835, 669, 197, 5, 70, "ExampleText",ExpressionUUID->"1c5c0557-2e18-4ced-b019-b2eb86aa7fbc",
+ CellID->852707325],
+Cell[CellGroupData[{
+Cell[23057, 678, 361, 9, 70, "Input",ExpressionUUID->"f87361f2-51fd-4b86-bced-971e07d7b7d8",
+ CellID->17211622],
+Cell[23421, 689, 404, 10, 35, "Output",ExpressionUUID->"b8321ea0-9b29-4d46-b76f-a2527f97e98b",
+ CellID->126762691]
+}, Open  ]],
+Cell[23840, 702, 120, 1, 70, "ExampleText",ExpressionUUID->"daea414f-b5fe-4172-b773-f2936c7a787a",
+ CellID->481570006],
+Cell[CellGroupData[{
+Cell[23985, 707, 227, 4, 70, "Input",ExpressionUUID->"1e5d2425-336e-4527-a004-79f5c278b562",
+ CellID->949963227],
+Cell[24215, 713, 149, 3, 35, "Output",ExpressionUUID->"44d06ae9-2b93-4d01-8239-312bb1ec5450",
+ CellID->6594924]
+}, Open  ]]
+}, Open  ]]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "1"}, Closed]]]],
+Cell[CellGroupData[{
+Cell[24525, 725, 1428, 37, 24, "ExampleSection",ExpressionUUID->"0db3e045-0e3d-4920-b03a-8ad6cf05050b",
+ CellID->15774455],
+Cell[25956, 764, 574, 17, 70, "ExampleText",ExpressionUUID->"ca147bd0-22cd-42fb-9e84-16dc01c2448d",
+ CellID->645035212],
+Cell[CellGroupData[{
+Cell[26555, 785, 258, 5, 70, "Input",ExpressionUUID->"2ead8caf-f40d-4136-b126-1fdd31dab430",
+ CellID->818479876],
+Cell[26816, 792, 128, 2, 35, "Output",ExpressionUUID->"1790697b-db1a-4f88-9dbb-a6182a903e54",
+ CellID->286107215]
+}, Open  ]]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "3"}, Closed]]]],
+Cell[CellGroupData[{
+Cell[27093, 802, 1419, 37, 24, "ExampleSection",ExpressionUUID->"3f9db1e4-b1eb-4fae-a7c1-69659fd00153",
+ CellID->14057163],
+Cell[28515, 841, 189, 4, 70, "ExampleText",ExpressionUUID->"8a1bbfb0-13d9-4bb1-8cea-64859e27aa66",
+ CellID->812662626],
+Cell[CellGroupData[{
+Cell[28729, 849, 1568, 44, 70, "Input",ExpressionUUID->"09713242-6ac9-447d-96a0-f429b703dfb5",
+ CellID->496855144],
+Cell[30300, 895, 1644, 40, 109, "Output",ExpressionUUID->"ab4b000e-f973-444f-83c9-1fcfda5f60a5",
+ CellID->156194332]
+}, Open  ]]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "4"}, Closed]]]]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "PrimaryExamplesSection"}, Closed]]]],
+Cell[32186, 944, 78, 0, 70, "FooterCell",ExpressionUUID->"384c8b89-f876-4970-9896-445db8ce4461"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
