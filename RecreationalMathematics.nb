@@ -1,0 +1,378 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     17540,        369]
+NotebookOptionsPosition[      1278,         42]
+NotebookOutlinePosition[     17529,        369]
+CellTagsIndexPosition[     17451,        364]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ ButtonBox["\<\"Select Paclet Directory\"\>",
+  Appearance->Automatic,
+  ButtonFunction:>With[{RSNB`nbo = ButtonNotebook[]}, 
+    Block[{
+     PacletManager`Package`initializeLayoutDocsCollection = Null& , 
+      PacletManager`Manager`Private`resetFEData = Null& }, ResourceObject; 
+     Replace[
+       ResourceSystemClient`CreateResourceNotebook["Paclet"], {
+       Blank[NotebookObject] :> NotebookClose[RSNB`nbo], Blank[] :> 
+        MessageDialog["Could not create notebook."]}]]],
+  Evaluator->Automatic,
+  Method->"Queued"]],
+ Editable->False,
+ Deletable->False,
+ ShowCellBracket->True,
+ CellMargins->50,
+ Deployed->True,
+ TextAlignment->Center,
+ CellTags->"TemplateContent",
+ CellID->505754150]
+},
+Saveable->False,
+WindowToolbars->{},
+WindowSize->{Automatic, 350},
+DockedCells->{
+  Cell[
+   BoxData[
+    TagBox[
+     GridBox[{{
+        TagBox[
+         GridBox[{{
+            GraphicsBox[{
+              Thickness[0.015385], 
+              StyleBox[{
+                
+                FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 
+                 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{19.297, 56.875}, {
+                 32.5, 64.492}, {45.703, 56.875}, {32.5, 49.258}, {19.297, 
+                 56.875}}, {{21.328, 56.875}, {32.5, 63.324}, {43.672, 
+                 56.875}, {32.5, 50.426}, {21.328, 56.875}}, {{33.008, 
+                 33.262}, {33.008, 48.496}, {46.211, 56.113}, {46.211, 
+                 40.879}, {33.008, 33.262}}}]}, {
+                FaceForm[
+                 RGBColor[0.70196, 0.60392, 0.78824, 1.]]}, StripOnInput -> 
+               False], 
+              StyleBox[{
+                
+                FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                 0}}}, {{{31.992, 33.262}, {18.789, 40.879}, {18.789, 
+                 56.113}, {31.992, 48.496}, {31.992, 33.262}}}]}, {
+                FaceForm[
+                 RGBColor[0.53725, 0.40392, 0.67451, 1.]]}, StripOnInput -> 
+               False], 
+              StyleBox[{
+                
+                FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 
+                 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{17.773, 8.8868}, {
+                 4.5703, 16.504}, {4.5703, 31.738}, {17.773, 24.121}, {17.773,
+                  8.8868}}, {{16.758, 10.664}, {5.5859, 17.113}, {5.5859, 
+                 29.961}, {16.758, 23.512}, {16.758, 10.664}}, {{31.484, 
+                 32.5}, {18.281, 40.117}, {5.0781, 32.5}, {18.281, 24.883}, {
+                 31.484, 32.5}}}]}, {
+                FaceForm[
+                 RGBColor[0.63529, 0.73333, 0.83137, 1.]]}, StripOnInput -> 
+               False], 
+              StyleBox[{
+                
+                FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                 0}}}, {{{31.992, 31.738}, {18.789, 24.121}, {18.789, 
+                 8.8868}, {31.992, 16.504}, {31.992, 31.738}}}]}, {
+                FaceForm[
+                 RGBColor[0.2902, 0.40784, 0.57647, 1.]]}, StripOnInput -> 
+               False], 
+              StyleBox[{
+                
+                FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 
+                 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{47.227, 8.8868}, {
+                 47.227, 24.121}, {60.43, 31.738}, {60.43, 16.504}, {47.227, 
+                 8.8868}}, {{48.242, 10.664}, {48.242, 23.512}, {59.414, 
+                 29.961}, {59.414, 17.113}, {48.242, 10.664}}, {{33.516, 
+                 32.5}, {46.719, 40.117}, {59.922, 32.5}, {46.719, 24.883}, {
+                 33.516, 32.5}}}]}, {
+                FaceForm[
+                 RGBColor[0.6, 0.6, 0.37255, 1.]]}, StripOnInput -> False], 
+              StyleBox[{
+                
+                FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                 0}}}, {{{33.008, 31.738}, {33.008, 16.504}, {46.211, 
+                 8.8868}, {46.211, 24.121}, {33.008, 31.738}}}]}, {
+                FaceForm[
+                 RGBColor[0.39608, 0.60392, 0.30196, 1.]]}, StripOnInput -> 
+               False], 
+              StyleBox[{
+                
+                FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 
+                 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 
+                 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 
+                 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                 0}}}, CompressedData["
+1:eJxTTMoPSmVmYGBgA2JWIGZiAIMz/8LFHBgYGs4xtDo6wPgJxpuLGj66g/iS
+/w8agOQ9GbS94fwFZ3yWNuxzccCin+W/uxCQPnCrYaEDMr+wwd4DxOf+f9QQ
+SDvYNvD5IPOXNRS4YNHfEP/PzA+Zv+vfHHck9XA+1Dy4eqh9GPrT/m3xRXJv
+w+Z/ch5I/oHwEf6FqEeEB7p+hm//vI1BtAKbgwKY/m8P9rcfa40+iD7676Yb
+NnmFfIcH9lj03/oXbIqp3szYilVNF8S//O+qK6Z8QJqexYVf9uj6ARROjv4=
+
+                 "]]}, {
+                FaceForm[
+                 RGBColor[0.96078, 0.5098, 0.20784, 1.]]}, StripOnInput -> 
+               False], 
+              StyleBox[{
+                
+                FilledCurveBox[{{{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
+                 3}}}, {{{7.1094, 32.5}, {7.1094, 31.098}, {5.9726, 29.961}, {
+                 4.5703, 29.961}, {3.168, 29.961}, {2.0312, 31.098}, {2.0312, 
+                 32.5}, {2.0312, 33.902}, {3.168, 35.039}, {4.5703, 35.039}, {
+                 5.9726, 35.039}, {7.1094, 33.902}, {7.1094, 32.5}}}]}, {
+                FaceForm[
+                 RGBColor[0.96078, 0.5098, 0.20784, 1.]]}, StripOnInput -> 
+               False], 
+              StyleBox[{
+                
+                FilledCurveBox[{{{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
+                 3}}}, {{{20.82, 56.367}, {20.82, 54.965}, {19.684, 53.828}, {
+                 18.281, 53.828}, {16.879, 53.828}, {15.742, 54.965}, {15.742,
+                  56.367}, {15.742, 57.769}, {16.879, 58.906}, {18.281, 
+                 58.906}, {19.684, 58.906}, {20.82, 57.769}, {20.82, 
+                 56.367}}}]}, {
+                FaceForm[
+                 RGBColor[0.96078, 0.5098, 0.20784, 1.]]}, StripOnInput -> 
+               False], 
+              StyleBox[{
+                
+                FilledCurveBox[{{{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
+                 3}}}, {{{20.82, 40.625}, {20.82, 39.223}, {19.684, 38.086}, {
+                 18.281, 38.086}, {16.879, 38.086}, {15.742, 39.223}, {15.742,
+                  40.625}, {15.742, 42.027}, {16.879, 43.164}, {18.281, 
+                 43.164}, {19.684, 43.164}, {20.82, 42.027}, {20.82, 
+                 40.625}}}]}, {
+                FaceForm[
+                 RGBColor[0.96078, 0.5098, 0.20784, 1.]]}, StripOnInput -> 
+               False], 
+              StyleBox[{
+                
+                FilledCurveBox[{{{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
+                 3}}}, {{{20.82, 24.375}, {20.82, 22.973}, {19.684, 21.836}, {
+                 18.281, 21.836}, {16.879, 21.836}, {15.742, 22.973}, {15.742,
+                  24.375}, {15.742, 25.777}, {16.879, 26.914}, {18.281, 
+                 26.914}, {19.684, 26.914}, {20.82, 25.777}, {20.82, 
+                 24.375}}}]}, {
+                FaceForm[
+                 RGBColor[0.96078, 0.5098, 0.20784, 1.]]}, StripOnInput -> 
+               False], 
+              StyleBox[{
+                
+                FilledCurveBox[{{{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
+                 3}}}, {{{20.82, 8.6329}, {20.82, 7.2306}, {19.684, 6.0938}, {
+                 18.281, 6.0938}, {16.879, 6.0938}, {15.742, 7.2306}, {15.742,
+                  8.6329}, {15.742, 10.035}, {16.879, 11.172}, {18.281, 
+                 11.172}, {19.684, 11.172}, {20.82, 10.035}, {20.82, 
+                 8.6329}}}]}, {
+                FaceForm[
+                 RGBColor[0.96078, 0.5098, 0.20784, 1.]]}, StripOnInput -> 
+               False], 
+              StyleBox[{
+                
+                FilledCurveBox[{{{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
+                 3}}}, {{{35.039, 48.75}, {35.039, 47.348}, {33.902, 
+                 46.211}, {32.5, 46.211}, {31.098, 46.211}, {29.961, 
+                 47.348}, {29.961, 48.75}, {29.961, 50.152}, {31.098, 
+                 51.289}, {32.5, 51.289}, {33.902, 51.289}, {35.039, 
+                 50.152}, {35.039, 48.75}}}]}, {
+                FaceForm[
+                 RGBColor[0.96078, 0.5098, 0.20784, 1.]]}, StripOnInput -> 
+               False], 
+              StyleBox[{
+                
+                FilledCurveBox[{{{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
+                 3}}}, {{{35.039, 32.5}, {35.039, 31.098}, {33.902, 29.961}, {
+                 32.5, 29.961}, {31.098, 29.961}, {29.961, 31.098}, {29.961, 
+                 32.5}, {29.961, 33.902}, {31.098, 35.039}, {32.5, 35.039}, {
+                 33.902, 35.039}, {35.039, 33.902}, {35.039, 32.5}}}]}, {
+                FaceForm[
+                 RGBColor[0.96078, 0.5098, 0.20784, 1.]]}, StripOnInput -> 
+               False], 
+              StyleBox[{
+                
+                FilledCurveBox[{{{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
+                 3}}}, {{{35.039, 16.25}, {35.039, 14.848}, {33.902, 
+                 13.711}, {32.5, 13.711}, {31.098, 13.711}, {29.961, 
+                 14.848}, {29.961, 16.25}, {29.961, 17.652}, {31.098, 
+                 18.789}, {32.5, 18.789}, {33.902, 18.789}, {35.039, 
+                 17.652}, {35.039, 16.25}}}]}, {
+                FaceForm[
+                 RGBColor[0.96078, 0.5098, 0.20784, 1.]]}, StripOnInput -> 
+               False], 
+              StyleBox[{
+                
+                FilledCurveBox[{{{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
+                 3}}}, {{{49.258, 56.367}, {49.258, 54.965}, {48.121, 
+                 53.828}, {46.719, 53.828}, {45.316, 53.828}, {44.18, 
+                 54.965}, {44.18, 56.367}, {44.18, 57.769}, {45.316, 
+                 58.906}, {46.719, 58.906}, {48.121, 58.906}, {49.258, 
+                 57.769}, {49.258, 56.367}}}]}, {
+                FaceForm[
+                 RGBColor[0.96078, 0.5098, 0.20784, 1.]]}, StripOnInput -> 
+               False], 
+              StyleBox[{
+                
+                FilledCurveBox[{{{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
+                 3}}}, {{{49.258, 40.625}, {49.258, 39.223}, {48.121, 
+                 38.086}, {46.719, 38.086}, {45.316, 38.086}, {44.18, 
+                 39.223}, {44.18, 40.625}, {44.18, 42.027}, {45.316, 
+                 43.164}, {46.719, 43.164}, {48.121, 43.164}, {49.258, 
+                 42.027}, {49.258, 40.625}}}]}, {
+                FaceForm[
+                 RGBColor[0.96078, 0.5098, 0.20784, 1.]]}, StripOnInput -> 
+               False], 
+              StyleBox[{
+                
+                FilledCurveBox[{{{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
+                 3}}}, {{{49.258, 24.375}, {49.258, 22.973}, {48.121, 
+                 21.836}, {46.719, 21.836}, {45.316, 21.836}, {44.18, 
+                 22.973}, {44.18, 24.375}, {44.18, 25.777}, {45.316, 
+                 26.914}, {46.719, 26.914}, {48.121, 26.914}, {49.258, 
+                 25.777}, {49.258, 24.375}}}]}, {
+                FaceForm[
+                 RGBColor[0.96078, 0.5098, 0.20784, 1.]]}, StripOnInput -> 
+               False], 
+              StyleBox[{
+                
+                FilledCurveBox[{{{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
+                 3}}}, {{{49.258, 8.6329}, {49.258, 7.2306}, {48.121, 
+                 6.0938}, {46.719, 6.0938}, {45.316, 6.0938}, {44.18, 
+                 7.2306}, {44.18, 8.6329}, {44.18, 10.035}, {45.316, 
+                 11.172}, {46.719, 11.172}, {48.121, 11.172}, {49.258, 
+                 10.035}, {49.258, 8.6329}}}]}, {
+                FaceForm[
+                 RGBColor[0.96078, 0.5098, 0.20784, 1.]]}, StripOnInput -> 
+               False], 
+              StyleBox[{
+                
+                FilledCurveBox[{{{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
+                 3}}}, {{{62.969, 32.5}, {62.969, 31.098}, {61.832, 29.961}, {
+                 60.43, 29.961}, {59.027, 29.961}, {57.891, 31.098}, {57.891, 
+                 32.5}, {57.891, 33.902}, {59.027, 35.039}, {60.43, 35.039}, {
+                 61.832, 35.039}, {62.969, 33.902}, {62.969, 32.5}}}]}, {
+                FaceForm[
+                 RGBColor[0.96078, 0.5098, 0.20784, 1.]]}, StripOnInput -> 
+               False]}, {
+             ImageSize -> {Automatic, 32}, ImagePadding -> {{5, 0}, {0, 0}}, 
+              BaselinePosition -> Scaled[0.25], ImageSize -> 50, 
+              ImageSize -> {Automatic, 35}}], 
+            StyleBox[
+             TagBox[
+              GridBox[{{
+                 StyleBox[
+                 "\"Paclet Resource\"", FontFamily -> "Source Sans Pro", 
+                  FontWeight -> "SemiBold", StripOnInput -> False], 
+                 StyleBox[
+                  TagBox[
+                   GridBox[{{"\"DEFINITION NOTEBOOK\"", 
+                    StyleBox[
+                    "\"(\[VeryThinSpace]UNDER DEVELOPMENT\[VeryThinSpace]\
+\[VeryThinSpace])\"", FontSize -> 10, FontColor -> GrayLevel[0.5], 
+                    FontTracking -> "Plain", FontSlant -> "Plain", 
+                    FontVariations -> {"CapsType" -> "Normal"}, 
+                    PrivateFontOptions -> {"OperatorSubstitution" -> False}, 
+                    StripOnInput -> False]}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Center}}}, 
+                    AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
+                  FontFamily -> "Source Sans Pro", FontTracking -> 
+                  "SemiCondensed", 
+                  FontVariations -> {"CapsType" -> "AllSmallCaps"}, 
+                  StripOnInput -> False]}}, 
+               GridBoxAlignment -> {
+                "Columns" -> {{Left}}, "Rows" -> {{Baseline}}}, AutoDelete -> 
+               False, GridBoxDividers -> {
+                "ColumnsIndexed" -> {
+                  2 -> RGBColor[0.33333, 0.33333, 0.33333]}, 
+                 "Rows" -> {{None}}}, 
+               GridBoxItemSize -> {
+                "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+              "Grid"], FontSize -> 24, FontColor -> 
+             RGBColor[0.33333, 0.33333, 0.33333], StripOnInput -> False]}}, 
+          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+           AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], "Grid"], 
+        ItemBox["\"\"", ItemSize -> Fit, StripOnInput -> False], 
+        TemplateBox[{
+          StyleBox[
+           
+           TemplateBox[{"\"Paclet Repository\"", "\" \[RightGuillemet]  \""}, 
+            "RowDefault"], "Text", FontColor -> 
+           RGBColor[0.33333, 0.33333, 0.33333], StripOnInput -> False], 
+          "https://resources.wolframcloud.com/PacletRepository"}, 
+         "HyperlinkURL"]}}, 
+      GridBoxAlignment -> {
+       "Columns" -> {{Left}}, "ColumnsIndexed" -> {-1 -> Right}, 
+        "Rows" -> {{Center}}}, AutoDelete -> False, 
+      GridBoxBackground -> {"Columns" -> {{None}}, "Rows" -> {{
+           RGBColor[0.98039, 0.98039, 0.98039]}}}, 
+      GridBoxFrame -> {
+       "Columns" -> False, "Rows" -> RGBColor[0.98039, 0.98039, 0.98039]}, 
+      GridBoxItemSize -> {
+       "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+      GridBoxSpacings -> {
+       "Columns" -> {5, {0.9}, 5}, "RowsIndexed" -> {1 -> 1.1, 2 -> 0.75}}, 
+      FrameStyle -> RGBColor[0.98039, 0.98039, 0.98039]], "Grid"]], 
+   "DockedCell", CellMargins -> {{-10, -10}, {-8, -8}}, CellFrame -> 0, 
+   Background -> None, CellTags -> {"MainDockedCell"}, CacheGraphics -> False,
+    Magnification -> 0.8]},
+Deployed->True,
+TaggingRules->{
+ "TemplateVersion" -> "1.5.82", 
+  "RuntimeConfiguration" -> {
+   "Contexts" -> {"PacletResource`", "PacletResource`DefinitionNotebook`"}, 
+    "DefaultContentMethod" -> "Tagged", "HintPods" -> True, "LoadingMethod" -> 
+    "Paclet", "PacletName" -> "PacletResource", "SourceID" -> 
+    "5b536f855a66dd28f347a09b9230fd6bb83d2041"}},
+FrontEndVersion->"13.1 for Mac OS X x86 (64-bit) (June 16, 2022)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "TemplateContent"->{
+  Cell[558, 20, 716, 20, 70, InheritFromParent,ExpressionUUID->"9fcf6674-b555-4613-bda6-05987cb919e3",
+   CellTags->"TemplateContent",
+   CellID->505754150]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"TemplateContent", 17269, 357}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 716, 20, 70, InheritFromParent,ExpressionUUID->"9fcf6674-b555-4613-bda6-05987cb919e3",
+ CellTags->"TemplateContent",
+ CellID->505754150]
+}
+]
+*)
+
+(* End of internal cache information *)
