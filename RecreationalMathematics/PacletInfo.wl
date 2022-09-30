@@ -1,12 +1,14 @@
+(* ::Package:: *)
+
 PacletObject[
   <|
     "Name" -> "PeterBurbery/RecreationalMathematics",
-    "Description" -> "this paclet is for recreational mathematics and math puzzles.",
+    "Description" -> "This paclet is for recreational mathematics and math puzzles",
     "Creator" -> "Peter Cullen Burbery",
+    "License" -> "MIT",
+    "PublisherID" -> "PeterBurbery",
     "Version" -> "1.0.0",
     "WolframVersion" -> "13.1+",
-    "PublisherID" -> "PeterBurbery",
-    "License" -> "MIT",
     "Extensions" -> {
       {
         "Kernel",
@@ -16,6 +18,9 @@ PacletObject[
             "PeterBurbery`RecreationalMathematics`",
             "RecreationalMathematics.wl"
           }
+        },
+        "Symbols" -> {
+          "PeterBurbery`RecreationalMathematics`FivePointConic"
         }
       },
       {"Documentation", "Language" -> "English"}
