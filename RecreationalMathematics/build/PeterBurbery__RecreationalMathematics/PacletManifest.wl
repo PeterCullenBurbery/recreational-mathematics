@@ -11,7 +11,7 @@
             ,
             "Hash"
             ->
-            "b23cdf1a45587e9ab3b86aaf8793701a83236bc2951a285eef87f2ae5759c422"
+            "768bbc6f0e97d75d03a4c82c8b5588c73c452f6a8e86790c6163720cb21d1025"
                 
         |>
         ,
@@ -32,6 +32,20 @@
             "File"
             ->
             File[
+                "Documentation\\English\\ReferencePages\\Symbols\\EulerLinePoints.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "a10065c945d9ce81cf43f1e68c5524c8e971c85d4a0404e5d133806ba5f80335"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
                 "Documentation\\English\\ReferencePages\\Symbols\\FivePointConic.nb"
                     
             ]
@@ -39,6 +53,20 @@
             "Hash"
             ->
             "61dcb311e84160bd2c1b4621b33a9b490ecffdcc6c9cf6934b8177b3ca08ec6c"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\NinePointCubic.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "15c7bc20997438e2190e5aa0b4c2c2d355039845f21c3211b52f7601cb244fd9"
                 
         |>
     }

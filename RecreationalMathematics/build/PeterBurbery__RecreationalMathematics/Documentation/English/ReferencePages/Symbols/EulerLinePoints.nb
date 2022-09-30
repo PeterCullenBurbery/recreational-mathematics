@@ -1,0 +1,1491 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     58154,       1481]
+NotebookOptionsPosition[     51777,       1347]
+NotebookOutlinePosition[     54451,       1413]
+CellTagsIndexPosition[     54338,       1407]
+WindowTitle->EulerLinePoints
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[GridBox[{
+   {GridBox[{
+      {
+       ItemBox[Cell[BoxData[
+         RowBox[{
+          TemplateBox[{12},
+           "Spacer1"], Cell[
+          "PETER BURBERY/ RECREATIONAL MATHEMATICS SYMBOL", "PacletNameCell",
+           TextAlignment->Center,ExpressionUUID->
+           "74d11b0e-6913-4947-b1e3-9048e5df977c"], 
+          TemplateBox[{8},
+           "Spacer1"]}]],
+         TextAlignment->Center,ExpressionUUID->
+         "f68bfe08-7286-4ef1-9e78-10cd994ade29"],
+        Background->RGBColor[0.490196, 0.576471, 0.690196],
+        ItemSize->Full], ""}
+     },
+     GridBoxAlignment->{"Rows" -> {{Center}}},
+     GridBoxItemSize->{"Columns" -> {Full, 
+         Scaled[0.02]}, "Rows" -> {{2.5}}}], Cell[TextData[Cell[BoxData[
+     TagBox[
+      ActionMenuBox[
+       FrameBox[Cell[TextData[{
+         "URL",
+         " ",
+         Cell[BoxData[
+          GraphicsBox[
+           {GrayLevel[0.66667], Thickness[0.13], 
+            LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+           AspectRatio->1,
+           ImageSize->20,
+           PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
+          "4691f021-a2cf-42f7-8ea5-85ca330cf649"]
+        }],ExpressionUUID->"722eb7a9-67e6-46e5-acc8-b240415aed44"],
+        StripOnInput->
+         False], {"\<\"PeterBurbery/RecreationalMathematics/ref/\
+EulerLinePoints\"\>":>None, "\<\"Copy Wolfram Documentation Center URL\"\>":>
+       Module[{DocumentationSearch`Private`nb$}, 
+        DocumentationSearch`Private`nb$ = NotebookPut[
+           Notebook[{
+             Cell[
+             "PeterBurbery/RecreationalMathematics/ref/EulerLinePoints"]}, 
+            Visible -> False]]; 
+        SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+        FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+        NotebookClose[DocumentationSearch`Private`nb$]; Null], 
+       Delimiter, "\<\"Copy web URL\"\>":>
+       Module[{DocumentationSearch`Private`nb$}, 
+        DocumentationSearch`Private`nb$ = NotebookPut[
+           Notebook[{
+             Cell[
+              BoxData[
+               MakeBoxes[
+                Hyperlink[
+                "http://reference.wolfram.com/language/PeterBurbery/\
+RecreationalMathematics/ref/EulerLinePoints.html"], StandardForm]], "Input", 
+              TextClipboardType -> "PlainText"]}, Visible -> False]]; 
+        SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+        FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+        NotebookClose[DocumentationSearch`Private`nb$]; 
+        Null], "\<\"Go to web URL\"\>":>FrontEndExecute[{
+         NotebookLocate[{
+           URL[If[
+              TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$29506], 
+              "http://reference.wolfram.com/system-modeler/", 
+              "http://reference.wolfram.com/language/"] <> 
+            "PeterBurbery/RecreationalMathematics/ref/EulerLinePoints" <> 
+            ".html"], None}]}]},
+       Appearance->None,
+       MenuAppearance->Automatic,
+       MenuStyle->"URLMenu"],
+      MouseAppearanceTag["LinkHand"]]],
+     LineSpacing->{1.4, 0},ExpressionUUID->
+     "7f729aa7-ef32-480d-9d92-caac587a2e06"]], "AnchorBar",
+     CacheGraphics->False,ExpressionUUID->
+     "e0fb921d-b7a8-4cfa-bb06-0684093a91d5"]}
+  }]], "AnchorBarGrid",
+ GridBoxOptions->{GridBoxItemSize->{"Columns" -> {
+     Scaled[0.65], {
+      Scaled[0.34]}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
+   "RowsIndexed" -> {}}},
+ CellID->1,ExpressionUUID->"097e29c1-e391-4f81-94cf-4391618bb8ef"],
+
+Cell["PeterBurbery`RecreationalMathematics`", "ContextNameCell",ExpressionUUID->"32f51c17-b6f0-47cd-a9db-5aca70583470"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[GridBox[{
+   {Cell[TextData[{
+     Cell[
+     "EulerLinePoints", "ObjectName",ExpressionUUID->
+      "27ae1967-b222-46ce-b5ae-1b7ae1bdc396"],
+     Cell[BoxData[
+      TemplateBox[{8},
+       "Spacer1"]],ExpressionUUID->"dd6acc09-a09a-44b2-8040-d021c3b3ee87"],
+     Cell[BoxData[
+     ""], "ObjectNameTranslation",ExpressionUUID->
+      "4b599a95-445c-4bbb-a26d-902d4043a5e2"]
+    }],ExpressionUUID->"0ee550c6-53ea-46c8-a92d-0ad8f12c4066"], 
+    "\[SpanFromLeft]"}
+  }]], "ObjectNameGrid",ExpressionUUID->"c8f07282-c829-407a-8c46-\
+9340a13f5083"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       TemplateBox[{
+         Cell[
+          TextData["EulerLinePoints"]], 
+         "paclet:PeterBurberyRecreationalMathematics/ref/EulerLinePoints", 
+         "PeterBurberyRecreationalMathematics Package Symbol"},
+        "PackageLink",
+        BaseStyle->"InlineFormula"], "[", 
+       RowBox[{"{", 
+        RowBox[{
+         SubscriptBox[
+          StyleBox["p", "TI"], 
+          StyleBox["1", "TR"]], ",", 
+         SubscriptBox[
+          StyleBox["p", "TI"], 
+          StyleBox["2", "TR"]], ",", 
+         SubscriptBox[
+          StyleBox["p", "TI"], 
+          StyleBox["3", "TR"]]}], "}"}], "]"}]], "InlineFormula",
+      FontFamily->"Source Sans Pro",ExpressionUUID->
+      "b4a200d0-039c-4ce5-80ac-a331e3d5b94e"],
+     "\[LineSeparator]returns the circumcenter, centroid, nine-point center \
+and orthocenter of the triangle defined by vertices ",
+     Cell[BoxData[
+      SubscriptBox[
+       StyleBox["p", "TI"], 
+       StyleBox["1", "TR"]]], "InlineFormula",
+      FontFamily->"Source Sans Pro",ExpressionUUID->
+      "afe289a3-a671-4b34-86dc-95c427c10c3a"],
+     ", ",
+     Cell[BoxData[
+      SubscriptBox[
+       StyleBox["p", "TI"], 
+       StyleBox["2", "TR"]]], "InlineFormula",
+      FontFamily->"Source Sans Pro",ExpressionUUID->
+      "fde6e823-53f4-4a09-bf5c-d5736cf20b37"],
+     " and ",
+     Cell[BoxData[
+      SubscriptBox[
+       StyleBox["p", "TI"], 
+       StyleBox["3", "TR"]]], "InlineFormula",
+      FontFamily->"Source Sans Pro",ExpressionUUID->
+      "d1619388-b46e-4575-8b06-cf072d6c4cbd"],
+     "."
+    }],ExpressionUUID->"2cedcd39-266b-4b16-a231-c9bc6526536a"]}
+  }]], "Usage",
+ CellID->297003641,ExpressionUUID->"7112026f-dfe8-42da-a812-9210210cb8c7"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[Cell[BoxData[
+ ButtonBox[Cell[TextData[{
+   Cell[BoxData[
+    DynamicBox[ToBoxes[
+      If[
+       MatchQ[
+        CurrentValue[
+         EvaluationNotebook[], {TaggingRules, "Openers", "NotesSection"}, 
+         Closed], 
+        Alternatives[Open, True]], 
+       Style[
+        Graphics[{
+          Thickness[0.18], 
+          RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+          Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+         PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+        0.68 Inherited], 
+       Rotate[
+        Style[
+         Graphics[{
+           Thickness[0.18], 
+           RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+           Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+          PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+         0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+     ImageSizeCache->{
+      13.600000000000001`, {0.5800000000000001, 13.020000000000001`}}]],
+    ExpressionUUID->"e7389ef3-b079-4cbe-a2d9-007366e167aa"],
+   Cell[BoxData[
+    TemplateBox[{1},
+     "Spacer1"]],ExpressionUUID->"7a7279fb-67cc-465a-b2cc-2bdae67e70a5"],
+   "Details and Options"
+  }], "NotesFrameText",ExpressionUUID->"2e4daf90-29bb-4ee4-96f1-d012a174818f"],
+  Appearance->{Automatic, None, "Normal", Automatic},
+  BaseStyle->None,
+  ButtonFunction:>(FrontEndExecute[{
+     FrontEnd`SelectionMove[
+      FrontEnd`SelectedNotebook[], All, ButtonCell], 
+     FrontEndToken["OpenCloseGroup"], 
+     FrontEnd`SelectionMove[
+      FrontEnd`SelectedNotebook[], After, CellContents]}]& ),
+  Evaluator->None,
+  Method->
+   "Preemptive"]],ExpressionUUID->"3d02552c-372d-445c-8832-8a5e5a354f55"]], \
+"NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CacheGraphics->False,
+ CellID->180809332,ExpressionUUID->"8a17cc31-e83d-4f4a-9c17-74a10356219f"],
+
+Cell[TextData[{
+ "The circumcenter, centroid, nine-point center and orthocenter of a triangle \
+all lie on the ",
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["Euler line"]], "https://mathworld.wolfram.com/EulerLine.html"},
+   "WebLink",
+   BaseStyle->{"Notes"}]],ExpressionUUID->
+  "3491ebc6-6e3a-4e3d-a4e3-0e507d2bf66f"],
+ "."
+}], "Notes",
+ CellTags->"TabNext",
+ CellID->347008782,ExpressionUUID->"32fbc2e8-c857-4ccd-b896-21ed6045c6ba"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  RowBox[{
+   TemplateBox[{
+     Cell[
+      TextData["EulerLinePoints"]], 
+     "paclet:PeterBurbery/RecreationalMathematics/ref/EulerLinePoints", 
+     "PeterBurbery Package Symbol"},
+    "PackageLink",
+    BaseStyle->"InlineFormula"], "[", 
+   RowBox[{
+    TagBox[
+     TemplateBox[{
+       Cell[
+        TextData[
+         StyleBox[
+         "Triangle", "SymbolsRefLink", ShowStringCharacters -> True, 
+          FontFamily -> "Source Sans Pro"]]], "paclet:ref/Triangle"},
+      "RefLink",
+      BaseStyle->{"InlineFormula"}],
+     MouseAppearanceTag["LinkHand"]], "[", 
+    RowBox[{"{", 
+     RowBox[{
+      SubscriptBox[
+       StyleBox["p", "TI"], 
+       StyleBox["1", "TR"]], ",", 
+      SubscriptBox[
+       StyleBox["p", "TI"], 
+       StyleBox["2", "TR"]], ",", 
+      SubscriptBox[
+       StyleBox["p", "TI"], 
+       StyleBox["3", "TR"]]}], "}"}], "]"}], "]"}]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "ce1ee594-817c-4ea9-b32c-bdf1813b3c1c"],
+ " is equivalent to ",
+ Cell[BoxData[
+  RowBox[{"EulerLinePoints", "[", 
+   RowBox[{"{", 
+    RowBox[{
+     SubscriptBox[
+      StyleBox["p", "TI"], 
+      StyleBox["1", "TR"]], ",", 
+     SubscriptBox[
+      StyleBox["p", "TI"], 
+      StyleBox["2", "TR"]], ",", 
+     SubscriptBox[
+      StyleBox["p", "TI"], 
+      StyleBox["3", "TR"]]}], "}"}], "]"}]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "0328ee6a-38ee-401c-9ee0-63d0a1a99f33"],
+ "."
+}], "Notes",
+ CellTags->"TabNext",
+ CellID->758168977,ExpressionUUID->"22b14e4f-1d96-4475-aa7a-fffe9a2fe448"]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "NotesSection"}, Closed]]]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  DynamicBox[ToBoxes[
+    If[
+     MatchQ[
+      CurrentValue[
+       EvaluationNotebook[], {
+       TaggingRules, "Openers", "PrimaryExamplesSection"}, Open], 
+      Alternatives[True, Open]], 
+     Style[
+      Graphics[{
+        Thickness[0.18], 
+        RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+        Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+       PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+      0.68 Inherited], 
+     Rotate[
+      Style[
+       Graphics[{
+         Thickness[0.18], 
+         RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+         Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+        PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+       0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+   ImageSizeCache->{13.600000000000001`, {5., 8.600000000000001}}]],
+  ExpressionUUID->"7fd3fe2f-6e64-44a3-8e31-e11f99699f37"],
+ Cell[BoxData[
+  TemplateBox[{1},
+   "Spacer1"]],ExpressionUUID->"ca03b5b2-a5f2-4c9d-b960-66230b02c33c"],
+ "Examples",
+ "\[NonBreakingSpace]\[NonBreakingSpace]",
+ Cell["(3)", "ExampleCount",ExpressionUUID->
+  "97836332-7b68-4055-9c54-9d9798e8f5b0"]
+}], "PrimaryExamplesSection",
+ WholeCellGroupOpener->True,
+ CacheGraphics->False,
+ CellTags->"PrimaryExamplesSection",
+ CellID->15218723,ExpressionUUID->"acb78ece-3dbb-4de7-88c5-4404fb5b69ad"],
+
+Cell[BoxData[
+ RowBox[{"Needs", "[", "\"\<PeterBurbery`RecreationalMathematics`\>\"", 
+  "]"}]], "Input", "ExampleInitialization",
+ CellLabel->"In[1]:=",
+ CellID->87057459,ExpressionUUID->"837500a8-2e37-4cc6-8009-ca55a199ebc9"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  DynamicBox[ToBoxes[
+    If[
+     MatchQ[
+      CurrentValue[
+       EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "0"},
+        Closed], 
+      Alternatives[Open, True]], 
+     Style[
+      Graphics[{
+        Thickness[0.18], 
+        RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+        Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+       PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+      0.68 Inherited], 
+     Rotate[
+      Style[
+       Graphics[{
+         Thickness[0.18], 
+         RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+         Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+        PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+       0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+   ImageSizeCache->{13.600000000000001`, {5., 8.600000000000001}}]],
+  ExpressionUUID->"a72501e9-0235-484e-9faf-24b523d4435c"],
+ Cell[BoxData[
+  TemplateBox[{1},
+   "Spacer1"]],ExpressionUUID->"b532d4e0-8752-4d05-9da8-b602b8b2ef18"],
+ "Basic Examples",
+ "\[NonBreakingSpace]\[NonBreakingSpace]",
+ Cell["(1)", "ExampleCount",ExpressionUUID->
+  "7a08052f-5fbd-453e-9545-94e4604cb9e6"]
+}], "ExampleSection", "ExampleSection",
+ WholeCellGroupOpener->True,
+ CacheGraphics->False,
+ CellID->622992926,ExpressionUUID->"1b365cbf-3cab-4749-923a-1b8d98af487a"],
+
+Cell["\<\
+Find the defining points for the Euler line of three triangle vertices:\
+\>", "ExampleText",
+ CellID->103538084,ExpressionUUID->"7e51bb8a-fba8-4dfc-b3be-db83592876e8"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"EulerLinePoints", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"-", "14"}], ",", 
+      RowBox[{"-", "6"}]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"10", ",", 
+      RowBox[{"-", "6"}]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"4", ",", "12"}], "}"}]}], "}"}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`RecreationalMathematics`"],
+ CellLabel->"In[1]:=",
+ CellID->855780799,ExpressionUUID->"bb5c050b-572f-435d-a9b8-5ddeec1beb04"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"-", "2"}], ",", "0"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0", ",", "0"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"1", ",", "0"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"4", ",", "0"}], "}"}]}], "}"}]], "Output",
+ CellLabel->"Out[1]=",
+ CellID->1633325,ExpressionUUID->"25270f30-45e3-4ef4-8028-993fde387327"]
+}, Open  ]]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "0"}, 
+  Closed]]]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  DynamicBox[ToBoxes[
+    If[
+     MatchQ[
+      CurrentValue[
+       EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "1"},
+        Closed], 
+      Alternatives[Open, True]], 
+     Style[
+      Graphics[{
+        Thickness[0.18], 
+        RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+        Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+       PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+      0.68 Inherited], 
+     Rotate[
+      Style[
+       Graphics[{
+         Thickness[0.18], 
+         RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+         Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+        PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+       0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+   ImageSizeCache->{
+    13.600000000000001`, {0.5800000000000001, 13.020000000000001`}}]],
+  ExpressionUUID->"71f39ebd-23b3-4011-a14f-1f3c43d6831e"],
+ Cell[BoxData[
+  TemplateBox[{1},
+   "Spacer1"]],ExpressionUUID->"b92f67ec-9112-4794-ae74-e3da49493ca9"],
+ "Scope",
+ "\[NonBreakingSpace]\[NonBreakingSpace]",
+ Cell["(1)", "ExampleCount",ExpressionUUID->
+  "ec816787-001e-42e9-82cc-3138fd0f1031"]
+}], "ExampleSection", "ExampleSection",
+ WholeCellGroupOpener->True,
+ CacheGraphics->False,
+ CellID->109537247,ExpressionUUID->"c4b28c76-e40c-4f34-b2cc-66cb41c2a75b"],
+
+Cell["Compute points on the Euler line of a 3D triangle:", "ExampleText",
+ CellID->101831907,ExpressionUUID->"477716ad-134b-477f-a177-e43385120477"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"tri", "=", 
+   RowBox[{"Triangle", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"0", ",", "0", ",", "0"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"1", ",", "2", ",", "0"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"0", ",", "1", ",", "3"}], "}"}]}], "}"}], "]"}]}], 
+  ";"}], "\n", 
+ RowBox[{"el", "=", 
+  RowBox[{"Simplify", "[", 
+   RowBox[{"EulerLinePoints", "[", "tri", "]"}], "]"}]}]}], "Input",
+ CellProlog:>Needs["PeterBurbery`RecreationalMathematics`"],
+ CellLabel->"In[1]:=",
+ CellID->510434634,ExpressionUUID->"99482006-3d7f-499e-ac5b-aa78194ab865"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"15", "/", "46"}], ",", 
+     RowBox[{"25", "/", "23"}], ",", 
+     RowBox[{"30", "/", "23"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"1", "/", "3"}], ",", "1", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"31", "/", "92"}], ",", 
+     RowBox[{"22", "/", "23"}], ",", 
+     RowBox[{"39", "/", "46"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"8", "/", "23"}], ",", 
+     RowBox[{"19", "/", "23"}], ",", 
+     RowBox[{"9", "/", "23"}]}], "}"}]}], "}"}]], "Output",
+ CellLabel->"Out[1]=",
+ CellID->773457542,ExpressionUUID->"5323615b-4062-47f6-87a1-3878559af8f0"]
+}, Open  ]],
+
+Cell["Show the points and the triangle together:", "ExampleText",
+ CellID->713367949,ExpressionUUID->"ae9c4a7c-fae6-41e6-9ace-d78ad4cc0a88"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Legended", "[", 
+  RowBox[{
+   RowBox[{"Graphics3D", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"Opacity", "[", 
+         RowBox[{"0.3", ",", "Orange"}], "]"}], ",", "tri"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"AbsolutePointSize", "[", "8", "]"}], ",", 
+        RowBox[{"Transpose", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{"Red", ",", "Cyan", ",", "Brown", ",", "Green"}], "}"}], 
+           ",", 
+           RowBox[{"Point", "/@", "el"}]}], "}"}], "]"}]}], "}"}]}], "}"}], 
+    "]"}], ",", 
+   RowBox[{"PointLegend", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"Red", ",", "Cyan", ",", "Brown", ",", "Green"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<circumcenter\>\"", ",", "\"\<centroid\>\"", ",", 
+       "\"\<nine-point center\>\"", ",", "\"\<orthocenter\>\""}], "}"}]}], 
+    "]"}]}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`RecreationalMathematics`"],
+ CellLabel->"In[2]:=",
+ CellID->844664644,ExpressionUUID->"67f6d12a-61b5-4086-a6cd-dea6da5c7b30"],
+
+Cell[BoxData[
+ TemplateBox[{
+   Graphics3DBox[{{
+      Directive[
+       Opacity[0.3], 
+       RGBColor[1, 0.5, 0]], 
+      TagBox[
+       Polygon3DBox[{{0, 0, 0}, {1, 2, 0}, {0, 1, 3}}], "Triangle"]}, {
+      AbsolutePointSize[8], {{
+        RGBColor[1, 0, 0], 
+        Point3DBox[
+         NCache[{
+           Rational[15, 46], 
+           Rational[25, 23], 
+           Rational[30, 23]}, {0.32608695652173914`, 1.0869565217391304`, 
+          1.3043478260869565`}]]}, {
+        RGBColor[0, 1, 1], 
+        Point3DBox[
+         NCache[{
+           Rational[1, 3], 1, 1}, {0.3333333333333333, 1, 1}]]}, {
+        RGBColor[0.6, 0.4, 0.2], 
+        Point3DBox[
+         NCache[{
+           Rational[31, 92], 
+           Rational[22, 23], 
+           Rational[39, 46]}, {0.33695652173913043`, 0.9565217391304348, 
+          0.8478260869565217}]]}, {
+        RGBColor[0, 1, 0], 
+        Point3DBox[
+         NCache[{
+           Rational[8, 23], 
+           Rational[19, 23], 
+           Rational[9, 23]}, {0.34782608695652173`, 0.8260869565217391, 
+          0.391304347826087}]]}}}}], 
+   FormBox[
+    FormBox[
+     TemplateBox[{
+      "\"circumcenter\"", "\"centroid\"", "\"nine-point center\"", 
+       "\"orthocenter\""}, "PointLegend", DisplayFunction -> (FormBox[
+        StyleBox[
+         StyleBox[
+          PaneBox[
+           TagBox[
+            GridBox[{{
+               TagBox[
+                GridBox[{{
+                   GraphicsBox[{{}, {
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    AbsoluteThickness[1.6], 
+                    RGBColor[1, 0, 0]], {
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    AbsoluteThickness[1.6], 
+                    RGBColor[1, 0, 0]], 
+                    PointBox[
+                    NCache[{
+                    Scaled[{
+                    Rational[1, 2], 
+                    Rational[1, 2]}]}, {
+                    Scaled[{0.5, 0.5}]}]]}}}, AspectRatio -> Full, 
+                    ImageSize -> {10, 10}, PlotRangePadding -> None, 
+                    ImagePadding -> Automatic, 
+                    BaselinePosition -> (Scaled[0.1] -> Baseline)], #}, {
+                   GraphicsBox[{{}, {
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    AbsoluteThickness[1.6], 
+                    RGBColor[0, 1, 1]], {
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    AbsoluteThickness[1.6], 
+                    RGBColor[0, 1, 1]], 
+                    PointBox[
+                    NCache[{
+                    Scaled[{
+                    Rational[1, 2], 
+                    Rational[1, 2]}]}, {
+                    Scaled[{0.5, 0.5}]}]]}}}, AspectRatio -> Full, 
+                    ImageSize -> {10, 10}, PlotRangePadding -> None, 
+                    ImagePadding -> Automatic, 
+                    BaselinePosition -> (Scaled[0.1] -> Baseline)], #2}, {
+                   GraphicsBox[{{}, {
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    AbsoluteThickness[1.6], 
+                    RGBColor[0.6, 0.4, 0.2]], {
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    AbsoluteThickness[1.6], 
+                    RGBColor[0.6, 0.4, 0.2]], 
+                    PointBox[
+                    NCache[{
+                    Scaled[{
+                    Rational[1, 2], 
+                    Rational[1, 2]}]}, {
+                    Scaled[{0.5, 0.5}]}]]}}}, AspectRatio -> Full, 
+                    ImageSize -> {10, 10}, PlotRangePadding -> None, 
+                    ImagePadding -> Automatic, 
+                    BaselinePosition -> (Scaled[0.1] -> Baseline)], #3}, {
+                   GraphicsBox[{{}, {
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    AbsoluteThickness[1.6], 
+                    RGBColor[0, 1, 0]], {
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    AbsoluteThickness[1.6], 
+                    RGBColor[0, 1, 0]], 
+                    PointBox[
+                    NCache[{
+                    Scaled[{
+                    Rational[1, 2], 
+                    Rational[1, 2]}]}, {
+                    Scaled[{0.5, 0.5}]}]]}}}, AspectRatio -> Full, 
+                    ImageSize -> {10, 10}, PlotRangePadding -> None, 
+                    ImagePadding -> Automatic, 
+                    BaselinePosition -> (Scaled[0.1] -> Baseline)], #4}}, 
+                 GridBoxAlignment -> {
+                  "Columns" -> {Center, Left}, "Rows" -> {{Baseline}}}, 
+                 AutoDelete -> False, 
+                 GridBoxDividers -> {
+                  "Columns" -> {{False}}, "Rows" -> {{False}}}, 
+                 GridBoxItemSize -> {"Columns" -> {{All}}, "Rows" -> {{All}}},
+                  GridBoxSpacings -> {
+                  "Columns" -> {{0.5}}, "Rows" -> {{0.8}}}], "Grid"]}}, 
+             GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+             AutoDelete -> False, 
+             GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{1}}, "Rows" -> {{0}}}], 
+            "Grid"], Alignment -> Left, AppearanceElements -> None, 
+           ImageMargins -> {{5, 5}, {5, 5}}, ImageSizeAction -> 
+           "ResizeToFit"], LineIndent -> 0, StripOnInput -> False], {
+         FontFamily -> "Arial"}, Background -> Automatic, StripOnInput -> 
+         False], TraditionalForm]& ), 
+      InterpretationFunction :> (RowBox[{"PointLegend", "[", 
+         RowBox[{
+           RowBox[{"{", 
+             RowBox[{
+               InterpretationBox[
+                ButtonBox[
+                 TooltipBox[
+                  GraphicsBox[{{
+                    GrayLevel[0], 
+                    RectangleBox[{0, 0}]}, {
+                    GrayLevel[0], 
+                    RectangleBox[{1, -1}]}, {
+                    RGBColor[1, 0, 0], 
+                    RectangleBox[{0, -1}, {2, 1}]}}, DefaultBaseStyle -> 
+                   "ColorSwatchGraphics", AspectRatio -> 1, Frame -> True, 
+                   FrameStyle -> RGBColor[0.6666666666666666, 0., 0.], 
+                   FrameTicks -> None, PlotRangePadding -> None, ImageSize -> 
+                   Dynamic[{
+                    Automatic, 
+                    1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
+                  StyleBox[
+                   RowBox[{"RGBColor", "[", 
+                    RowBox[{"1", ",", "0", ",", "0"}], "]"}], NumberMarks -> 
+                   False]], Appearance -> None, BaseStyle -> {}, 
+                 BaselinePosition -> Baseline, DefaultBaseStyle -> {}, 
+                 ButtonFunction :> With[{Typeset`box$ = EvaluationBox[]}, 
+                   If[
+                    Not[
+                    AbsoluteCurrentValue["Deployed"]], 
+                    SelectionMove[Typeset`box$, All, Expression]; 
+                    FrontEnd`Private`$ColorSelectorInitialAlpha = 1; 
+                    FrontEnd`Private`$ColorSelectorInitialColor = 
+                    RGBColor[1, 0, 0]; 
+                    FrontEnd`Private`$ColorSelectorUseMakeBoxes = True; 
+                    MathLink`CallFrontEnd[
+                    FrontEnd`AttachCell[Typeset`box$, 
+                    FrontEndResource["RGBColorValueSelector"], {
+                    0, {Left, Bottom}}, {Left, Top}, 
+                    "ClosingActions" -> {
+                    "SelectionDeparture", "ParentChanged", 
+                    "EvaluatorQuit"}]]]], BaseStyle -> Inherited, Evaluator -> 
+                 Automatic, Method -> "Preemptive"], 
+                RGBColor[1, 0, 0], Editable -> False, Selectable -> False], 
+               ",", 
+               InterpretationBox[
+                ButtonBox[
+                 TooltipBox[
+                  GraphicsBox[{{
+                    GrayLevel[0], 
+                    RectangleBox[{0, 0}]}, {
+                    GrayLevel[0], 
+                    RectangleBox[{1, -1}]}, {
+                    RGBColor[0, 1, 1], 
+                    RectangleBox[{0, -1}, {2, 1}]}}, DefaultBaseStyle -> 
+                   "ColorSwatchGraphics", AspectRatio -> 1, Frame -> True, 
+                   FrameStyle -> 
+                   RGBColor[0., 0.6666666666666666, 0.6666666666666666], 
+                   FrameTicks -> None, PlotRangePadding -> None, ImageSize -> 
+                   Dynamic[{
+                    Automatic, 
+                    1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
+                  StyleBox[
+                   RowBox[{"RGBColor", "[", 
+                    RowBox[{"0", ",", "1", ",", "1"}], "]"}], NumberMarks -> 
+                   False]], Appearance -> None, BaseStyle -> {}, 
+                 BaselinePosition -> Baseline, DefaultBaseStyle -> {}, 
+                 ButtonFunction :> With[{Typeset`box$ = EvaluationBox[]}, 
+                   If[
+                    Not[
+                    AbsoluteCurrentValue["Deployed"]], 
+                    SelectionMove[Typeset`box$, All, Expression]; 
+                    FrontEnd`Private`$ColorSelectorInitialAlpha = 1; 
+                    FrontEnd`Private`$ColorSelectorInitialColor = 
+                    RGBColor[0, 1, 1]; 
+                    FrontEnd`Private`$ColorSelectorUseMakeBoxes = True; 
+                    MathLink`CallFrontEnd[
+                    FrontEnd`AttachCell[Typeset`box$, 
+                    FrontEndResource["RGBColorValueSelector"], {
+                    0, {Left, Bottom}}, {Left, Top}, 
+                    "ClosingActions" -> {
+                    "SelectionDeparture", "ParentChanged", 
+                    "EvaluatorQuit"}]]]], BaseStyle -> Inherited, Evaluator -> 
+                 Automatic, Method -> "Preemptive"], 
+                RGBColor[0, 1, 1], Editable -> False, Selectable -> False], 
+               ",", 
+               InterpretationBox[
+                ButtonBox[
+                 TooltipBox[
+                  GraphicsBox[{{
+                    GrayLevel[0], 
+                    RectangleBox[{0, 0}]}, {
+                    GrayLevel[0], 
+                    RectangleBox[{1, -1}]}, {
+                    RGBColor[0.6, 0.4, 0.2], 
+                    RectangleBox[{0, -1}, {2, 1}]}}, DefaultBaseStyle -> 
+                   "ColorSwatchGraphics", AspectRatio -> 1, Frame -> True, 
+                   FrameStyle -> 
+                   RGBColor[0.4, 0.2666666666666667, 0.13333333333333336`], 
+                   FrameTicks -> None, PlotRangePadding -> None, ImageSize -> 
+                   Dynamic[{
+                    Automatic, 
+                    1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
+                  StyleBox[
+                   RowBox[{"RGBColor", "[", 
+                    RowBox[{"0.6`", ",", "0.4`", ",", "0.2`"}], "]"}], 
+                   NumberMarks -> False]], Appearance -> None, 
+                 BaseStyle -> {}, BaselinePosition -> Baseline, 
+                 DefaultBaseStyle -> {}, ButtonFunction :> 
+                 With[{Typeset`box$ = EvaluationBox[]}, 
+                   If[
+                    Not[
+                    AbsoluteCurrentValue["Deployed"]], 
+                    SelectionMove[Typeset`box$, All, Expression]; 
+                    FrontEnd`Private`$ColorSelectorInitialAlpha = 1; 
+                    FrontEnd`Private`$ColorSelectorInitialColor = 
+                    RGBColor[0.6, 0.4, 0.2]; 
+                    FrontEnd`Private`$ColorSelectorUseMakeBoxes = True; 
+                    MathLink`CallFrontEnd[
+                    FrontEnd`AttachCell[Typeset`box$, 
+                    FrontEndResource["RGBColorValueSelector"], {
+                    0, {Left, Bottom}}, {Left, Top}, 
+                    "ClosingActions" -> {
+                    "SelectionDeparture", "ParentChanged", 
+                    "EvaluatorQuit"}]]]], BaseStyle -> Inherited, Evaluator -> 
+                 Automatic, Method -> "Preemptive"], 
+                RGBColor[0.6, 0.4, 0.2], Editable -> False, Selectable -> 
+                False], ",", 
+               InterpretationBox[
+                ButtonBox[
+                 TooltipBox[
+                  GraphicsBox[{{
+                    GrayLevel[0], 
+                    RectangleBox[{0, 0}]}, {
+                    GrayLevel[0], 
+                    RectangleBox[{1, -1}]}, {
+                    RGBColor[0, 1, 0], 
+                    RectangleBox[{0, -1}, {2, 1}]}}, DefaultBaseStyle -> 
+                   "ColorSwatchGraphics", AspectRatio -> 1, Frame -> True, 
+                   FrameStyle -> RGBColor[0., 0.6666666666666666, 0.], 
+                   FrameTicks -> None, PlotRangePadding -> None, ImageSize -> 
+                   Dynamic[{
+                    Automatic, 
+                    1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
+                  StyleBox[
+                   RowBox[{"RGBColor", "[", 
+                    RowBox[{"0", ",", "1", ",", "0"}], "]"}], NumberMarks -> 
+                   False]], Appearance -> None, BaseStyle -> {}, 
+                 BaselinePosition -> Baseline, DefaultBaseStyle -> {}, 
+                 ButtonFunction :> With[{Typeset`box$ = EvaluationBox[]}, 
+                   If[
+                    Not[
+                    AbsoluteCurrentValue["Deployed"]], 
+                    SelectionMove[Typeset`box$, All, Expression]; 
+                    FrontEnd`Private`$ColorSelectorInitialAlpha = 1; 
+                    FrontEnd`Private`$ColorSelectorInitialColor = 
+                    RGBColor[0, 1, 0]; 
+                    FrontEnd`Private`$ColorSelectorUseMakeBoxes = True; 
+                    MathLink`CallFrontEnd[
+                    FrontEnd`AttachCell[Typeset`box$, 
+                    FrontEndResource["RGBColorValueSelector"], {
+                    0, {Left, Bottom}}, {Left, Top}, 
+                    "ClosingActions" -> {
+                    "SelectionDeparture", "ParentChanged", 
+                    "EvaluatorQuit"}]]]], BaseStyle -> Inherited, Evaluator -> 
+                 Automatic, Method -> "Preemptive"], 
+                RGBColor[0, 1, 0], Editable -> False, Selectable -> False]}], 
+             "}"}], ",", 
+           RowBox[{"{", 
+             RowBox[{#, ",", #2, ",", #3, ",", #4}], "}"}]}], "]"}]& ), 
+      Editable -> True], TraditionalForm], TraditionalForm]},
+  "Legended",
+  DisplayFunction->(GridBox[{{
+      TagBox[
+       ItemBox[
+        PaneBox[
+         TagBox[#, "SkipImageSizeLevel"], Alignment -> {Center, Baseline}, 
+         BaselinePosition -> Baseline], DefaultBaseStyle -> "Labeled"], 
+       "SkipImageSizeLevel"], 
+      ItemBox[#2, DefaultBaseStyle -> "LabeledLabel"]}}, 
+    GridBoxAlignment -> {"Columns" -> {{Center}}, "Rows" -> {{Center}}}, 
+    AutoDelete -> False, GridBoxItemSize -> Automatic, 
+    BaselinePosition -> {1, 1}]& ),
+  Editable->True,
+  InterpretationFunction->(RowBox[{"Legended", "[", 
+     RowBox[{#, ",", 
+       RowBox[{"Placed", "[", 
+         RowBox[{#2, ",", "After"}], "]"}]}], "]"}]& )]], "Output",
+ CellLabel->"Out[2]=",
+ CellID->457214683,ExpressionUUID->"9421604e-74ac-48be-aeca-6e332383fbd2"]
+}, Open  ]]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "1"}, 
+  Closed]]]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  DynamicBox[ToBoxes[
+    If[
+     MatchQ[
+      CurrentValue[
+       EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "3"},
+        Closed], 
+      Alternatives[Open, True]], 
+     Style[
+      Graphics[{
+        Thickness[0.18], 
+        RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+        Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+       PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+      0.68 Inherited], 
+     Rotate[
+      Style[
+       Graphics[{
+         Thickness[0.18], 
+         RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+         Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+        PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+       0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+   ImageSizeCache->{
+    13.600000000000001`, {0.5800000000000001, 13.020000000000001`}}]],
+  ExpressionUUID->"6d10ee21-742e-4056-a674-1352d50e564b"],
+ Cell[BoxData[
+  TemplateBox[{1},
+   "Spacer1"]],ExpressionUUID->"2cb43ccc-d659-4ef2-9155-4e3c1b4e8890"],
+ "Neat Examples",
+ "\[NonBreakingSpace]\[NonBreakingSpace]",
+ Cell["(1)", "ExampleCount",ExpressionUUID->
+  "44f2c79a-c269-4371-b169-de993110dc0e"]
+}], "ExampleSection", "ExampleSection",
+ WholeCellGroupOpener->True,
+ CacheGraphics->False,
+ CellID->46053125,ExpressionUUID->"7981e9a7-c24a-4158-8452-024e2ca92bb7"],
+
+Cell["\<\
+A graphic of a triangle with the Euler line (blue), \
+circumcenter|circumcircle|perpendicular bisectors (red), centroid|medians \
+(cyan), nine point center|circle (brown) and orthocenter|altitudes (green):\
+\>", "ExampleText",
+ CellID->595354598,ExpressionUUID->"f99a1e89-030f-49be-af5b-827799a4448c"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"tri", "=", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"-", "14"}], ",", 
+       RowBox[{"-", "6"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"10", ",", 
+       RowBox[{"-", "6"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"4", ",", "12"}], "}"}]}], "}"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"euler", "=", " ", 
+   RowBox[{"EulerLinePoints", "[", "tri", "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"mids", "=", 
+   RowBox[{"Mean", "/@", 
+    RowBox[{"Subsets", "[", 
+     RowBox[{
+      RowBox[{"Reverse", "[", "tri", "]"}], ",", 
+      RowBox[{"{", "2", "}"}]}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"otherthree", "=", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"Mean", "[", 
+      RowBox[{"{", 
+       RowBox[{"#", ",", 
+        RowBox[{"euler", "[", 
+         RowBox[{"[", "4", "]"}], "]"}]}], "}"}], "]"}], "&"}], "/@", 
+    "tri"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Legended", "[", 
+  RowBox[{
+   RowBox[{"Graphics", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"EdgeForm", "[", "Black", "]"}], ",", "White", ",", "Thick", 
+      ",", 
+      RowBox[{"Triangle", "[", "tri", "]"}], ",", "\[IndentingNewLine]", 
+      "Blue", ",", " ", 
+      RowBox[{"InfiniteLine", "[", 
+       RowBox[{"Take", "[", 
+        RowBox[{"euler", ",", "2"}], "]"}], "]"}], ",", "Thin", ",", 
+      "\[IndentingNewLine]", "Red", ",", " ", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"InfiniteLine", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"euler", "[", 
+            RowBox[{"[", "1", "]"}], "]"}], ",", "#"}], "}"}], "]"}], "&"}], "/@",
+        "mids"}], ",", 
+      RowBox[{"Circumsphere", "[", "tri", "]"}], ",", 
+      RowBox[{"Disk", "[", 
+       RowBox[{
+        RowBox[{"euler", "[", 
+         RowBox[{"[", "1", "]"}], "]"}], ",", "0.2"}], "]"}], ",", 
+      "\[IndentingNewLine]", "Cyan", ",", 
+      RowBox[{"InfiniteLine", "/@", 
+       RowBox[{"Transpose", "[", 
+        RowBox[{"{", 
+         RowBox[{"tri", ",", "mids"}], "}"}], "]"}]}], ",", 
+      RowBox[{"Disk", "[", 
+       RowBox[{
+        RowBox[{"euler", "[", 
+         RowBox[{"[", "2", "]"}], "]"}], ",", "0.2"}], "]"}], ",", 
+      "\[IndentingNewLine]", "Brown", ",", 
+      RowBox[{"Circle", "[", 
+       RowBox[{
+        RowBox[{"euler", "[", 
+         RowBox[{"[", "3", "]"}], "]"}], ",", 
+        RowBox[{"EuclideanDistance", "[", 
+         RowBox[{
+          RowBox[{"euler", "[", 
+           RowBox[{"[", "3", "]"}], "]"}], ",", 
+          RowBox[{"mids", "[", 
+           RowBox[{"[", "1", "]"}], "]"}]}], "]"}]}], "]"}], ",", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"Disk", "[", 
+         RowBox[{"#", ",", ".1"}], "]"}], "&"}], "/@", "otherthree"}], ",", 
+      RowBox[{"Disk", "[", 
+       RowBox[{
+        RowBox[{"euler", "[", 
+         RowBox[{"[", "3", "]"}], "]"}], ",", "0.2"}], "]"}], ",", 
+      "\[IndentingNewLine]", "Green", ",", " ", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"InfiniteLine", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"euler", "[", 
+            RowBox[{"[", "4", "]"}], "]"}], ",", "#"}], "}"}], "]"}], "&"}], "/@",
+        "tri"}], ",", 
+      RowBox[{"Disk", "[", 
+       RowBox[{
+        RowBox[{"euler", "[", 
+         RowBox[{"[", "4", "]"}], "]"}], ",", "0.2"}], "]"}]}], "}"}], "]"}], 
+   ",", 
+   RowBox[{"PointLegend", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"Red", ",", "Cyan", ",", "Brown", ",", "Green"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<circumcenter\>\"", ",", "\"\<centroid\>\"", ",", 
+       "\"\<nine-point center\>\"", ",", "\"\<orthocenter\>\""}], "}"}], ",", 
+     RowBox[{"LegendMarkers", "\[Rule]", 
+      RowBox[{"ConstantArray", "[", 
+       RowBox[{
+        RowBox[{"Graphics", "[", 
+         RowBox[{"Disk", "[", "]"}], "]"}], ",", "3"}], "]"}]}]}], "]"}]}], 
+  "]"}]}], "Input",
+ CellProlog:>Needs["PeterBurbery`RecreationalMathematics`"],
+ CellLabel->"In[1]:=",
+ CellID->976566178,ExpressionUUID->"7241cc5f-0032-49e1-bfc3-ce732f727a21"],
+
+Cell[BoxData[
+ TemplateBox[{
+   GraphicsBox[{
+     EdgeForm[
+      GrayLevel[0]], 
+     GrayLevel[1], 
+     Thickness[Large], 
+     TagBox[
+      PolygonBox[{{-14, -6}, {10, -6}, {4, 12}}], "Triangle"], 
+     RGBColor[0, 0, 1], 
+     TagBox[
+      ConicHullRegionBox[{{-2, 0}, {0, 0}}], "InfiniteLine"], 
+     Thickness[Tiny], 
+     RGBColor[1, 0, 0], {
+      TagBox[
+       ConicHullRegionBox[{{-2, 0}, {7, 3}}], "InfiniteLine"], 
+      TagBox[
+       ConicHullRegionBox[{{-2, 0}, {-5, 3}}], "InfiniteLine"], 
+      TagBox[
+       ConicHullRegionBox[{{-2, 0}, {-2, -6}}], "InfiniteLine"]}, 
+     TagBox[
+      CircleBox[{-2, 0}, 
+       NCache[6 5^Rational[1, 2], 13.416407864998739`]], "Sphere"], 
+     DiskBox[{-2, 0}, 0.2], 
+     RGBColor[0, 1, 1], {
+      TagBox[
+       ConicHullRegionBox[{{-14, -6}, {7, 3}}], "InfiniteLine"], 
+      TagBox[
+       ConicHullRegionBox[{{10, -6}, {-5, 3}}], "InfiniteLine"], 
+      TagBox[
+       ConicHullRegionBox[{{4, 12}, {-2, -6}}], "InfiniteLine"]}, 
+     DiskBox[{0, 0}, 0.2], 
+     RGBColor[0.6, 0.4, 0.2], 
+     CircleBox[{1, 0}, 
+      NCache[3 5^Rational[1, 2], 6.708203932499369]], {
+      DiskBox[{-5, -3}, 0.1], 
+      DiskBox[{7, -3}, 0.1], 
+      DiskBox[{4, 6}, 0.1]}, 
+     DiskBox[{1, 0}, 0.2], 
+     RGBColor[0, 1, 0], {
+      TagBox[
+       ConicHullRegionBox[{{4, 0}, {-14, -6}}], "InfiniteLine"], 
+      TagBox[
+       ConicHullRegionBox[{{4, 0}, {10, -6}}], "InfiniteLine"], 
+      TagBox[
+       ConicHullRegionBox[{{4, 0}, {4, 12}}], "InfiniteLine"]}, 
+     DiskBox[{4, 0}, 0.2]}], 
+   FormBox[
+    FormBox[
+     TemplateBox[{
+      "\"circumcenter\"", "\"centroid\"", "\"nine-point center\"", 
+       "\"orthocenter\""}, "PointLegend", DisplayFunction -> (FormBox[
+        StyleBox[
+         StyleBox[
+          PaneBox[
+           TagBox[
+            GridBox[{{
+               TagBox[
+                GridBox[{{
+                   GraphicsBox[{{}, {
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    AbsoluteThickness[1.6], 
+                    RGBColor[1, 0, 0]], {
+                    InsetBox[
+                    GraphicsBox[
+                    DiskBox[{0, 0}], {DefaultBaseStyle -> {"Graphics", {
+                    AbsolutePointSize[6]}, 
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    AbsoluteThickness[1.6], 
+                    RGBColor[1, 0, 0]]}}], 
+                    NCache[
+                    Scaled[{
+                    Rational[1, 2], 
+                    Rational[1, 2]}], 
+                    Scaled[{0.5, 0.5}]], Automatic, 
+                    Scaled[1]]}}}, AspectRatio -> Full, ImageSize -> {20, 10},
+                     PlotRangePadding -> None, ImagePadding -> Automatic, 
+                    BaselinePosition -> (Scaled[0.1] -> Baseline)], #}, {
+                   GraphicsBox[{{}, {
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    AbsoluteThickness[1.6], 
+                    RGBColor[0, 1, 1]], {
+                    InsetBox[
+                    GraphicsBox[
+                    DiskBox[{0, 0}], {DefaultBaseStyle -> {"Graphics", {
+                    AbsolutePointSize[6]}, 
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    AbsoluteThickness[1.6], 
+                    RGBColor[0, 1, 1]]}}], 
+                    NCache[
+                    Scaled[{
+                    Rational[1, 2], 
+                    Rational[1, 2]}], 
+                    Scaled[{0.5, 0.5}]], Automatic, 
+                    Scaled[1]]}}}, AspectRatio -> Full, ImageSize -> {20, 10},
+                     PlotRangePadding -> None, ImagePadding -> Automatic, 
+                    BaselinePosition -> (Scaled[0.1] -> Baseline)], #2}, {
+                   GraphicsBox[{{}, {
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    AbsoluteThickness[1.6], 
+                    RGBColor[0.6, 0.4, 0.2]], {
+                    InsetBox[
+                    GraphicsBox[
+                    DiskBox[{0, 0}], {DefaultBaseStyle -> {"Graphics", {
+                    AbsolutePointSize[6]}, 
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    AbsoluteThickness[1.6], 
+                    RGBColor[0.6, 0.4, 0.2]]}}], 
+                    NCache[
+                    Scaled[{
+                    Rational[1, 2], 
+                    Rational[1, 2]}], 
+                    Scaled[{0.5, 0.5}]], Automatic, 
+                    Scaled[1]]}}}, AspectRatio -> Full, ImageSize -> {20, 10},
+                     PlotRangePadding -> None, ImagePadding -> Automatic, 
+                    BaselinePosition -> (Scaled[0.1] -> Baseline)], #3}, {
+                   GraphicsBox[{{}, {
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    AbsoluteThickness[1.6], 
+                    RGBColor[0, 1, 0]], {
+                    InsetBox[
+                    GraphicsBox[
+                    DiskBox[{0, 0}], {DefaultBaseStyle -> {"Graphics", {
+                    AbsolutePointSize[6]}, 
+                    Directive[
+                    EdgeForm[
+                    Directive[
+                    Opacity[0.3], 
+                    GrayLevel[0]]], 
+                    PointSize[0.5], 
+                    AbsoluteThickness[1.6], 
+                    RGBColor[0, 1, 0]]}}], 
+                    NCache[
+                    Scaled[{
+                    Rational[1, 2], 
+                    Rational[1, 2]}], 
+                    Scaled[{0.5, 0.5}]], Automatic, 
+                    Scaled[1]]}}}, AspectRatio -> Full, ImageSize -> {20, 10},
+                     PlotRangePadding -> None, ImagePadding -> Automatic, 
+                    BaselinePosition -> (Scaled[0.1] -> Baseline)], #4}}, 
+                 GridBoxAlignment -> {
+                  "Columns" -> {Center, Left}, "Rows" -> {{Baseline}}}, 
+                 AutoDelete -> False, 
+                 GridBoxDividers -> {
+                  "Columns" -> {{False}}, "Rows" -> {{False}}}, 
+                 GridBoxItemSize -> {"Columns" -> {{All}}, "Rows" -> {{All}}},
+                  GridBoxSpacings -> {
+                  "Columns" -> {{0.5}}, "Rows" -> {{0.8}}}], "Grid"]}}, 
+             GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+             AutoDelete -> False, 
+             GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{1}}, "Rows" -> {{0}}}], 
+            "Grid"], Alignment -> Left, AppearanceElements -> None, 
+           ImageMargins -> {{5, 5}, {5, 5}}, ImageSizeAction -> 
+           "ResizeToFit"], LineIndent -> 0, StripOnInput -> False], {
+         FontFamily -> "Arial"}, Background -> Automatic, StripOnInput -> 
+         False], TraditionalForm]& ), 
+      InterpretationFunction :> (RowBox[{"PointLegend", "[", 
+         RowBox[{
+           RowBox[{"{", 
+             RowBox[{
+               
+               TemplateBox[<|"color" -> RGBColor[1, 0, 0]|>, 
+                "RGBColorSwatchTemplate"], ",", 
+               TemplateBox[<|"color" -> RGBColor[0, 1, 1]|>, 
+                "RGBColorSwatchTemplate"], ",", 
+               
+               TemplateBox[<|"color" -> RGBColor[0.6, 0.4, 0.2]|>, 
+                "RGBColorSwatchTemplate"], ",", 
+               
+               TemplateBox[<|"color" -> RGBColor[0, 1, 0]|>, 
+                "RGBColorSwatchTemplate"]}], "}"}], ",", 
+           RowBox[{"{", 
+             RowBox[{#, ",", #2, ",", #3, ",", #4}], "}"}], ",", 
+           RowBox[{"LegendMarkers", "\[Rule]", 
+             RowBox[{"{", 
+               RowBox[{
+                 GraphicsBox[
+                  DiskBox[{0, 0}]], ",", 
+                 GraphicsBox[
+                  DiskBox[{0, 0}]], ",", 
+                 GraphicsBox[
+                  DiskBox[{0, 0}]]}], "}"}]}]}], "]"}]& ), Editable -> True], 
+     TraditionalForm], TraditionalForm]},
+  "Legended",
+  DisplayFunction->(GridBox[{{
+      TagBox[
+       ItemBox[
+        PaneBox[
+         TagBox[#, "SkipImageSizeLevel"], Alignment -> {Center, Baseline}, 
+         BaselinePosition -> Baseline], DefaultBaseStyle -> "Labeled"], 
+       "SkipImageSizeLevel"], 
+      ItemBox[#2, DefaultBaseStyle -> "LabeledLabel"]}}, 
+    GridBoxAlignment -> {"Columns" -> {{Center}}, "Rows" -> {{Center}}}, 
+    AutoDelete -> False, GridBoxItemSize -> Automatic, 
+    BaselinePosition -> {1, 1}]& ),
+  Editable->True,
+  InterpretationFunction->(RowBox[{"Legended", "[", 
+     RowBox[{#, ",", 
+       RowBox[{"Placed", "[", 
+         RowBox[{#2, ",", "After"}], "]"}]}], "]"}]& )]], "Output",
+ CellLabel->"Out[1]=",
+ CellID->867451433,ExpressionUUID->"2392d748-c7b8-452b-a04d-373b4e478f31"]
+}, Open  ]]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "3"}, 
+  Closed]]]]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "PrimaryExamplesSection"}, 
+  Closed]]]],
+
+Cell[" ", "FooterCell",ExpressionUUID->"74141aca-de50-4404-87b2-5bba5160b38c"]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{900., 604.8},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"EulerLinePoints",
+TaggingRules->{
+ "ModificationHighlight" -> False, "ColorType" -> "", "LinkTrails" -> "", 
+  "HasOptions" -> True, "ExampleCounter" -> 1, 
+  "Openers" -> {
+   "PrimaryExamplesSection" -> Open, 
+    "ExampleSection" -> {"0" -> Open, "1" -> Closed, "3" -> Closed}, 
+    "NotesSection" -> Closed}, "NewStyles" -> True, 
+  "CitationPopupData" -> $Failed, "ShowCitation" -> False, "RootCaptions" -> 
+  "", "Metadata" -> {
+   "built" -> "{2022, 9, 30, 17, 29, 38.8196353}", 
+    "history" -> {"XX", "", "", ""}, "context" -> 
+    "PeterBurbery`RecreationalMathematics`", "keywords" -> {}, 
+    "specialkeywords" -> {}, "tutorialcollectionlinks" -> {}, "index" -> True,
+     "label" -> "Peter Burbery/ Recreational Mathematics Symbol", "language" -> 
+    "en", "paclet" -> "PeterBurbery/RecreationalMathematics", "status" -> 
+    "None", "summary" -> 
+    "EulerLinePoints[{p1, p2, p3}] returns the circumcenter, centroid, \
+nine-point center and orthocenter of the triangle defined by vertices p1, p2 \
+and p3.", "synonyms" -> {}, "tabletags" -> {}, "title" -> "EulerLinePoints", 
+    "titlemodifier" -> "", "windowtitle" -> "EulerLinePoints", "type" -> 
+    "Symbol", "uri" -> 
+    "PeterBurbery/RecreationalMathematics/ref/EulerLinePoints"}},
+CellContext->"Global`",
+FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData[
+    StyleDefinitions -> FrontEnd`FileName[{"Wolfram"}, "Reference.nb"]]], 
+   Cell[
+    StyleData["Input"], CellContext -> "Global`"], 
+   Cell[
+    StyleData["Output"], CellContext -> "Global`"]}, Visible -> False, 
+  FrontEndVersion -> "13.1 for Microsoft Windows (64-bit) (June 16, 2022)", 
+  StyleDefinitions -> "Default.nb"],
+ExpressionUUID->"cbc9d63e-44a5-4451-a710-a2a823847669"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "TabNext"->{
+  Cell[8545, 228, 448, 13, 70, "Notes",ExpressionUUID->"32fbc2e8-c857-4ccd-b896-21ed6045c6ba",
+   CellTags->"TabNext",
+   CellID->347008782],
+  Cell[8996, 243, 1597, 53, 70, "Notes",ExpressionUUID->"22b14e4f-1d96-4475-aa7a-fffe9a2fe448",
+   CellTags->"TabNext",
+   CellID->758168977]},
+ "PrimaryExamplesSection"->{
+  Cell[10720, 302, 1419, 37, 35, "PrimaryExamplesSection",ExpressionUUID->"acb78ece-3dbb-4de7-88c5-4404fb5b69ad",
+   CellTags->"PrimaryExamplesSection",
+   CellID->15218723]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"TabNext", 53824, 1393},
+ {"PrimaryExamplesSection", 54139, 1400}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[587, 21, 3516, 81, 56, "AnchorBarGrid",ExpressionUUID->"097e29c1-e391-4f81-94cf-4391618bb8ef",
+ CellID->1],
+Cell[4106, 104, 119, 0, 23, "ContextNameCell",ExpressionUUID->"32f51c17-b6f0-47cd-a9db-5aca70583470"],
+Cell[CellGroupData[{
+Cell[4250, 108, 558, 14, 56, "ObjectNameGrid",ExpressionUUID->"c8f07282-c829-407a-8c46-9340a13f5083"],
+Cell[4811, 124, 1775, 49, 111, "Usage",ExpressionUUID->"7112026f-dfe8-42da-a812-9210210cb8c7",
+ CellID->297003641]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6623, 178, 1919, 48, 37, "NotesSection",ExpressionUUID->"8a17cc31-e83d-4f4a-9c17-74a10356219f",
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellID->180809332],
+Cell[8545, 228, 448, 13, 70, "Notes",ExpressionUUID->"32fbc2e8-c857-4ccd-b896-21ed6045c6ba",
+ CellTags->"TabNext",
+ CellID->347008782],
+Cell[8996, 243, 1597, 53, 70, "Notes",ExpressionUUID->"22b14e4f-1d96-4475-aa7a-fffe9a2fe448",
+ CellTags->"TabNext",
+ CellID->758168977]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "NotesSection"}, Closed]]]],
+Cell[CellGroupData[{
+Cell[10720, 302, 1419, 37, 35, "PrimaryExamplesSection",ExpressionUUID->"acb78ece-3dbb-4de7-88c5-4404fb5b69ad",
+ CellTags->"PrimaryExamplesSection",
+ CellID->15218723],
+Cell[12142, 341, 227, 4, 26, "Input",ExpressionUUID->"837500a8-2e37-4cc6-8009-ca55a199ebc9",
+ CellID->87057459],
+Cell[CellGroupData[{
+Cell[12394, 349, 1398, 36, 30, "ExampleSection",ExpressionUUID->"1b365cbf-3cab-4749-923a-1b8d98af487a",
+ CellID->622992926],
+Cell[13795, 387, 177, 3, 38, "ExampleText",ExpressionUUID->"7e51bb8a-fba8-4dfc-b3be-db83592876e8",
+ CellID->103538084],
+Cell[CellGroupData[{
+Cell[13997, 394, 506, 15, 26, "Input",ExpressionUUID->"bb5c050b-572f-435d-a9b8-5ddeec1beb04",
+ CellID->855780799],
+Cell[14506, 411, 406, 13, 35, "Output",ExpressionUUID->"25270f30-45e3-4ef4-8028-993fde387327",
+ CellID->1633325]
+}, Open  ]]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "0"}, Closed]]]],
+Cell[CellGroupData[{
+Cell[15061, 432, 1412, 37, 30, "ExampleSection",ExpressionUUID->"c4b28c76-e40c-4f34-b2cc-66cb41c2a75b",
+ CellID->109537247],
+Cell[16476, 471, 148, 1, 70, "ExampleText",ExpressionUUID->"477716ad-134b-477f-a177-e43385120477",
+ CellID->101831907],
+Cell[CellGroupData[{
+Cell[16649, 476, 639, 18, 70, "Input",ExpressionUUID->"99482006-3d7f-499e-ac5b-aa78194ab865",
+ CellID->510434634],
+Cell[17291, 496, 703, 22, 35, "Output",ExpressionUUID->"5323615b-4062-47f6-87a1-3878559af8f0",
+ CellID->773457542]
+}, Open  ]],
+Cell[18009, 521, 140, 1, 70, "ExampleText",ExpressionUUID->"ae9c4a7c-fae6-41e6-9ace-d78ad4cc0a88",
+ CellID->713367949],
+Cell[CellGroupData[{
+Cell[18174, 526, 1146, 32, 70, "Input",ExpressionUUID->"67f6d12a-61b5-4086-a6cd-dea6da5c7b30",
+ CellID->844664644],
+Cell[19323, 560, 16402, 360, 263, "Output",ExpressionUUID->"9421604e-74ac-48be-aeca-6e332383fbd2",
+ CellID->457214683]
+}, Open  ]]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "1"}, Closed]]]],
+Cell[CellGroupData[{
+Cell[35874, 928, 1419, 37, 24, "ExampleSection",ExpressionUUID->"7981e9a7-c24a-4158-8452-024e2ca92bb7",
+ CellID->46053125],
+Cell[37296, 967, 311, 5, 70, "ExampleText",ExpressionUUID->"f99a1e89-030f-49be-af5b-827799a4448c",
+ CellID->595354598],
+Cell[CellGroupData[{
+Cell[37632, 976, 4128, 120, 70, "Input",ExpressionUUID->"7241cc5f-0032-49e1-bfc3-ce732f727a21",
+ CellID->976566178],
+Cell[41763, 1098, 9690, 238, 261, "Output",ExpressionUUID->"2392d748-c7b8-452b-a04d-373b4e478f31",
+ CellID->867451433]
+}, Open  ]]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "3"}, Closed]]]]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "PrimaryExamplesSection"}, Closed]]]],
+Cell[51695, 1345, 78, 0, 41, "FooterCell",ExpressionUUID->"74141aca-de50-4404-87b2-5bba5160b38c"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
