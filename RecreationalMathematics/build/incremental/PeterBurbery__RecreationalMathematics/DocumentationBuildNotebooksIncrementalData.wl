@@ -24,12 +24,12 @@
    "FileHash" -> "Duxhshfaa+rVM4QShQ8VPfk7C8LnbaioeemGW97JkxI="|>, 
  "English\\ReferencePages\\Symbols\\CatalanUnrank.nb" -> 
   <|"Result" -> Success["BuildDocumentationNotebook", 
-     <|"Time" -> Quantity[1.1876541, "Seconds"]|>], 
-   "FileHash" -> "3jVSpgSijWZpPQ6DyvqRGazvjF4YxJmdwYaCsrXxXHI="|>, 
+     <|"Time" -> Quantity[1.8230282, "Seconds"]|>], 
+   "FileHash" -> "iWZGrMsgr+ySdNwQApaJGDCebP3Xf0odS/m61B7dRQI="|>, 
  "English\\ReferencePages\\Symbols\\AllBalancedGroupingSymbols.nb" -> 
   <|"Result" -> Success["BuildDocumentationNotebook", 
-     <|"Time" -> Quantity[1.6368537, "Seconds"]|>], 
-   "FileHash" -> "s748/oj58b5AonqkrwqczKIxETC2GXh4K0YC/0wLD1M="|>, 
+     <|"Time" -> Quantity[3.0616084, "Seconds"]|>], 
+   "FileHash" -> "9AAMl1k+b/GzK689xuqlRyI0jVXqnsGT3tqZapzIBRA="|>, 
  "English\\ReferencePages\\Symbols\\Derangements.nb" -> 
   <|"Result" -> Success["BuildDocumentationNotebook", 
      <|"Time" -> Quantity[0.9187754, "Seconds"]|>], 
@@ -40,5 +40,9 @@
    "FileHash" -> "aDCgpOeYxaKf8TBhCnjp3aq65/HbePejlfpyZvIn8IM="|>, 
  "English\\ReferencePages\\Symbols\\DyckPaths.nb" -> 
   <|"Result" -> Success["BuildDocumentationNotebook", 
-     <|"Time" -> Quantity[13.3643902, "Seconds"]|>], 
-   "FileHash" -> "4Wd6yVmWK8qgbbPpWIGFqn1X7StqN/x62aQjfoKQxsU="|>|>
+     <|"Time" -> Quantity[13.1332202, "Seconds"]|>], 
+   "FileHash" -> "1pdohkSAzRyFC3c7QPk+BjEYzvUGH0EMKMWoOn1VVqk="|>, 
+ "English\\ReferencePages\\Symbols\\DiagonalWalkPlot.nb" -> 
+  <|"Result" -> Success["BuildDocumentationNotebook", 
+     <|"Time" -> Quantity[15.2392612, "Seconds"]|>], 
+   "FileHash" -> "/zZKQlfAMmxKpy9fhNYlB13dMMomewnuZggOK2Lzu68="|>|>

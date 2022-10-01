@@ -12,6 +12,9 @@ BalancedTernary;
 CatalanUnrank;
 AllBalancedGroupingSymbols;
 Derangements;
+IntegralNumberQ;
+DyckPaths;
+DiagonalWalkPlot;
 Begin["`Private`"];
 
 (* Define your public and private symbols here. *)
@@ -78,7 +81,35 @@ Pick[perms,Length/@PermutationSupport/@perms,n]
 AllBalancedGroupingSymbols//ClearAll
 AllBalancedGroupingSymbols[{openingsymbol_,closingsymbol_},numberofgroups_]:=StringJoin[ResourceFunction["CatalanUnrank"][numberofgroups,#]/.{0->openingsymbol,1->closingsymbol}]&/@Range[0,CatalanNumber[numberofgroups]-1]
 
+IntegralNumberQ//ClearAll
+IntegralNumberQ[n_?NumericQ]:=Floor[n]==Ceiling[n]
 
+DyckPathsUnrankFunction//ClearAll
+DyckPaths//ClearAll
+DyckPathsUnrankFunction[n_,rank_]:=Module[{ lo=0,y=0, a=Table[0,2 n],m},
+Do[
+m=Binomial[2 n -x, n-(x+y+1)/2]-Binomial[2 n -x, n-1-(x+y+1)/2];
+(*these terms make the Catalan triangle, or ballot numbers*)
+If[rank<= lo+m-1,
+y=y+1;
+a[[x]]=1,
+lo=lo+m;
+y=y-1;
+a[[x]]=-1],
+{x,1,2 n}];
+a]
+DyckPaths[n_,options:OptionsPattern[{Ticks->None,Axes->{True,False},ListLinePlot}]]:=ListLinePlot[Prepend[Accumulate[
+DyckPathsUnrankFunction[n,#]],0],PlotRange->n,Ticks->OptionValue[Ticks],Axes->OptionValue[Axes],options]&/@Range[0,CatalanNumber[n]-1]
+
+DiagonalWalkPlot//ClearAll
+DiagonalWalkPlot[n_,{horizontaldirectionsign_,
+verticaldirectionsign_},
+options:OptionsPattern[{Ticks->None,ListLinePlot}]]:=
+Flatten[Function[sign,(ListLinePlot[{Prepend[
+Accumulate[(sign (CatalanUnrank[n,#1]/.{0->-1}))
+/. {-1->{0,verticaldirectionsign},1->{horizontaldirectionsign,0}}],
+{0,0}],Transpose[{horizontaldirectionsign Range[0,n],
+verticaldirectionsign Range[0,n]}]},Ticks->OptionValue[Ticks],options]&)/@Range[0,CatalanNumber[n]-1]]/@{1,-1}]
 
 
 End[]; (* End `Private` *)

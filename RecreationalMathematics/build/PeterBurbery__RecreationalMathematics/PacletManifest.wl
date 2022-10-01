@@ -11,7 +11,7 @@
             ,
             "Hash"
             ->
-            "43c142abc420e31e3d329572f21823b9eca59e5c93c0496830e67140e7d210ef"
+            "e6abdbd4c2c70d2d0a718838745420f55ab8a115f0304da07ccf4410a7f151c8"
                 
         |>
         ,
@@ -38,7 +38,7 @@
             ,
             "Hash"
             ->
-            "2038bc6fd5802f2cd63b4f797883cb820e3b4a757224ff91a4587a85ead109ad"
+            "31facbc705be75fa442d2fba46be06706fa989cbd1333f5341a8d63663e8d9d9"
                 
         |>
         ,
@@ -66,7 +66,7 @@
             ,
             "Hash"
             ->
-            "dd2c092f7edb61bd9de057cdd64779efa5fbd0d5fdb037f432f27ec8d02fb22c"
+            "36b43aaf21dd1c0b83a9bfb1a2c12450f4ea63a6440b9ba1e15fafb01a8e9d8c"
                 
         |>
         ,
@@ -88,13 +88,27 @@
             "File"
             ->
             File[
+                "Documentation\\English\\ReferencePages\\Symbols\\DiagonalWalkPlot.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "7f99c7fbd0a09174373d8f6fb107069742815efbfc6cb8f68e730cd89a66a83a"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
                 "Documentation\\English\\ReferencePages\\Symbols\\DyckPaths.nb"
                     
             ]
             ,
             "Hash"
             ->
-            "24bd878b6bd061d52347699ef723eba4e91cab53602dbc7d73d2806a64e76a13"
+            "953ab8b0b22c4c31f07872d37f906791a4b0a36f7abad411ba3de2b502727c06"
                 
         |>
         ,

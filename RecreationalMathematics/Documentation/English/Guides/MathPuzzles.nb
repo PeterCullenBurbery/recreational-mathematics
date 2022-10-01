@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     11509,        305]
-NotebookOptionsPosition[      7439,        218]
-NotebookOutlinePosition[      7986,        236]
-CellTagsIndexPosition[      7943,        233]
+NotebookDataLength[     14051,        369]
+NotebookOptionsPosition[      9477,        273]
+NotebookOutlinePosition[     10060,        292]
+CellTagsIndexPosition[     10017,        289]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -127,6 +127,61 @@ AllBalancedGroupingSymbols"]], "InlineGuideFunction",ExpressionUUID->
  CellChangeTimes->{{3.8735787027148647`*^9, 3.8735787354196177`*^9}},
  CellID->155435951,ExpressionUUID->"fe789800-9447-470c-a382-97d0b6214610"],
 
+Cell[TextData[{
+ Cell[BoxData[
+  ButtonBox["Derangements",
+   BaseStyle->"Link",
+   ButtonData->
+    "paclet:PeterBurbery/RecreationalMathematics/ref/Derangements"]], 
+  "InlineGuideFunction",ExpressionUUID->
+  "13fb1030-be7a-4a34-8074-b6c8f009bcdd"],
+ " \[LongDash] Give all the ways the numbers 1, 2, \[Ellipsis], n can be \
+scrambled completely"
+}], "GuideText",
+ CellChangeTimes->{{3.873630123099097*^9, 3.873630152055747*^9}},
+ CellID->97602250,ExpressionUUID->"654c2d23-4cfe-4302-94d9-0ac77a746a22"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  ButtonBox["IntegralNumberQ",
+   BaseStyle->"Link",
+   ButtonData->
+    "paclet:PeterBurbery/RecreationalMathematics/ref/IntegralNumberQ"]], 
+  "InlineGuideFunction",ExpressionUUID->
+  "0c83f1f3-dc39-4208-8198-0116caf97af3"],
+ " \[LongDash] yields True if the input is a valid integer and False \
+otherwise."
+}], "GuideText",
+ CellChangeTimes->{{3.8736313948520646`*^9, 3.8736314294767504`*^9}},
+ CellID->4528958,ExpressionUUID->"11ae8650-e78b-4caf-a378-28f531e71402"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  ButtonBox["DyckPaths",
+   BaseStyle->"Link",
+   ButtonData->"paclet:PeterBurbery/RecreationalMathematics/ref/DyckPaths"]], 
+  "InlineGuideFunction",ExpressionUUID->
+  "6045429e-96f5-4992-bfc7-68bb5f03ff8c"],
+ " \[LongDash] generate a list of Dyck paths"
+}], "GuideText",
+ CellChangeTimes->{{3.8736342837927837`*^9, 3.8736342973261337`*^9}, {
+  3.8736348579093866`*^9, 3.8736348579093866`*^9}},
+ CellID->92588744,ExpressionUUID->"37ca3f7e-e524-4bf6-a1bb-22a630d35c92"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  ButtonBox["DiagonalWalkPlot",
+   BaseStyle->"Link",
+   ButtonData->
+    "paclet:PeterBurbery/RecreationalMathematics/ref/DiagonalWalkPlot"]], 
+  "InlineGuideFunction",ExpressionUUID->
+  "62707fea-19e2-42ec-bf86-b036d3c3b71f"],
+ " \[LongDash] generate a plot of all diagonal walks in a specific direction \
+with a specific length"
+}], "GuideText",
+ CellChangeTimes->{{3.87363968575821*^9, 3.8736397295336475`*^9}},
+ CellID->130380131,ExpressionUUID->"96d8259d-fd51-40e3-894c-53826fe7df37"],
+
 Cell[CellGroupData[{
 
 Cell["\t", "GuideDelimiter",
@@ -216,8 +271,9 @@ Cell["XXXX", "Keywords",
 }, Closed]]
 }, Open  ]]
 },
-WindowSize->{1141.2, 574.8},
-WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowSize->{1152., 585.6},
+WindowMargins->{{
+  Automatic, -5.399999999999864}, {-5.399999999999977, Automatic}},
 TaggingRules-><|"Paclet" -> "PeterBurbery/RecreationalMathematics"|>,
 FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
 StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "GuidePageStylesExt.nb", 
@@ -258,52 +314,60 @@ Cell[3560, 103, 488, 11, 25, "GuideText",ExpressionUUID->"473be1b1-e817-4c0d-b5c
  CellID->170589115],
 Cell[4051, 116, 491, 11, 25, "GuideText",ExpressionUUID->"fe789800-9447-470c-a382-97d0b6214610",
  CellID->155435951],
+Cell[4545, 129, 505, 12, 25, "GuideText",ExpressionUUID->"654c2d23-4cfe-4302-94d9-0ac77a746a22",
+ CellID->97602250],
+Cell[5053, 143, 500, 12, 25, "GuideText",ExpressionUUID->"11ae8650-e78b-4caf-a378-28f531e71402",
+ CellID->4528958],
+Cell[5556, 157, 500, 11, 25, "GuideText",ExpressionUUID->"37ca3f7e-e524-4bf6-a1bb-22a630d35c92",
+ CellID->92588744],
+Cell[6059, 170, 521, 12, 25, "GuideText",ExpressionUUID->"96d8259d-fd51-40e3-894c-53826fe7df37",
+ CellID->130380131],
 Cell[CellGroupData[{
-Cell[4567, 131, 103, 1, 27, "GuideDelimiter",ExpressionUUID->"4325dd7a-1a67-4304-aa99-dcbcffa67f7a",
+Cell[6605, 186, 103, 1, 27, "GuideDelimiter",ExpressionUUID->"4325dd7a-1a67-4304-aa99-dcbcffa67f7a",
  CellID->758833621],
-Cell[4673, 134, 127, 1, 23, "InlineGuideFunctionListing",ExpressionUUID->"96543970-8579-4952-b48a-8cc033d2f7c9",
+Cell[6711, 189, 127, 1, 23, "InlineGuideFunctionListing",ExpressionUUID->"96543970-8579-4952-b48a-8cc033d2f7c9",
  CellID->603195188]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[4849, 141, 117, 1, 74, "GuideTutorialsSection",ExpressionUUID->"6b58cf38-7ee8-4567-8adc-efe5b0660d6c",
+Cell[6887, 196, 117, 1, 74, "GuideTutorialsSection",ExpressionUUID->"6b58cf38-7ee8-4567-8adc-efe5b0660d6c",
  CellID->34556841],
-Cell[4969, 144, 103, 1, 24, "GuideTutorial",ExpressionUUID->"a1e71115-c10b-4704-8dd4-7c68d8d4a0a1",
+Cell[7007, 199, 103, 1, 24, "GuideTutorial",ExpressionUUID->"a1e71115-c10b-4704-8dd4-7c68d8d4a0a1",
  CellID->31960729],
-Cell[5075, 147, 104, 1, 24, "GuideTutorial",ExpressionUUID->"2261261e-be2b-4c0c-a0f2-3f22a17a6cf8",
+Cell[7113, 202, 104, 1, 24, "GuideTutorial",ExpressionUUID->"2261261e-be2b-4c0c-a0f2-3f22a17a6cf8",
  CellID->238061534]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[5216, 153, 189, 2, 74, "GuideMoreAboutSection",ExpressionUUID->"9657c3c8-bc4d-4fc5-9d44-6134a9ae66d3",
+Cell[7254, 208, 189, 2, 74, "GuideMoreAboutSection",ExpressionUUID->"9657c3c8-bc4d-4fc5-9d44-6134a9ae66d3",
  CellID->32827550],
-Cell[5408, 157, 105, 1, 24, "GuideMoreAbout",ExpressionUUID->"3d55ef17-9580-41c4-acc1-cb583e89d19f",
+Cell[7446, 212, 105, 1, 24, "GuideMoreAbout",ExpressionUUID->"3d55ef17-9580-41c4-acc1-cb583e89d19f",
  CellID->490008532],
-Cell[5516, 160, 105, 1, 24, "GuideMoreAbout",ExpressionUUID->"c22769ff-c03b-4ecb-ad3a-152882f20db6",
+Cell[7554, 215, 105, 1, 24, "GuideMoreAbout",ExpressionUUID->"c22769ff-c03b-4ecb-ad3a-152882f20db6",
  CellID->156737090]
 }, Open  ]],
-Cell[5636, 164, 124, 1, 74, "GuideRelatedLinksSection",ExpressionUUID->"d6c8fa59-7f32-401f-8df8-b21d1bc9b65b",
+Cell[7674, 219, 124, 1, 74, "GuideRelatedLinksSection",ExpressionUUID->"d6c8fa59-7f32-401f-8df8-b21d1bc9b65b",
  CellID->415678901],
 Cell[CellGroupData[{
-Cell[5785, 169, 110, 1, 72, "MetadataSection",ExpressionUUID->"5d9a3148-adc3-4cbc-b1ef-a0a00641817a",
+Cell[7823, 224, 110, 1, 72, "MetadataSection",ExpressionUUID->"5d9a3148-adc3-4cbc-b1ef-a0a00641817a",
  CellID->200224533],
-Cell[5898, 172, 473, 11, 26, "History",ExpressionUUID->"d515033f-8ae3-4902-afad-fbe95dd3755e",
+Cell[7936, 227, 473, 11, 26, "History",ExpressionUUID->"d515033f-8ae3-4902-afad-fbe95dd3755e",
  CellID->606464496],
 Cell[CellGroupData[{
-Cell[6396, 187, 122, 1, 21, "CategorizationSection",ExpressionUUID->"82a1dc36-7d7a-4a32-9922-17d0833b6438",
+Cell[8434, 242, 122, 1, 21, "CategorizationSection",ExpressionUUID->"82a1dc36-7d7a-4a32-9922-17d0833b6438",
  CellID->677498854],
-Cell[6521, 190, 132, 2, 70, "Categorization",ExpressionUUID->"2521af20-1c21-43f4-b19f-842a2b17efd3",
+Cell[8559, 245, 132, 2, 70, "Categorization",ExpressionUUID->"2521af20-1c21-43f4-b19f-842a2b17efd3",
  CellID->66409180],
-Cell[6656, 194, 164, 2, 70, "Categorization",ExpressionUUID->"12e1da08-8c7c-40ee-9579-cc4230440a85",
+Cell[8694, 249, 164, 2, 70, "Categorization",ExpressionUUID->"12e1da08-8c7c-40ee-9579-cc4230440a85",
  CellID->413797311],
-Cell[6823, 198, 161, 2, 70, "Categorization",ExpressionUUID->"731a4988-0765-4ef4-8fff-491ef1e19cd0",
+Cell[8861, 253, 161, 2, 70, "Categorization",ExpressionUUID->"731a4988-0765-4ef4-8fff-491ef1e19cd0",
  CellID->165247484],
-Cell[6987, 202, 176, 3, 70, "Categorization",ExpressionUUID->"f2235584-aecd-47a5-b9cd-87f102539108",
+Cell[9025, 257, 176, 3, 70, "Categorization",ExpressionUUID->"f2235584-aecd-47a5-b9cd-87f102539108",
  CellID->122854575]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[7200, 210, 110, 1, 21, "KeywordsSection",ExpressionUUID->"298bb36e-6756-447f-b821-dd5537c99e82",
+Cell[9238, 265, 110, 1, 21, "KeywordsSection",ExpressionUUID->"298bb36e-6756-447f-b821-dd5537c99e82",
  CellID->599598597],
-Cell[7313, 213, 98, 1, 70, "Keywords",ExpressionUUID->"a1481d50-4db5-4ec2-b52e-9b8152afcb3c",
+Cell[9351, 268, 98, 1, 70, "Keywords",ExpressionUUID->"a1481d50-4db5-4ec2-b52e-9b8152afcb3c",
  CellID->79183157]
 }, Closed]]
 }, Open  ]]

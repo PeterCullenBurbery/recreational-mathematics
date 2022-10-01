@@ -7,7 +7,7 @@ PacletObject[
     "Creator" -> "Peter Cullen Burbery",
     "License" -> "MIT",
     "PublisherID" -> "PeterBurbery",
-    "Version" -> "1.9.0",
+    "Version" -> "1.10.0",
     "WolframVersion" -> "13.1+",
     "Extensions" -> {
       {
@@ -24,6 +24,7 @@ PacletObject[
           "PeterBurbery`RecreationalMathematics`BalancedTernary",
           "PeterBurbery`RecreationalMathematics`CatalanUnrank",
           "PeterBurbery`RecreationalMathematics`Derangements",
+          "PeterBurbery`RecreationalMathematics`DiagonalWalkPlot",
           "PeterBurbery`RecreationalMathematics`DyckPaths",
           "PeterBurbery`RecreationalMathematics`EulerLinePoints",
           "PeterBurbery`RecreationalMathematics`FivePointConic",
