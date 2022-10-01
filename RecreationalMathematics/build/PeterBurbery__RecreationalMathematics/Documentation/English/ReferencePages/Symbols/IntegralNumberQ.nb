@@ -1,0 +1,1219 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     42993,       1209]
+NotebookOptionsPosition[     34789,       1037]
+NotebookOutlinePosition[     37070,       1094]
+CellTagsIndexPosition[     36984,       1089]
+WindowTitle->IntegralNumberQ
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[GridBox[{
+   {GridBox[{
+      {
+       ItemBox[Cell[BoxData[
+         RowBox[{
+          TemplateBox[{12},
+           "Spacer1"], Cell[
+          "PETER BURBERY/ RECREATIONAL MATHEMATICS SYMBOL", "PacletNameCell",
+           TextAlignment->Center,ExpressionUUID->
+           "40275020-de47-4789-8674-3c5f41d1b04b"], 
+          TemplateBox[{8},
+           "Spacer1"]}]],
+         TextAlignment->Center,ExpressionUUID->
+         "1ff45b10-bf9e-4aa6-ac7f-4422e34ac672"],
+        Background->RGBColor[0.490196, 0.576471, 0.690196],
+        ItemSize->Full], ""}
+     },
+     GridBoxAlignment->{"Rows" -> {{Center}}},
+     GridBoxItemSize->{"Columns" -> {Full, 
+         Scaled[0.02]}, "Rows" -> {{2.5}}}], Cell[TextData[Cell[BoxData[
+     TagBox[
+      ActionMenuBox[
+       FrameBox[Cell[TextData[{
+         "URL",
+         " ",
+         Cell[BoxData[
+          GraphicsBox[
+           {GrayLevel[0.66667], Thickness[0.13], 
+            LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+           AspectRatio->1,
+           ImageSize->20,
+           PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
+          "1d511e55-6897-4a2c-ab70-657df9730047"]
+        }],ExpressionUUID->"1e7c33c9-2b40-48ae-8146-ac070af61218"],
+        StripOnInput->
+         False], {"\<\"PeterBurbery/RecreationalMathematics/ref/\
+IntegralNumberQ\"\>":>None, "\<\"Copy Wolfram Documentation Center URL\"\>":>
+       Module[{DocumentationSearch`Private`nb$}, 
+        DocumentationSearch`Private`nb$ = NotebookPut[
+           Notebook[{
+             Cell[
+             "PeterBurbery/RecreationalMathematics/ref/IntegralNumberQ"]}, 
+            Visible -> False]]; 
+        SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+        FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+        NotebookClose[DocumentationSearch`Private`nb$]; Null], 
+       Delimiter, "\<\"Copy web URL\"\>":>
+       Module[{DocumentationSearch`Private`nb$}, 
+        DocumentationSearch`Private`nb$ = NotebookPut[
+           Notebook[{
+             Cell[
+              BoxData[
+               MakeBoxes[
+                Hyperlink[
+                "http://reference.wolfram.com/language/PeterBurbery/\
+RecreationalMathematics/ref/IntegralNumberQ.html"], StandardForm]], "Input", 
+              TextClipboardType -> "PlainText"]}, Visible -> False]]; 
+        SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+        FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+        NotebookClose[DocumentationSearch`Private`nb$]; 
+        Null], "\<\"Go to web URL\"\>":>FrontEndExecute[{
+         NotebookLocate[{
+           URL[If[
+              TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$132481], 
+              "http://reference.wolfram.com/system-modeler/", 
+              "http://reference.wolfram.com/language/"] <> 
+            "PeterBurbery/RecreationalMathematics/ref/IntegralNumberQ" <> 
+            ".html"], None}]}]},
+       Appearance->None,
+       MenuAppearance->Automatic,
+       MenuStyle->"URLMenu"],
+      MouseAppearanceTag["LinkHand"]]],
+     LineSpacing->{1.4, 0},ExpressionUUID->
+     "a3f163c1-1e16-4920-ad1c-2dd8caaa7a1e"]], "AnchorBar",
+     CacheGraphics->False,ExpressionUUID->
+     "29d1ee7a-6195-4d00-af5b-1d3dfca72a22"]}
+  }]], "AnchorBarGrid",
+ GridBoxOptions->{GridBoxItemSize->{"Columns" -> {
+     Scaled[0.65], {
+      Scaled[0.34]}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
+   "RowsIndexed" -> {}}},
+ CellID->1,ExpressionUUID->"cf1c3139-697a-45d3-811b-74a5882e7174"],
+
+Cell["PeterBurbery`RecreationalMathematics`", "ContextNameCell",ExpressionUUID->"471326b9-ba3f-4513-a34d-bc902b0a7209"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[GridBox[{
+   {Cell[TextData[{
+     Cell[
+     "IntegralNumberQ", "ObjectName",ExpressionUUID->
+      "2dcf5235-4d24-47e6-8c6f-cc5060a7bdf3"],
+     Cell[BoxData[
+      TemplateBox[{8},
+       "Spacer1"]],ExpressionUUID->"fe084e24-f530-4d9a-bc26-302e9f1f66f1"],
+     Cell[BoxData[
+     ""], "ObjectNameTranslation",ExpressionUUID->
+      "12a2e8bf-e33f-469f-9ed6-b5a687bd609b"]
+    }],ExpressionUUID->"aa1419ab-56ce-4f6c-b96c-6ae21f41b25b"], 
+    "\[SpanFromLeft]"}
+  }]], "ObjectNameGrid",ExpressionUUID->"1f4417fb-17df-4c2a-b596-\
+8b97adb9a246"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       TemplateBox[{
+         Cell[
+          TextData["IntegralNumberQ"]], 
+         "paclet:PeterBurberyRecreationalMathematics/ref/IntegralNumberQ", 
+         "PeterBurberyRecreationalMathematics Package Symbol"},
+        "PackageLink",
+        BaseStyle->"InlineFormula"], "[", 
+       StyleBox["n", "TI"], "]"}]], "InlineFormula",
+      FontFamily->"Source Sans Pro",ExpressionUUID->
+      "131b314e-7d3d-4246-abd8-985f438131ce"],
+     "\[LineSeparator]yields ",
+     Cell[BoxData[
+      TemplateBox[{
+        Cell[
+         TextData["True"]], "paclet:ref/True"},
+       "RefLink",
+       BaseStyle->{"InlineFormula"}]], "InlineFormula",
+      FontFamily->"Source Sans Pro",ExpressionUUID->
+      "1c3b8cd8-a72d-473c-9ee5-ad903e982367"],
+     " if ",
+     Cell[BoxData[
+      StyleBox["n", "TI"]], "InlineFormula",
+      FontFamily->"Source Sans Pro",ExpressionUUID->
+      "e19c81a6-4b36-4a1e-9d22-0f4142ce6584"],
+     " is a valid integer and ",
+     Cell[BoxData[
+      TemplateBox[{
+        Cell[
+         TextData["False"]], "paclet:ref/False"},
+       "RefLink",
+       BaseStyle->{"InlineFormula"}]], "InlineFormula",
+      FontFamily->"Source Sans Pro",ExpressionUUID->
+      "f0cb9042-8964-44d3-be27-7ef5a1474cfd"],
+     " otherwise"
+    }],ExpressionUUID->"83808efd-ecdb-4211-b7d1-921449bcc917"]}
+  }]], "Usage",
+ CellID->54927405,ExpressionUUID->"b99cbb08-8940-45b1-b711-6438b80aa21a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  DynamicBox[ToBoxes[
+    If[
+     MatchQ[
+      CurrentValue[
+       EvaluationNotebook[], {
+       TaggingRules, "Openers", "PrimaryExamplesSection"}, Open], 
+      Alternatives[True, Open]], 
+     Style[
+      Graphics[{
+        Thickness[0.18], 
+        RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+        Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+       PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+      0.68 Inherited], 
+     Rotate[
+      Style[
+       Graphics[{
+         Thickness[0.18], 
+         RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+         Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+        PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+       0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+   ImageSizeCache->{13.600000000000001`, {5., 8.600000000000001}}]],
+  ExpressionUUID->"8015f462-ab7c-44b1-8401-a0827cff007e"],
+ Cell[BoxData[
+  TemplateBox[{1},
+   "Spacer1"]],ExpressionUUID->"32bb8ee4-e33e-404e-bbe5-4fd30db43af6"],
+ "Examples",
+ "\[NonBreakingSpace]\[NonBreakingSpace]",
+ Cell["(4)", "ExampleCount",ExpressionUUID->
+  "d644691a-c03f-4ae1-9497-d8736bb66b7a"]
+}], "PrimaryExamplesSection",
+ WholeCellGroupOpener->True,
+ CacheGraphics->False,
+ CellTags->"PrimaryExamplesSection",
+ CellID->31100023,ExpressionUUID->"18b1a1b1-6cf0-4828-ba0f-41b29d73a9cc"],
+
+Cell[BoxData[
+ RowBox[{"Needs", "[", "\"\<PeterBurbery`RecreationalMathematics`\>\"", 
+  "]"}]], "Input", "ExampleInitialization",
+ CellLabel->"In[1]:=",
+ CellID->513693575,ExpressionUUID->"623a5f24-35d9-4718-9269-f6bff866ab01"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  DynamicBox[ToBoxes[
+    If[
+     MatchQ[
+      CurrentValue[
+       EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "0"},
+        Closed], 
+      Alternatives[Open, True]], 
+     Style[
+      Graphics[{
+        Thickness[0.18], 
+        RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+        Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+       PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+      0.68 Inherited], 
+     Rotate[
+      Style[
+       Graphics[{
+         Thickness[0.18], 
+         RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+         Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+        PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+       0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+   ImageSizeCache->{13.600000000000001`, {5., 8.600000000000001}}]],
+  ExpressionUUID->"a1a4f305-fa99-480a-bc9b-88417a402ed4"],
+ Cell[BoxData[
+  TemplateBox[{1},
+   "Spacer1"]],ExpressionUUID->"e1d4a1c7-ed4b-4836-9a10-22b5c0ff2e97"],
+ "Basic Examples",
+ "\[NonBreakingSpace]\[NonBreakingSpace]",
+ Cell["(1)", "ExampleCount",ExpressionUUID->
+  "eb20ea7f-6910-49db-ba28-8caa4ca59f8e"]
+}], "ExampleSection", "ExampleSection",
+ WholeCellGroupOpener->True,
+ CacheGraphics->False,
+ CellID->33649484,ExpressionUUID->"9a50b588-013c-43c5-a13d-e6bc5256e569"],
+
+Cell["Test if an almost-integer is an integer:", "ExampleText",
+ CellID->171884369,ExpressionUUID->"aa401b98-3a0e-4ea7-9c4a-7b2c995896af"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"IntegralNumberQ", "[", 
+  RowBox[{"1", "+", 
+   SuperscriptBox["10", 
+    RowBox[{"-", "100000"}]]}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`RecreationalMathematics`"],
+ CellLabel->"In[1]:=",
+ CellID->122188906,ExpressionUUID->"4396e671-e76c-48d2-af30-f5797b9dafc1"],
+
+Cell[BoxData["False"], "Output",
+ CellLabel->"Out[1]=",
+ CellID->168289701,ExpressionUUID->"38f261fb-3a3a-48ab-86d5-0ec3e9ba63c4"]
+}, Open  ]]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "0"}, 
+  Closed]]]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  DynamicBox[ToBoxes[
+    If[
+     MatchQ[
+      CurrentValue[
+       EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "2"},
+        Closed], 
+      Alternatives[Open, True]], 
+     Style[
+      Graphics[{
+        Thickness[0.18], 
+        RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+        Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+       PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+      0.68 Inherited], 
+     Rotate[
+      Style[
+       Graphics[{
+         Thickness[0.18], 
+         RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+         Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+        PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+       0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+   ImageSizeCache->{
+    13.600000000000001`, {0.5800000000000001, 13.020000000000001`}}]],
+  ExpressionUUID->"bb7414d5-b05b-4901-8679-f64dcde44316"],
+ Cell[BoxData[
+  TemplateBox[{1},
+   "Spacer1"]],ExpressionUUID->"0f1d647c-700a-4d51-b49f-5e10097c44cc"],
+ "Applications",
+ "\[NonBreakingSpace]\[NonBreakingSpace]",
+ Cell["(2)", "ExampleCount",ExpressionUUID->
+  "ff08ec6c-ea67-4805-ac55-96da3dcce0fb"]
+}], "ExampleSection", "ExampleSection",
+ WholeCellGroupOpener->True,
+ CacheGraphics->False,
+ CellID->67093011,ExpressionUUID->"6b103c9a-b022-4bbd-a354-8ba253e4ecb2"],
+
+Cell["Find the value of the Avogadro constant in SI base units:", \
+"ExampleText",
+ CellID->402632742,ExpressionUUID->"e3e29b0d-029c-4ac0-8b1d-124670671218"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"UnitConvert", "[", 
+  RowBox[{
+   TemplateBox[{
+     InterpretationBox["\[InvisibleSpace]", 1], 
+     SubscriptBox[
+      StyleBox["\"N\"", Italic, StripOnInput -> False], 
+      StyleBox["\"A\"", Italic, StripOnInput -> False]], "Avogadro constants",
+      "\"AvogadroConstant\""},
+    "Quantity"], ",", "\"\<SIBase\>\""}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`RecreationalMathematics`"],
+ CellLabel->"In[1]:=",
+ CellID->181614210,ExpressionUUID->"7241c274-ae7e-42da-a3d9-882be22239c0"],
+
+Cell[BoxData[
+ TemplateBox[{"602214076000000000000000", 
+   RowBox[{"\"/\"", "\[InvisibleSpace]", "\"mol\""}], "reciprocal moles", 
+   FractionBox["1", "\"Moles\""]},
+  "Quantity"]], "Output",
+ CellLabel->"Out[1]=",
+ CellID->672522618,ExpressionUUID->"777efa22-141a-4e9c-a600-8d1d5d35126b"]
+}, Open  ]],
+
+Cell["Extract the quantity magnitude:", "ExampleText",
+ CellID->7034486,ExpressionUUID->"05f59771-2ae3-42c7-8a10-3092e82dbfca"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"QuantityMagnitude", "[", 
+  RowBox[{"UnitConvert", "[", 
+   RowBox[{
+    TemplateBox[{
+      InterpretationBox["\[InvisibleSpace]", 1], 
+      SubscriptBox[
+       StyleBox["\"N\"", Italic, StripOnInput -> False], 
+       StyleBox["\"A\"", Italic, StripOnInput -> False]], 
+      "Avogadro constants", "\"AvogadroConstant\""},
+     "Quantity"], ",", "\"\<SIBase\>\""}], "]"}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`RecreationalMathematics`"],
+ CellLabel->"In[2]:=",
+ CellID->48201228,ExpressionUUID->"0d90dd4a-58f6-4217-aa5f-06f721d3fc2b"],
+
+Cell[BoxData["602214076000000000000000"], "Output",
+ CellLabel->"Out[2]=",
+ CellID->58907149,ExpressionUUID->"447a8870-b875-4549-930f-03d87b2ba394"]
+}, Open  ]],
+
+Cell["Test if the value is an integer:", "ExampleText",
+ CellID->131785484,ExpressionUUID->"fe3d5a42-61bc-416c-84c0-1e2f7f159280"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"IntegerQ", "[", 
+  RowBox[{"QuantityMagnitude", "[", 
+   RowBox[{"UnitConvert", "[", 
+    RowBox[{
+     TemplateBox[{
+       InterpretationBox["\[InvisibleSpace]", 1], 
+       SubscriptBox[
+        StyleBox["\"N\"", Italic, StripOnInput -> False], 
+        StyleBox["\"A\"", Italic, StripOnInput -> False]], 
+       "Avogadro constants", "\"AvogadroConstant\""},
+      "Quantity"], ",", "\"\<SIBase\>\""}], "]"}], "]"}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`RecreationalMathematics`"],
+ CellLabel->"In[3]:=",
+ CellID->307687612,ExpressionUUID->"28217e39-f5f3-4f25-9980-fbbb57b32e69"],
+
+Cell[BoxData["True"], "Output",
+ CellLabel->"Out[3]=",
+ CellID->54898356,ExpressionUUID->"2eeedd82-b11d-40c5-b666-d50f28713f17"]
+}, Open  ]],
+
+Cell["\<\
+IntegerQ will not work if the number is entered in scientific notation, \
+however:\
+\>", "ExampleText",
+ CellID->401917467,ExpressionUUID->"c0e94b60-3bc9-4dad-9de6-01682f64a063"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"IntegerQ", "[", 
+  RowBox[{"6.02214076", " ", 
+   SuperscriptBox["10", "23"]}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`RecreationalMathematics`"],
+ CellLabel->"In[4]:=",
+ CellID->28081603,ExpressionUUID->"f1e8cc0d-9e12-4fde-9d6c-4907dfeade0f"],
+
+Cell[BoxData["False"], "Output",
+ CellLabel->"Out[4]=",
+ CellID->747373381,ExpressionUUID->"4623eee8-7c8e-4e17-b179-6eea671fd0e7"]
+}, Open  ]],
+
+Cell["\<\
+IntegralNumberQ tests if the floor and ceiling of the number are the same to \
+get the correct result:\
+\>", "ExampleText",
+ CellID->138780740,ExpressionUUID->"7ee82c42-dcd0-45b7-a1b8-d1c7cffa2dd3"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"IntegralNumberQ", "[", 
+  RowBox[{"6.02214076", " ", 
+   SuperscriptBox["10", "23"]}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`RecreationalMathematics`"],
+ CellLabel->"In[5]:=",
+ CellID->749348965,ExpressionUUID->"884d3f1a-374c-4ed5-9f25-7c9cebcdad21"],
+
+Cell[BoxData["True"], "Output",
+ CellLabel->"Out[5]=",
+ CellID->617860139,ExpressionUUID->"28e74ae3-c73c-4f3a-95cd-310a56241a1e"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  DynamicBox[ToBoxes[
+    If[
+     MatchQ[
+      CurrentValue[
+       EvaluationNotebook[], {
+       TaggingRules, "Openers", "ExampleSubsection", "0"}, Closed], 
+      Alternatives[Open, True]], 
+     Style[
+      Graphics[{
+        Thickness[0.18], 
+        RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+        Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+       PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+      0.68 Inherited], 
+     Rotate[
+      Style[
+       Graphics[{
+         Thickness[0.18], 
+         RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+         Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+        PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+       0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+   ImageSizeCache->{
+    13.600000000000001`, {0.5800000000000001, 13.020000000000001`}}]],
+  ExpressionUUID->"cce0a69b-5133-4f87-bda0-ab9221f2e20c"],
+ Cell[BoxData[
+  TemplateBox[{1},
+   "Spacer1"]],ExpressionUUID->"0345401d-0d03-4d2c-97b8-388a1cc6be69"],
+ "Almost Integers",
+ "\[NonBreakingSpace]\[NonBreakingSpace]",
+ Cell["(1)", "ExampleCount",ExpressionUUID->
+  "830ec099-29ed-4d52-b55e-aaca33c14393"]
+}], "ExampleSubsection", "ExampleSubsection",
+ WholeCellGroupOpener->True,
+ CacheGraphics->False,
+ CellID->44170249,ExpressionUUID->"b3c67f77-9873-42b7-a763-98158eb282ae"],
+
+Cell["\<\
+Test counterexamples to Fermat's last theorem that are almost integers:\
+\>", "ExampleText",
+ CellID->340922430,ExpressionUUID->"5985affc-ddc7-4430-914e-2c4c33c7c834"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"IntegralNumberQ", "[", 
+  FractionBox[
+   RowBox[{
+    SuperscriptBox["1782", "12"], "+", 
+    SuperscriptBox["1841", "12"]}], 
+   SuperscriptBox["1922", "12"]], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`RecreationalMathematics`"],
+ CellLabel->"In[1]:=",
+ CellID->25571907,ExpressionUUID->"0dd4307c-8a60-4437-812b-f806fbdcd374"],
+
+Cell[BoxData["False"], "Output",
+ CellLabel->"Out[1]=",
+ CellID->483501582,ExpressionUUID->"6efe357c-710e-46e2-8658-894f8e7e9d33"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"IntegralNumberQ", "[", 
+  FractionBox[
+   RowBox[{
+    SuperscriptBox["3987", "12"], "+", 
+    SuperscriptBox["4365", "12"]}], 
+   SuperscriptBox["4472", "12"]], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`RecreationalMathematics`"],
+ CellLabel->"In[2]:=",
+ CellID->416466329,ExpressionUUID->"13b2ca0b-9067-4336-a69d-6f585926dd40"],
+
+Cell[BoxData["False"], "Output",
+ CellLabel->"Out[2]=",
+ CellID->990711685,ExpressionUUID->"0a474b8b-4231-4ecc-872d-a5cf588ac8fc"]
+}, Open  ]],
+
+Cell["Test a trigonometric almost integer:", "ExampleText",
+ CellID->534233757,ExpressionUUID->"f9c8ddc3-d289-4837-bb2d-ae4ff27df436"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"IntegralNumberQ", "[", 
+  RowBox[{"Sin", "[", "11", "]"}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`RecreationalMathematics`"],
+ CellLabel->"In[3]:=",
+ CellID->54545718,ExpressionUUID->"ef6cf0bb-1257-4c96-86bf-11a73754b679"],
+
+Cell[BoxData["False"], "Output",
+ CellLabel->"Out[3]=",
+ CellID->334733699,ExpressionUUID->"933b3429-87ea-4853-855d-bf057b09250e"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"N", "[", 
+    RowBox[{"#", ",", "30"}], "]"}], "&"}], "/@", 
+  RowBox[{"{", 
+   RowBox[{"Sin", "[", "11", "]"}], "}"}]}]], "Input",
+ CellProlog:>Needs["PeterBurbery`RecreationalMathematics`"],
+ CellLabel->"In[4]:=",
+ CellID->936256894,ExpressionUUID->"e6959b85-8874-4008-93f6-8130967f921c"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "-", "0.9999902065507034570515648990255221068429711120548225952755`30."}], 
+  "}"}]], "Output",
+ CellLabel->"Out[4]=",
+ CellID->407371479,ExpressionUUID->"bd538b22-bd77-4621-aa23-2c5dfdd29105"]
+}, Open  ]]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSubsection", "0"}, 
+  Closed]]]]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "2"}, 
+  Closed]]]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  DynamicBox[ToBoxes[
+    If[
+     MatchQ[
+      CurrentValue[
+       EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "3"},
+        Closed], 
+      Alternatives[Open, True]], 
+     Style[
+      Graphics[{
+        Thickness[0.18], 
+        RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+        Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+       PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+      0.68 Inherited], 
+     Rotate[
+      Style[
+       Graphics[{
+         Thickness[0.18], 
+         RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+         Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+        PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+       0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+   ImageSizeCache->{
+    13.600000000000001`, {0.5800000000000001, 13.020000000000001`}}]],
+  ExpressionUUID->"2ac2af34-b3dd-4155-a0c9-38a719629464"],
+ Cell[BoxData[
+  TemplateBox[{1},
+   "Spacer1"]],ExpressionUUID->"085208cc-2a4c-4292-ba18-ad704ecbe557"],
+ "Neat Examples",
+ "\[NonBreakingSpace]\[NonBreakingSpace]",
+ Cell["(1)", "ExampleCount",ExpressionUUID->
+  "4db085bb-b439-4675-97d2-3e334cb9340f"]
+}], "ExampleSection", "ExampleSection",
+ WholeCellGroupOpener->True,
+ CacheGraphics->False,
+ CellID->295585271,ExpressionUUID->"dcbac972-7da2-4735-91b6-f213260ad9c6"],
+
+Cell["Make a table of almost integers:", "ExampleText",
+ CellID->370326086,ExpressionUUID->"074e493f-99c9-4d5b-8345-28a152b1e554"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"AlmostIntegers", "=", 
+   RowBox[{"{", 
+    RowBox[{
+     FractionBox[
+      RowBox[{
+       SuperscriptBox["1782", "12"], "+", 
+       SuperscriptBox["1841", "12"]}], 
+      SuperscriptBox["1922", "12"]], ",", 
+     FractionBox[
+      RowBox[{
+       SuperscriptBox["3987", "12"], "+", 
+       SuperscriptBox["4365", "12"]}], 
+      SuperscriptBox["4472", "12"]], ",", 
+     RowBox[{"Sin", "[", "11", "]"}], ",", 
+     RowBox[{"Sin", "[", 
+      RowBox[{"2017", 
+       RadicalBox["2", "5"]}], "]"}], ",", "\[IndentingNewLine]", 
+     RowBox[{
+      SuperscriptBox["\[ExponentialE]", "\[Pi]"], "-", "\[Pi]"}], ",", 
+     RowBox[{"Cos", "[", 
+      RowBox[{"\[Pi]", " ", 
+       RowBox[{"Cos", "[", 
+        RowBox[{"\[Pi]", " ", 
+         RowBox[{"Cos", "[", 
+          RowBox[{"Log", "[", 
+           RowBox[{"\[Pi]", "+", "20"}], "]"}], "]"}]}], "]"}]}], "]"}], ",", 
+     RowBox[{"2", 
+      SuperscriptBox[
+       RowBox[{"Cos", "[", 
+        RowBox[{"Cos", "[", 
+         RowBox[{"Cos", "[", 
+          RowBox[{"Cos", "[", 
+           RowBox[{"Cos", "[", 
+            RowBox[{"Cos", "[", 
+             RowBox[{"Cos", "[", "5", "]"}], "]"}], "]"}], "]"}], "]"}], 
+         "]"}], "]"}], "2"]}], ",", 
+     RowBox[{"22", 
+      SuperscriptBox["\[Pi]", "4"]}], ",", 
+     RowBox[{"510", 
+      RowBox[{"Log", "[", 
+       RowBox[{"10", ",", "7"}], "]"}]}], ",", 
+     RowBox[{"88", 
+      RowBox[{"Log", "[", "89", "]"}]}], ",", 
+     RowBox[{"272", 
+      RowBox[{"Log", "[", 
+       RowBox[{"\[Pi]", ",", "97"}], "]"}]}], ",", 
+     RowBox[{
+      FractionBox["1", "4"], 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"Cos", "[", 
+         FractionBox["1", "10"], "]"}], "+", 
+        RowBox[{"Cosh", "\[IndentingNewLine]", "[", 
+         FractionBox["1", "10"], "]"}], "+", 
+        RowBox[{"2", 
+         RowBox[{"Cos", "[", 
+          RowBox[{
+           FractionBox["1", "20"], 
+           SqrtBox["2"]}], "]"}], 
+         RowBox[{"Cosh", "[", 
+          RowBox[{
+           FractionBox["1", "20"], 
+           SqrtBox["2"]}], "]"}]}]}], ")"}]}], ",", 
+     RowBox[{
+      SuperscriptBox["\[ExponentialE]", "6"], "-", 
+      SuperscriptBox["\[Pi]", "4"], "-", 
+      SuperscriptBox["\[Pi]", "5"]}], ",", 
+     FractionBox[
+      SuperscriptBox["\[Pi]", "9"], 
+      SuperscriptBox["\[ExponentialE]", "8"]], ",", 
+     RowBox[{
+      RowBox[{"10", 
+       RowBox[{"Tanh", "[", 
+        RowBox[{
+         FractionBox["28", "15"], "\[Pi]"}], "]"}]}], "-", 
+      FractionBox[
+       SuperscriptBox["\[Pi]", "9"], 
+       SuperscriptBox["\[ExponentialE]", "8"]]}], ",", "\[IndentingNewLine]", 
+     RowBox[{
+      FractionBox[
+       RowBox[{
+        SuperscriptBox["\[ExponentialE]", "\[Pi]"], "-", 
+        RowBox[{"Log", "[", "3", "]"}]}], 
+       RowBox[{"Log", "[", "2", "]"}]], "-", 
+      FractionBox["4", "5"]}], ",", 
+     FractionBox[
+      RowBox[{"10", 
+       RowBox[{"(", 
+        RowBox[{
+         SuperscriptBox["\[ExponentialE]", "\[Pi]"], "-", 
+         RowBox[{"Log", "[", "3", "]"}]}], ")"}]}], 
+      RowBox[{"Log", "[", "2", "]"}]], ",", 
+     FractionBox[
+      RowBox[{"5", 
+       RowBox[{"(", 
+        RowBox[{"1", "+", 
+         SqrtBox["5"]}], ")"}], 
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{"Gamma", "[", 
+          RowBox[{"3", "/", "4"}], "]"}], ")"}], "2"]}], 
+      RowBox[{
+       SuperscriptBox["\[ExponentialE]", 
+        RowBox[{"5", 
+         RowBox[{"\[Pi]", "/", "6"}]}]], 
+       SqrtBox["\[Pi]"]}]]}], "}"}]}], ";"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`RecreationalMathematics`"],
+ CellLabel->"In[1]:=",
+ CellID->101245670,ExpressionUUID->"4b895a85-3ad4-4668-9e59-a16a3ca59e0f"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"TableForm", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"TraditionalForm", "@", "#"}], ",", 
+       RowBox[{"N", "[", 
+        RowBox[{"#", ",", "38"}], "]"}], ",", 
+       RowBox[{"IntegerQ", "[", "#", "]"}], ",", 
+       RowBox[{"IntegralNumberQ", "[", "#", "]"}]}], "}"}], "&"}], "/@", 
+    "AlmostIntegers"}], ",", 
+   RowBox[{"TableHeadings", "->", 
+    RowBox[{"{", 
+     RowBox[{"None", ",", 
+      RowBox[{"{", 
+       RowBox[{
+       "\"\<Numerical value\>\"", ",", "\"\<IntegerQ\>\"", ",", 
+        "\"\<IntegralNumberQ\>\""}], "}"}]}], "}"}]}]}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`RecreationalMathematics`"],
+ CellLabel->"In[2]:=",
+ CellID->11693988,ExpressionUUID->"fb863d19-2236-4412-8225-858f51636104"],
+
+Cell[BoxData[
+ TagBox[
+  TagBox[GridBox[{
+     {
+      TagBox["\<\"Numerical value\"\>",
+       HoldForm], 
+      TagBox["\<\"IntegerQ\"\>",
+       HoldForm], 
+      TagBox["\<\"IntegralNumberQ\"\>",
+       HoldForm], 
+      TagBox[
+       StyleBox["\<\"\[Null]\"\>",
+        ShowStringCharacters->False],
+       StyleForm[#, ShowStringCharacters -> False]& ]},
+     {
+      TagBox[
+       FormBox[
+        FractionBox["2541210258614589176288669958142428526657", 
+         "2541210259314801410819278649643651567616"],
+        TraditionalForm],
+       TraditionalForm,
+       Editable->True], 
+      "0.9999999997244571825711854944020539968289859887203349919854`38.", 
+      "False", "False"},
+     {
+      TagBox[
+       FormBox[
+        FractionBox["31988328174849306308118115476577243948493553", 
+         "31988328174243362903431179161084287892062208"],
+        TraditionalForm],
+       TraditionalForm,
+       Editable->True], 
+      "1.0000000000189426406214887790113196789506380561717833605906`38.", 
+      "False", "False"},
+     {
+      TagBox[
+       FormBox[
+        RowBox[{"sin", "(", "11", ")"}],
+        TraditionalForm],
+       TraditionalForm,
+       Editable->True], 
+      RowBox[{
+      "-", "0.9999902065507034570515648990255221068429711120548225952755`38."}\
+], "False", "False"},
+     {
+      TagBox[
+       FormBox[
+        RowBox[{"sin", "(", 
+         RowBox[{"2017", " ", 
+          RadicalBox["2", "5"]}], ")"}],
+        TraditionalForm],
+       TraditionalForm,
+       Editable->True], 
+      RowBox[{
+      "-", "0.9999999999999999785677712610609832590685475153114368970436`38."}\
+], "False", "False"},
+     {
+      TagBox[
+       FormBox[
+        RowBox[{
+         SuperscriptBox["\[ExponentialE]", "\[Pi]"], "-", "\[Pi]"}],
+        TraditionalForm],
+       TraditionalForm,
+       Editable->True], 
+      "19.9990999791894757672664429846690444960689368432251061724699`38.", 
+      "False", "False"},
+     {
+      TagBox[
+       FormBox[
+        RowBox[{"cos", "(", 
+         RowBox[{"\[Pi]", " ", 
+          RowBox[{"cos", "(", 
+           RowBox[{"\[Pi]", " ", 
+            RowBox[{"cos", "(", 
+             RowBox[{"log", "(", 
+              RowBox[{"20", "+", "\[Pi]"}], ")"}], ")"}]}], ")"}]}], ")"}],
+        TraditionalForm],
+       TraditionalForm,
+       Editable->True], 
+      RowBox[{
+      "-", "0.9999999999999999999999999999999999606783907387277595539734`38."}\
+], "False", "False"},
+     {
+      TagBox[
+       FormBox[
+        RowBox[{"2", " ", 
+         RowBox[{
+          SuperscriptBox["cos", "2"], "(", 
+          RowBox[{"cos", "(", 
+           RowBox[{"cos", "(", 
+            RowBox[{"cos", "(", 
+             RowBox[{"cos", "(", 
+              RowBox[{"cos", "(", 
+               RowBox[{"cos", "(", "5", ")"}], ")"}], ")"}], ")"}], ")"}], 
+           ")"}], ")"}]}],
+        TraditionalForm],
+       TraditionalForm,
+       Editable->True], 
+      "0.9999952547970004481520450588814584668440567732807643285901`38.", 
+      "False", "False"},
+     {
+      TagBox[
+       FormBox[
+        RowBox[{"22", " ", 
+         SuperscriptBox["\[Pi]", "4"]}],
+        TraditionalForm],
+       TraditionalForm,
+       Editable->True], 
+      "2143.0000027480536192016873191515124474940068847990792772122632`38.", 
+      "False", "False"},
+     {
+      TagBox[
+       FormBox[
+        FractionBox[
+         RowBox[{"510", " ", 
+          RowBox[{"log", "(", "7", ")"}]}], 
+         RowBox[{"log", "(", "10", ")"}]],
+        TraditionalForm],
+       TraditionalForm,
+       Editable->True], 
+      "431.0000004072709836632302918822444586766219221252223573168471`38.", 
+      "False", "False"},
+     {
+      TagBox[
+       FormBox[
+        RowBox[{"88", " ", 
+         RowBox[{"log", "(", "89", ")"}]}],
+        TraditionalForm],
+       TraditionalForm,
+       Editable->True], 
+      "395.0000005364283057719677675789467313076101140677004240413844`38.", 
+      "False", "False"},
+     {
+      TagBox[
+       FormBox[
+        FractionBox[
+         RowBox[{"272", " ", 
+          RowBox[{"log", "(", "97", ")"}]}], 
+         RowBox[{"log", "(", "\[Pi]", ")"}]],
+        TraditionalForm],
+       TraditionalForm,
+       Editable->True], 
+      "1087.000000204958515735571061137038727897841939616342086095121`38.", 
+      "False", "False"},
+     {
+      TagBox[
+       FormBox[
+        RowBox[{
+         FractionBox["1", "4"], " ", 
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{"cos", "(", 
+            FractionBox["1", "10"], ")"}], "+", 
+           RowBox[{"cosh", "(", 
+            FractionBox["1", "10"], ")"}], "+", 
+           RowBox[{"2", " ", 
+            RowBox[{"cos", "(", 
+             FractionBox["1", 
+              RowBox[{"10", " ", 
+               SqrtBox["2"]}]], ")"}], " ", 
+            RowBox[{"cosh", "(", 
+             FractionBox["1", 
+              RowBox[{"10", " ", 
+               SqrtBox["2"]}]], ")"}]}]}], ")"}]}],
+        TraditionalForm],
+       TraditionalForm,
+       Editable->True], 
+      "1.0000000000002480158730158730206524932054032583149229609351`38.", 
+      "False", "False"},
+     {
+      TagBox[
+       FormBox[
+        RowBox[{
+         SuperscriptBox["\[ExponentialE]", "6"], "-", 
+         SuperscriptBox["\[Pi]", "4"], "-", 
+         SuperscriptBox["\[Pi]", "5"]}],
+        TraditionalForm],
+       TraditionalForm,
+       Editable->True], 
+      "0.0000176734512321092055378112475618758716050563687903690125`38.", 
+      "False", "False"},
+     {
+      TagBox[
+       FormBox[
+        FractionBox[
+         SuperscriptBox["\[Pi]", "9"], 
+         SuperscriptBox["\[ExponentialE]", "8"]],
+        TraditionalForm],
+       TraditionalForm,
+       Editable->True], 
+      "9.9998387978048801818832774568126373759358668183598338039868`38.", 
+      "False", "False"},
+     {
+      TagBox[
+       FormBox[
+        RowBox[{
+         RowBox[{"10", " ", 
+          RowBox[{"tanh", "(", 
+           FractionBox[
+            RowBox[{"28", " ", "\[Pi]"}], "15"], ")"}]}], "-", 
+         FractionBox[
+          SuperscriptBox["\[Pi]", "9"], 
+          SuperscriptBox["\[ExponentialE]", "8"]]}],
+        TraditionalForm],
+       TraditionalForm,
+       Editable->True], 
+      "6.0045206711206185804894651380005740238272316346782`38.*^-9", "False", 
+      "False"},
+     {
+      TagBox[
+       FormBox[
+        RowBox[{
+         FractionBox[
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", "\[Pi]"], "-", 
+           RowBox[{"log", "(", "3", ")"}]}], 
+          RowBox[{"log", "(", "2", ")"}]], "-", 
+         FractionBox["4", "5"]}],
+        TraditionalForm],
+       TraditionalForm,
+       Editable->True], 
+      "31.0000000033252655994415108111415128195131077676792699893654`38.", 
+      "False", "False"},
+     {
+      TagBox[
+       FormBox[
+        FractionBox[
+         RowBox[{"10", " ", 
+          RowBox[{"(", 
+           RowBox[{
+            SuperscriptBox["\[ExponentialE]", "\[Pi]"], "-", 
+            RowBox[{"log", "(", "3", ")"}]}], ")"}]}], 
+         RowBox[{"log", "(", "2", ")"}]],
+        TraditionalForm],
+       TraditionalForm,
+       Editable->True], 
+      "318.0000000332526559944151081114151281951310776767926998936538`38.", 
+      "False", "False"},
+     {
+      TagBox[
+       FormBox[
+        FractionBox[
+         RowBox[{"5", " ", 
+          RowBox[{"(", 
+           RowBox[{"1", "+", 
+            SqrtBox["5"]}], ")"}], " ", 
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"-", "5"}], " ", "\[Pi]"}], "/", "6"}]], " ", 
+          SuperscriptBox[
+           TemplateBox[{
+             FractionBox["3", "4"]},
+            "Gamma"], "2"]}], 
+         SqrtBox["\[Pi]"]],
+        TraditionalForm],
+       TraditionalForm,
+       Editable->True], 
+      "1.0000000000000454220213664844557236167763191872833679901255`38.", 
+      "False", "False"}
+    },
+    GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+    GridBoxDividers->{
+     "Columns" -> {{False}}, "Rows" -> {False, True, {False}, False}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[2.0999999999999996`]}, 
+        Offset[0.27999999999999997`]}, "Rows" -> {
+        Offset[0.2], {
+         Offset[0.4]}, 
+        Offset[0.2]}}],
+   {None, OutputFormsDump`HeadedColumns}],
+  Function[BoxForm`e$, 
+   TableForm[
+   BoxForm`e$, 
+    TableHeadings -> {
+     None, {"Numerical value", "IntegerQ", "IntegralNumberQ"}}]]]], "Output",
+ CellLabel->"Out[2]//TableForm=",
+ CellID->964761,ExpressionUUID->"419d7da4-f4ca-428b-91da-e8c0ab6bf830"]
+}, Open  ]]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "3"}, 
+  Closed]]]]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "PrimaryExamplesSection"}, 
+  Closed]]]],
+
+Cell[" ", "FooterCell",ExpressionUUID->"31003ae5-2014-4bbe-8a66-1c4207ec97b4"]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{900., 604.8},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"IntegralNumberQ",
+TaggingRules->{
+ "ModificationHighlight" -> False, "ColorType" -> "", "LinkTrails" -> "", 
+  "HasOptions" -> True, "ExampleCounter" -> 1, 
+  "Openers" -> {
+   "PrimaryExamplesSection" -> Open, 
+    "ExampleSection" -> {"0" -> Open, "2" -> Closed, "3" -> Closed}, 
+    "ExampleSubsection" -> {"0" -> Closed}}, "NewStyles" -> True, 
+  "CitationPopupData" -> $Failed, "ShowCitation" -> False, "RootCaptions" -> 
+  "", "Metadata" -> {
+   "built" -> "{2022, 10, 1, 13, 5, 27.8949125}", 
+    "history" -> {"XX", "", "", ""}, "context" -> 
+    "PeterBurbery`RecreationalMathematics`", "keywords" -> {}, 
+    "specialkeywords" -> {}, "tutorialcollectionlinks" -> {}, "index" -> True,
+     "label" -> "Peter Burbery/ Recreational Mathematics Symbol", "language" -> 
+    "en", "paclet" -> "PeterBurbery/RecreationalMathematics", "status" -> 
+    "None", "summary" -> 
+    "IntegralNumberQ[n] yields True if n is a valid integer and False \
+otherwise", "synonyms" -> {}, "tabletags" -> {}, "title" -> "IntegralNumberQ",
+     "titlemodifier" -> "", "windowtitle" -> "IntegralNumberQ", "type" -> 
+    "Symbol", "uri" -> 
+    "PeterBurbery/RecreationalMathematics/ref/IntegralNumberQ"}},
+CellContext->"Global`",
+FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData[
+    StyleDefinitions -> FrontEnd`FileName[{"Wolfram"}, "Reference.nb"]]], 
+   Cell[
+    StyleData["Input"], CellContext -> "Global`"], 
+   Cell[
+    StyleData["Output"], CellContext -> "Global`"]}, Visible -> False, 
+  FrontEndVersion -> "13.1 for Microsoft Windows (64-bit) (June 16, 2022)", 
+  StyleDefinitions -> "Default.nb"],
+ExpressionUUID->"24c4d6df-0142-4600-b6d8-c15c472dd683"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "PrimaryExamplesSection"->{
+  Cell[6331, 169, 1419, 37, 35, "PrimaryExamplesSection",ExpressionUUID->"18b1a1b1-6cf0-4828-ba0f-41b29d73a9cc",
+   CellTags->"PrimaryExamplesSection",
+   CellID->31100023]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"PrimaryExamplesSection", 36786, 1082}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[587, 21, 3517, 81, 56, "AnchorBarGrid",ExpressionUUID->"cf1c3139-697a-45d3-811b-74a5882e7174",
+ CellID->1],
+Cell[4107, 104, 119, 0, 23, "ContextNameCell",ExpressionUUID->"471326b9-ba3f-4513-a34d-bc902b0a7209"],
+Cell[CellGroupData[{
+Cell[4251, 108, 558, 14, 56, "ObjectNameGrid",ExpressionUUID->"1f4417fb-17df-4c2a-b596-8b97adb9a246"],
+Cell[4812, 124, 1482, 40, 113, "Usage",ExpressionUUID->"b99cbb08-8940-45b1-b711-6438b80aa21a",
+ CellID->54927405]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6331, 169, 1419, 37, 35, "PrimaryExamplesSection",ExpressionUUID->"18b1a1b1-6cf0-4828-ba0f-41b29d73a9cc",
+ CellTags->"PrimaryExamplesSection",
+ CellID->31100023],
+Cell[7753, 208, 228, 4, 26, "Input",ExpressionUUID->"623a5f24-35d9-4718-9269-f6bff866ab01",
+ CellID->513693575],
+Cell[CellGroupData[{
+Cell[8006, 216, 1397, 36, 30, "ExampleSection",ExpressionUUID->"9a50b588-013c-43c5-a13d-e6bc5256e569",
+ CellID->33649484],
+Cell[9406, 254, 138, 1, 38, "ExampleText",ExpressionUUID->"aa401b98-3a0e-4ea7-9c4a-7b2c995896af",
+ CellID->171884369],
+Cell[CellGroupData[{
+Cell[9569, 259, 301, 7, 30, "Input",ExpressionUUID->"4396e671-e76c-48d2-af30-f5797b9dafc1",
+ CellID->122188906],
+Cell[9873, 268, 130, 2, 35, "Output",ExpressionUUID->"38f261fb-3a3a-48ab-86d5-0ec3e9ba63c4",
+ CellID->168289701]
+}, Open  ]]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "0"}, Closed]]]],
+Cell[CellGroupData[{
+Cell[10152, 278, 1418, 37, 30, "ExampleSection",ExpressionUUID->"6b103c9a-b022-4bbd-a354-8ba253e4ecb2",
+ CellID->67093011],
+Cell[11573, 317, 157, 2, 70, "ExampleText",ExpressionUUID->"e3e29b0d-029c-4ac0-8b1d-124670671218",
+ CellID->402632742],
+Cell[CellGroupData[{
+Cell[11755, 323, 524, 12, 70, "Input",ExpressionUUID->"7241c274-ae7e-42da-a3d9-882be22239c0",
+ CellID->181614210],
+Cell[12282, 337, 290, 6, 43, "Output",ExpressionUUID->"777efa22-141a-4e9c-a600-8d1d5d35126b",
+ CellID->672522618]
+}, Open  ]],
+Cell[12587, 346, 127, 1, 70, "ExampleText",ExpressionUUID->"05f59771-2ae3-42c7-8a10-3092e82dbfca",
+ CellID->7034486],
+Cell[CellGroupData[{
+Cell[12739, 351, 575, 13, 70, "Input",ExpressionUUID->"0d90dd4a-58f6-4217-aa5f-06f721d3fc2b",
+ CellID->48201228],
+Cell[13317, 366, 148, 2, 35, "Output",ExpressionUUID->"447a8870-b875-4549-930f-03d87b2ba394",
+ CellID->58907149]
+}, Open  ]],
+Cell[13480, 371, 130, 1, 70, "ExampleText",ExpressionUUID->"fe3d5a42-61bc-416c-84c0-1e2f7f159280",
+ CellID->131785484],
+Cell[CellGroupData[{
+Cell[13635, 376, 620, 14, 70, "Input",ExpressionUUID->"28217e39-f5f3-4f25-9980-fbbb57b32e69",
+ CellID->307687612],
+Cell[14258, 392, 128, 2, 35, "Output",ExpressionUUID->"2eeedd82-b11d-40c5-b666-d50f28713f17",
+ CellID->54898356]
+}, Open  ]],
+Cell[14401, 397, 188, 4, 70, "ExampleText",ExpressionUUID->"c0e94b60-3bc9-4dad-9de6-01682f64a063",
+ CellID->401917467],
+Cell[CellGroupData[{
+Cell[14614, 405, 278, 6, 70, "Input",ExpressionUUID->"f1e8cc0d-9e12-4fde-9d6c-4907dfeade0f",
+ CellID->28081603],
+Cell[14895, 413, 130, 2, 35, "Output",ExpressionUUID->"4623eee8-7c8e-4e17-b179-6eea671fd0e7",
+ CellID->747373381]
+}, Open  ]],
+Cell[15040, 418, 208, 4, 70, "ExampleText",ExpressionUUID->"7ee82c42-dcd0-45b7-a1b8-d1c7cffa2dd3",
+ CellID->138780740],
+Cell[CellGroupData[{
+Cell[15273, 426, 286, 6, 70, "Input",ExpressionUUID->"884d3f1a-374c-4ed5-9f25-7c9cebcdad21",
+ CellID->749348965],
+Cell[15562, 434, 129, 2, 35, "Output",ExpressionUUID->"28e74ae3-c73c-4f3a-95cd-310a56241a1e",
+ CellID->617860139]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[15728, 441, 1430, 37, 70, "ExampleSubsection",ExpressionUUID->"b3c67f77-9873-42b7-a763-98158eb282ae",
+ CellID->44170249],
+Cell[17161, 480, 177, 3, 70, "ExampleText",ExpressionUUID->"5985affc-ddc7-4430-914e-2c4c33c7c834",
+ CellID->340922430],
+Cell[CellGroupData[{
+Cell[17363, 487, 360, 9, 70, "Input",ExpressionUUID->"0dd4307c-8a60-4437-812b-f806fbdcd374",
+ CellID->25571907],
+Cell[17726, 498, 130, 2, 35, "Output",ExpressionUUID->"6efe357c-710e-46e2-8658-894f8e7e9d33",
+ CellID->483501582]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[17893, 505, 361, 9, 70, "Input",ExpressionUUID->"13b2ca0b-9067-4336-a69d-6f585926dd40",
+ CellID->416466329],
+Cell[18257, 516, 130, 2, 35, "Output",ExpressionUUID->"0a474b8b-4231-4ecc-872d-a5cf588ac8fc",
+ CellID->990711685]
+}, Open  ]],
+Cell[18402, 521, 134, 1, 70, "ExampleText",ExpressionUUID->"f9c8ddc3-d289-4837-bb2d-ae4ff27df436",
+ CellID->534233757],
+Cell[CellGroupData[{
+Cell[18561, 526, 257, 5, 70, "Input",ExpressionUUID->"ef6cf0bb-1257-4c96-86bf-11a73754b679",
+ CellID->54545718],
+Cell[18821, 533, 130, 2, 35, "Output",ExpressionUUID->"933b3429-87ea-4853-855d-bf057b09250e",
+ CellID->334733699]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[18988, 540, 337, 9, 70, "Input",ExpressionUUID->"e6959b85-8874-4008-93f6-8130967f921c",
+ CellID->936256894],
+Cell[19328, 551, 235, 6, 35, "Output",ExpressionUUID->"bd538b22-bd77-4621-aa23-2c5dfdd29105",
+ CellID->407371479]
+}, Open  ]]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSubsection", "0"}, Closed]]]]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "2"}, Closed]]]],
+Cell[CellGroupData[{
+Cell[19827, 568, 1420, 37, 24, "ExampleSection",ExpressionUUID->"dcbac972-7da2-4735-91b6-f213260ad9c6",
+ CellID->295585271],
+Cell[21250, 607, 130, 1, 70, "ExampleText",ExpressionUUID->"074e493f-99c9-4d5b-8345-28a152b1e554",
+ CellID->370326086],
+Cell[21383, 610, 3696, 110, 70, "Input",ExpressionUUID->"4b895a85-3ad4-4668-9e59-a16a3ca59e0f",
+ CellID->101245670],
+Cell[CellGroupData[{
+Cell[25104, 724, 803, 22, 70, "Input",ExpressionUUID->"fb863d19-2236-4412-8225-858f51636104",
+ CellID->11693988],
+Cell[25910, 748, 8555, 278, 483, "Output",ExpressionUUID->"419d7da4-f4ca-428b-91da-e8c0ab6bf830",
+ CellID->964761]
+}, Open  ]]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "3"}, Closed]]]]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "PrimaryExamplesSection"}, Closed]]]],
+Cell[34707, 1035, 78, 0, 41, "FooterCell",ExpressionUUID->"31003ae5-2014-4bbe-8a66-1c4207ec97b4"]
+}
+]
+*)
+
+(* End of internal cache information *)
+

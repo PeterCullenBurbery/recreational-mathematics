@@ -1,0 +1,1170 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     50276,       1160]
+NotebookOptionsPosition[     41466,        977]
+NotebookOutlinePosition[     43856,       1036]
+CellTagsIndexPosition[     43770,       1031]
+WindowTitle->AllBalancedGroupingSymbols
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[GridBox[{
+   {GridBox[{
+      {
+       ItemBox[Cell[BoxData[
+         RowBox[{
+          TemplateBox[{12},
+           "Spacer1"], Cell[
+          "PETER BURBERY/ RECREATIONAL MATHEMATICS SYMBOL", "PacletNameCell",
+           TextAlignment->Center,ExpressionUUID->
+           "8e79af91-339e-407e-a512-2de8c66c1f94"], 
+          TemplateBox[{8},
+           "Spacer1"]}]],
+         TextAlignment->Center,ExpressionUUID->
+         "5bed4df2-8538-4459-8a2b-ccc8e0fc3c2d"],
+        Background->RGBColor[0.490196, 0.576471, 0.690196],
+        ItemSize->Full], ""}
+     },
+     GridBoxAlignment->{"Rows" -> {{Center}}},
+     GridBoxItemSize->{"Columns" -> {Full, 
+         Scaled[0.02]}, "Rows" -> {{2.5}}}], Cell[TextData[{
+     Cell[BoxData[
+      TagBox[
+       ActionMenuBox[
+        FrameBox[Cell[TextData[{
+          "Related Guides",
+          " ",
+          Cell[BoxData[
+           GraphicsBox[
+            {GrayLevel[0.66667], Thickness[0.13], 
+             LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+            AspectRatio->1,
+            ImageSize->20,
+            PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
+           "f5bbe0bb-732b-4d0a-98ac-d47928d8c108"]
+         }],ExpressionUUID->"a2ed873b-ed1e-4a3f-98fd-38c074076797"],
+         StripOnInput->False], {"\<\"Math Puzzles\"\>":>
+        Documentation`HelpLookup[
+        "paclet:PeterBurbery/RecreationalMathematics/guide/MathPuzzles"]},
+        Appearance->None,
+        MenuAppearance->Automatic,
+        MenuStyle->"MoreAbout"],
+       MouseAppearanceTag["LinkHand"]]],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "3b1e06fc-f638-4859-98fd-83bd9343e3d0"],
+     "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
+\[ThickSpace]",
+     Cell[BoxData[
+      TagBox[
+       ActionMenuBox[
+        FrameBox[Cell[TextData[{
+          "URL",
+          " ",
+          Cell[BoxData[
+           GraphicsBox[
+            {GrayLevel[0.66667], Thickness[0.13], 
+             LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+            AspectRatio->1,
+            ImageSize->20,
+            PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
+           "82aa1efd-339c-4e91-8c71-760e95d3029a"]
+         }],ExpressionUUID->"cc0b5a56-63ba-4c79-84a5-bdfea887f9f3"],
+         StripOnInput->
+          False], {"\<\"PeterBurbery/RecreationalMathematics/ref/\
+AllBalancedGroupingSymbols\"\>":>
+        None, "\<\"Copy Wolfram Documentation Center URL\"\>":>
+        Module[{DocumentationSearch`Private`nb$}, 
+         DocumentationSearch`Private`nb$ = NotebookPut[
+            Notebook[{
+              Cell[
+              "PeterBurbery/RecreationalMathematics/ref/\
+AllBalancedGroupingSymbols"]}, Visible -> False]]; 
+         SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+         FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+         NotebookClose[DocumentationSearch`Private`nb$]; Null], 
+        Delimiter, "\<\"Copy web URL\"\>":>
+        Module[{DocumentationSearch`Private`nb$}, 
+         DocumentationSearch`Private`nb$ = NotebookPut[
+            Notebook[{
+              Cell[
+               BoxData[
+                MakeBoxes[
+                 Hyperlink[
+                 "http://reference.wolfram.com/language/PeterBurbery/\
+RecreationalMathematics/ref/AllBalancedGroupingSymbols.html"], StandardForm]],
+                "Input", TextClipboardType -> "PlainText"]}, Visible -> 
+             False]]; SelectionMove[
+          DocumentationSearch`Private`nb$, All, Notebook]; 
+         FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+         NotebookClose[DocumentationSearch`Private`nb$]; 
+         Null], "\<\"Go to web URL\"\>":>FrontEndExecute[{
+          NotebookLocate[{
+            URL[If[
+               TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$99159], 
+               "http://reference.wolfram.com/system-modeler/", 
+               "http://reference.wolfram.com/language/"] <> 
+             "PeterBurbery/RecreationalMathematics/ref/\
+AllBalancedGroupingSymbols" <> ".html"], None}]}]},
+        Appearance->None,
+        MenuAppearance->Automatic,
+        MenuStyle->"URLMenu"],
+       MouseAppearanceTag["LinkHand"]]],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "06f20d4c-6786-4066-9719-7b0ab3be9a5a"]
+    }], "AnchorBar",
+     CacheGraphics->False,ExpressionUUID->
+     "3bf97a02-29db-4996-acd1-565b3497d59b"]}
+  }]], "AnchorBarGrid",
+ GridBoxOptions->{GridBoxItemSize->{"Columns" -> {
+     Scaled[0.65], {
+      Scaled[0.34]}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
+   "RowsIndexed" -> {}}},
+ CellID->1,ExpressionUUID->"ba1f9955-654b-41e4-a453-f38f94fa3e35"],
+
+Cell["PeterBurbery`RecreationalMathematics`", "ContextNameCell",ExpressionUUID->"41fbb814-6f3f-4ebe-98b6-9b2352903bd5"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[GridBox[{
+   {Cell[TextData[{
+     Cell[
+     "AllBalancedGroupingSymbols", "ObjectName",ExpressionUUID->
+      "5ff4a8c8-af74-4cc3-957c-f07cec8d32bf"],
+     Cell[BoxData[
+      TemplateBox[{8},
+       "Spacer1"]],ExpressionUUID->"699c4e60-c81e-4af6-bbac-b65755fe0716"],
+     Cell[BoxData[
+     ""], "ObjectNameTranslation",ExpressionUUID->
+      "01d5bda2-ca4c-46ee-a078-a28d5b4e40da"]
+    }],ExpressionUUID->"89627944-d01c-4a46-951b-8478397d7e26"], 
+    "\[SpanFromLeft]"}
+  }]], "ObjectNameGrid",ExpressionUUID->"2df44360-ae82-47e6-ba3a-\
+1a3b09845247"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       TemplateBox[{
+         Cell[
+          TextData["AllBalancedGroupingSymbols"]], 
+         "paclet:PeterBurberyRecreationalMathematics/ref/\
+AllBalancedGroupingSymbols", 
+         "PeterBurberyRecreationalMathematics Package Symbol"},
+        "PackageLink",
+        BaseStyle->"InlineFormula"], "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          StyleBox["openingsymbol", "TI"], ",", 
+          StyleBox["closingsymbol", "TI"]}], "}"}], ",", 
+        StyleBox["n", "TI"]}], "]"}]], "InlineFormula",
+      FontFamily->"Source Sans Pro",ExpressionUUID->
+      "fe9869d5-3c6f-4b8a-b88e-06dd30d655ca"],
+     "\[LineSeparator]generates the set of all balanced forms of ",
+     Cell[BoxData[
+      StyleBox["openingsymbol", "TI"]], "InlineFormula",
+      FontFamily->"Source Sans Pro",ExpressionUUID->
+      "1fd0828f-1e87-4e65-878a-dd3899093354"],
+     " and ",
+     Cell[BoxData[
+      StyleBox["closingsymbol", "TI"]], "InlineFormula",
+      FontFamily->"Source Sans Pro",ExpressionUUID->
+      "7989dc57-2884-4a3c-ab7f-2ff517c553c7"],
+     " with ",
+     Cell[BoxData[
+      StyleBox["n", "TI"]], "InlineFormula",
+      FontFamily->"Source Sans Pro",ExpressionUUID->
+      "f113a9d6-627b-4286-b35a-cb8cfe08496a"],
+     " opening symbols"
+    }],ExpressionUUID->"1945fe58-57b9-4ccf-bbec-6dd839cdd496"]}
+  }]], "Usage",
+ CellID->747303446,ExpressionUUID->"693c3b33-156d-48ab-acd1-5efc97ce95ea"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  DynamicBox[ToBoxes[
+    If[
+     MatchQ[
+      CurrentValue[
+       EvaluationNotebook[], {
+       TaggingRules, "Openers", "PrimaryExamplesSection"}, Open], 
+      Alternatives[True, Open]], 
+     Style[
+      Graphics[{
+        Thickness[0.18], 
+        RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+        Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+       PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+      0.68 Inherited], 
+     Rotate[
+      Style[
+       Graphics[{
+         Thickness[0.18], 
+         RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+         Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+        PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+       0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+   ImageSizeCache->{13.600000000000001`, {5., 8.600000000000001}}]],
+  ExpressionUUID->"bc5626d5-3314-4402-9d69-08a87307feef"],
+ Cell[BoxData[
+  TemplateBox[{1},
+   "Spacer1"]],ExpressionUUID->"de85bbb3-870b-4526-94c7-a18bf27b2db4"],
+ "Examples",
+ "\[NonBreakingSpace]\[NonBreakingSpace]",
+ Cell["(4)", "ExampleCount",ExpressionUUID->
+  "5fe6e333-ab44-4dc9-b653-6b60913dc08a"]
+}], "PrimaryExamplesSection",
+ WholeCellGroupOpener->True,
+ CacheGraphics->False,
+ CellTags->"PrimaryExamplesSection",
+ CellID->136044,ExpressionUUID->"7f5b184f-91a5-47e5-b618-46700f0d825d"],
+
+Cell[BoxData[
+ RowBox[{"Needs", "[", "\"\<PeterBurbery`RecreationalMathematics`\>\"", 
+  "]"}]], "Input", "ExampleInitialization",
+ CellLabel->"In[1]:=",
+ CellID->881572408,ExpressionUUID->"8965fa6d-bf57-4bb7-b6cc-4c514df14fac"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  DynamicBox[ToBoxes[
+    If[
+     MatchQ[
+      CurrentValue[
+       EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "0"},
+        Closed], 
+      Alternatives[Open, True]], 
+     Style[
+      Graphics[{
+        Thickness[0.18], 
+        RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+        Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+       PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+      0.68 Inherited], 
+     Rotate[
+      Style[
+       Graphics[{
+         Thickness[0.18], 
+         RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+         Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+        PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+       0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+   ImageSizeCache->{13.600000000000001`, {5., 8.600000000000001}}]],
+  ExpressionUUID->"7f38cff0-3d7f-4eb3-b7ba-d1250affdbfd"],
+ Cell[BoxData[
+  TemplateBox[{1},
+   "Spacer1"]],ExpressionUUID->"010c1c30-21f3-4fc6-934c-794e63f19f89"],
+ "Basic Examples",
+ "\[NonBreakingSpace]\[NonBreakingSpace]",
+ Cell["(1)", "ExampleCount",ExpressionUUID->
+  "dc56dcc4-f54d-4590-aa0c-f8c1b83d27b6"]
+}], "ExampleSection", "ExampleSection",
+ WholeCellGroupOpener->True,
+ CacheGraphics->False,
+ CellID->187912268,ExpressionUUID->"24f264a3-df5f-4a75-8dd3-e9eabe980697"],
+
+Cell["Find all sets of 3 parentheses that are balanced:", "ExampleText",
+ CellID->188377867,ExpressionUUID->"a1ea68c1-56a7-4b32-a553-9832776f786f"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"AllBalancedGroupingSymbols", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"\"\<(\>\"", ",", "\"\<)\>\""}], "}"}], ",", "3"}], 
+  "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`RecreationalMathematics`"],
+ CellLabel->"In[1]:=",
+ CellID->348952175,ExpressionUUID->"0969d7c9-8841-4b31-b99c-1734fd32e5ef"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"((()))\"\>", ",", "\<\"(()())\"\>", ",", "\<\"(())()\"\>", 
+   ",", "\<\"()(())\"\>", ",", "\<\"()()()\"\>"}], "}"}]], "Output",
+ CellLabel->"Out[1]=",
+ CellID->80040315,ExpressionUUID->"5d417490-92e2-479d-b317-0bfbf2faab73"]
+}, Open  ]],
+
+Cell["All 5 sets:", "ExampleText",
+ CellID->156199380,ExpressionUUID->"7ab52c1d-c3d8-435a-aba4-4ee88362d2a9"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"AllBalancedGroupingSymbols", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"\"\<(\>\"", ",", "\"\<)\>\""}], "}"}], ",", "5"}], 
+  "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`RecreationalMathematics`"],
+ CellLabel->"In[2]:=",
+ CellID->97256339,ExpressionUUID->"09c945fb-b509-4e1b-92ea-91792d6cf843"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"((((()))))\"\>", ",", "\<\"(((()())))\"\>", 
+   ",", "\<\"(((())()))\"\>", ",", "\<\"(((()))())\"\>", 
+   ",", "\<\"(((())))()\"\>", ",", "\<\"((()(())))\"\>", 
+   ",", "\<\"((()()()))\"\>", ",", "\<\"((()())())\"\>", 
+   ",", "\<\"((()()))()\"\>", ",", "\<\"((())(()))\"\>", 
+   ",", "\<\"((())()())\"\>", ",", "\<\"((())())()\"\>", 
+   ",", "\<\"((()))(())\"\>", ",", "\<\"((()))()()\"\>", 
+   ",", "\<\"(()((())))\"\>", ",", "\<\"(()(()()))\"\>", 
+   ",", "\<\"(()(())())\"\>", ",", "\<\"(()(()))()\"\>", 
+   ",", "\<\"(()()(()))\"\>", ",", "\<\"(()()()())\"\>", 
+   ",", "\<\"(()()())()\"\>", ",", "\<\"(()())(())\"\>", 
+   ",", "\<\"(()())()()\"\>", ",", "\<\"(())((()))\"\>", 
+   ",", "\<\"(())(()())\"\>", ",", "\<\"(())(())()\"\>", 
+   ",", "\<\"(())()(())\"\>", ",", "\<\"(())()()()\"\>", 
+   ",", "\<\"()(((())))\"\>", ",", "\<\"()((()()))\"\>", 
+   ",", "\<\"()((())())\"\>", ",", "\<\"()((()))()\"\>", 
+   ",", "\<\"()(()(()))\"\>", ",", "\<\"()(()()())\"\>", 
+   ",", "\<\"()(()())()\"\>", ",", "\<\"()(())(())\"\>", 
+   ",", "\<\"()(())()()\"\>", ",", "\<\"()()((()))\"\>", 
+   ",", "\<\"()()(()())\"\>", ",", "\<\"()()(())()\"\>", 
+   ",", "\<\"()()()(())\"\>", ",", "\<\"()()()()()\"\>"}], "}"}]], "Output",
+ CellLabel->"Out[2]=",
+ CellID->23146698,ExpressionUUID->"8972f5ce-927f-4e41-a99b-40adf406bd5c"]
+}, Open  ]]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "0"}, 
+  Closed]]]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  DynamicBox[ToBoxes[
+    If[
+     MatchQ[
+      CurrentValue[
+       EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "1"},
+        Closed], 
+      Alternatives[Open, True]], 
+     Style[
+      Graphics[{
+        Thickness[0.18], 
+        RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+        Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+       PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+      0.68 Inherited], 
+     Rotate[
+      Style[
+       Graphics[{
+         Thickness[0.18], 
+         RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+         Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+        PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+       0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+   ImageSizeCache->{
+    13.600000000000001`, {0.5800000000000001, 13.020000000000001`}}]],
+  ExpressionUUID->"cd73ac7e-2be4-4da6-92a6-6521b04bda15"],
+ Cell[BoxData[
+  TemplateBox[{1},
+   "Spacer1"]],ExpressionUUID->"78190721-635b-43c8-a69e-74fcbc8dbdbb"],
+ "Scope",
+ "\[NonBreakingSpace]\[NonBreakingSpace]",
+ Cell["(1)", "ExampleCount",ExpressionUUID->
+  "028a29d6-969c-4983-9ac6-70fdc3f8bd10"]
+}], "ExampleSection", "ExampleSection",
+ WholeCellGroupOpener->True,
+ CacheGraphics->False,
+ CellID->89464102,ExpressionUUID->"cf7fca0d-60cb-402c-8ff7-cae29eac4c69"],
+
+Cell["Find all balanced parentheses with 10 opening parentheses:", \
+"ExampleText",
+ CellID->38101075,ExpressionUUID->"e7d19423-1a3e-4990-b3c1-ca0ca5de5984"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"AllBalancedGroupingSymbols", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"\"\<(\>\"", ",", "\"\<)\>\""}], "}"}], ",", "10"}], 
+  "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`RecreationalMathematics`"],
+ CellLabel->"In[1]:=",
+ CellID->2775345,ExpressionUUID->"95921ba3-24fe-4bf9-a176-e317446732ce"],
+
+Cell[BoxData[
+ TemplateBox[<|"shortenedBoxes" -> TagBox[
+     RowBox[{"{", 
+       RowBox[{
+        "\"(((((((((())))))))))\"", ",", "\"((((((((()()))))))))\"", ",", 
+         "\"((((((((())())))))))\"", ",", "\"((((((((()))()))))))\"", ",", 
+         TemplateBox[{"16788"}, "OutputSizeLimit`Skeleton"], ",", 
+         "\"()()()()()()()(()())\"", ",", "\"()()()()()()()(())()\"", ",", 
+         "\"()()()()()()()()(())\"", ",", "\"()()()()()()()()()()\""}], "}"}],
+      Short[#, 5]& ], "line" -> 32, "sessionID" -> 19489125857304144563, 
+   "byteCount" -> 940656, "size" -> 5, "stored" -> False, "expr" -> 
+   Missing["NotAvailable", "NewSessionID"], "wrap" -> OutputSizeLimit`Defer, 
+   "version" -> 1|>,
+  "OutputSizeLimitTemplate"]], "Output",
+ CellLabel->"Out[1]=",
+ CellID->610024159,ExpressionUUID->"4b9e776e-1326-4ee5-bcb8-981a9e2a44af"]
+}, Open  ]]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "1"}, 
+  Closed]]]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  DynamicBox[ToBoxes[
+    If[
+     MatchQ[
+      CurrentValue[
+       EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "3"},
+        Closed], 
+      Alternatives[Open, True]], 
+     Style[
+      Graphics[{
+        Thickness[0.18], 
+        RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+        Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+       PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+      0.68 Inherited], 
+     Rotate[
+      Style[
+       Graphics[{
+         Thickness[0.18], 
+         RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+         Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+        PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+       0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+   ImageSizeCache->{
+    13.600000000000001`, {0.5800000000000001, 13.020000000000001`}}]],
+  ExpressionUUID->"d552725a-84dc-4d1c-a680-6472c000d805"],
+ Cell[BoxData[
+  TemplateBox[{1},
+   "Spacer1"]],ExpressionUUID->"eee129b6-ede9-4afb-aeeb-136821132b71"],
+ "Applications",
+ "\[NonBreakingSpace]\[NonBreakingSpace]",
+ Cell["(1)", "ExampleCount",ExpressionUUID->
+  "3944b38c-70b0-4bbd-8bf7-82e40cccebfb"]
+}], "ExampleSection", "ExampleSection",
+ WholeCellGroupOpener->True,
+ CacheGraphics->False,
+ CellID->905532210,ExpressionUUID->"b3b6c929-9c69-4a55-987b-9eb3081cb1c2"],
+
+Cell["Generate all sets of 4 floor brackets:", "ExampleText",
+ CellID->308619342,ExpressionUUID->"8d8ed770-e0e1-476d-b6ff-306f891f85da"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"AllBalancedGroupingSymbols", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"\"\<\[LeftFloor]\>\"", ",", "\"\<\[RightFloor]\>\""}], "}"}], 
+   ",", "4"}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`RecreationalMathematics`"],
+ CellLabel->"In[1]:=",
+ CellID->176603379,ExpressionUUID->"af734d57-90aa-43d3-a804-d453a5652e7b"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"\[LeftFloor]\[LeftFloor]\[LeftFloor]\[LeftFloor]\[RightFloor]\
+\[RightFloor]\[RightFloor]\[RightFloor]\"\>", 
+   ",", "\<\"\[LeftFloor]\[LeftFloor]\[LeftFloor]\[RightFloor]\[LeftFloor]\
+\[RightFloor]\[RightFloor]\[RightFloor]\"\>", 
+   ",", "\<\"\[LeftFloor]\[LeftFloor]\[LeftFloor]\[RightFloor]\[RightFloor]\
+\[LeftFloor]\[RightFloor]\[RightFloor]\"\>", 
+   ",", "\<\"\[LeftFloor]\[LeftFloor]\[LeftFloor]\[RightFloor]\[RightFloor]\
+\[RightFloor]\[LeftFloor]\[RightFloor]\"\>", 
+   ",", "\<\"\[LeftFloor]\[LeftFloor]\[RightFloor]\[LeftFloor]\[LeftFloor]\
+\[RightFloor]\[RightFloor]\[RightFloor]\"\>", 
+   ",", "\<\"\[LeftFloor]\[LeftFloor]\[RightFloor]\[LeftFloor]\[RightFloor]\
+\[LeftFloor]\[RightFloor]\[RightFloor]\"\>", 
+   ",", "\<\"\[LeftFloor]\[LeftFloor]\[RightFloor]\[LeftFloor]\[RightFloor]\
+\[RightFloor]\[LeftFloor]\[RightFloor]\"\>", 
+   ",", "\<\"\[LeftFloor]\[LeftFloor]\[RightFloor]\[RightFloor]\[LeftFloor]\
+\[LeftFloor]\[RightFloor]\[RightFloor]\"\>", 
+   ",", "\<\"\[LeftFloor]\[LeftFloor]\[RightFloor]\[RightFloor]\[LeftFloor]\
+\[RightFloor]\[LeftFloor]\[RightFloor]\"\>", 
+   ",", "\<\"\[LeftFloor]\[RightFloor]\[LeftFloor]\[LeftFloor]\[LeftFloor]\
+\[RightFloor]\[RightFloor]\[RightFloor]\"\>", 
+   ",", "\<\"\[LeftFloor]\[RightFloor]\[LeftFloor]\[LeftFloor]\[RightFloor]\
+\[LeftFloor]\[RightFloor]\[RightFloor]\"\>", 
+   ",", "\<\"\[LeftFloor]\[RightFloor]\[LeftFloor]\[LeftFloor]\[RightFloor]\
+\[RightFloor]\[LeftFloor]\[RightFloor]\"\>", 
+   ",", "\<\"\[LeftFloor]\[RightFloor]\[LeftFloor]\[RightFloor]\[LeftFloor]\
+\[LeftFloor]\[RightFloor]\[RightFloor]\"\>", 
+   ",", "\<\"\[LeftFloor]\[RightFloor]\[LeftFloor]\[RightFloor]\[LeftFloor]\
+\[RightFloor]\[LeftFloor]\[RightFloor]\"\>"}], "}"}]], "Output",
+ CellLabel->"Out[1]=",
+ CellID->43231335,ExpressionUUID->"f9967b0a-8681-4410-be9b-9e203cde1c05"]
+}, Open  ]],
+
+Cell["All ceiling brackets:", "ExampleText",
+ CellID->209023059,ExpressionUUID->"bc882764-6996-4492-8907-066c2ef99d04"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"AllBalancedGroupingSymbols", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"\"\<\[LeftCeiling]\>\"", ",", "\"\<\[RightCeiling]\>\""}], "}"}],
+    ",", "4"}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`RecreationalMathematics`"],
+ CellLabel->"In[2]:=",
+ CellID->78922093,ExpressionUUID->"2a8d9f9d-b71a-48ac-b01b-d5d902a5ce26"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"\[LeftCeiling]\[LeftCeiling]\[LeftCeiling]\[LeftCeiling]\
+\[RightCeiling]\[RightCeiling]\[RightCeiling]\[RightCeiling]\"\>", 
+   ",", "\<\"\[LeftCeiling]\[LeftCeiling]\[LeftCeiling]\[RightCeiling]\
+\[LeftCeiling]\[RightCeiling]\[RightCeiling]\[RightCeiling]\"\>", 
+   ",", "\<\"\[LeftCeiling]\[LeftCeiling]\[LeftCeiling]\[RightCeiling]\
+\[RightCeiling]\[LeftCeiling]\[RightCeiling]\[RightCeiling]\"\>", 
+   ",", "\<\"\[LeftCeiling]\[LeftCeiling]\[LeftCeiling]\[RightCeiling]\
+\[RightCeiling]\[RightCeiling]\[LeftCeiling]\[RightCeiling]\"\>", 
+   ",", "\<\"\[LeftCeiling]\[LeftCeiling]\[RightCeiling]\[LeftCeiling]\
+\[LeftCeiling]\[RightCeiling]\[RightCeiling]\[RightCeiling]\"\>", 
+   ",", "\<\"\[LeftCeiling]\[LeftCeiling]\[RightCeiling]\[LeftCeiling]\
+\[RightCeiling]\[LeftCeiling]\[RightCeiling]\[RightCeiling]\"\>", 
+   ",", "\<\"\[LeftCeiling]\[LeftCeiling]\[RightCeiling]\[LeftCeiling]\
+\[RightCeiling]\[RightCeiling]\[LeftCeiling]\[RightCeiling]\"\>", 
+   ",", "\<\"\[LeftCeiling]\[LeftCeiling]\[RightCeiling]\[RightCeiling]\
+\[LeftCeiling]\[LeftCeiling]\[RightCeiling]\[RightCeiling]\"\>", 
+   ",", "\<\"\[LeftCeiling]\[LeftCeiling]\[RightCeiling]\[RightCeiling]\
+\[LeftCeiling]\[RightCeiling]\[LeftCeiling]\[RightCeiling]\"\>", 
+   ",", "\<\"\[LeftCeiling]\[RightCeiling]\[LeftCeiling]\[LeftCeiling]\
+\[LeftCeiling]\[RightCeiling]\[RightCeiling]\[RightCeiling]\"\>", 
+   ",", "\<\"\[LeftCeiling]\[RightCeiling]\[LeftCeiling]\[LeftCeiling]\
+\[RightCeiling]\[LeftCeiling]\[RightCeiling]\[RightCeiling]\"\>", 
+   ",", "\<\"\[LeftCeiling]\[RightCeiling]\[LeftCeiling]\[LeftCeiling]\
+\[RightCeiling]\[RightCeiling]\[LeftCeiling]\[RightCeiling]\"\>", 
+   ",", "\<\"\[LeftCeiling]\[RightCeiling]\[LeftCeiling]\[RightCeiling]\
+\[LeftCeiling]\[LeftCeiling]\[RightCeiling]\[RightCeiling]\"\>", 
+   ",", "\<\"\[LeftCeiling]\[RightCeiling]\[LeftCeiling]\[RightCeiling]\
+\[LeftCeiling]\[RightCeiling]\[LeftCeiling]\[RightCeiling]\"\>"}], 
+  "}"}]], "Output",
+ CellLabel->"Out[2]=",
+ CellID->47838937,ExpressionUUID->"456c7627-272e-428a-ae13-9a5d5027e01c"]
+}, Open  ]],
+
+Cell["All double brackets:", "ExampleText",
+ CellID->940976686,ExpressionUUID->"8f7d50d1-d1de-4f88-9eeb-052cc4ee8368"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"AllBalancedGroupingSymbols", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+    "\"\<\[LeftDoubleBracket]\>\"", ",", "\"\<\[RightDoubleBracket]\>\""}], 
+    "}"}], ",", "4"}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`RecreationalMathematics`"],
+ CellLabel->"In[3]:=",
+ CellID->157843498,ExpressionUUID->"4ee636fa-d5ba-4cc2-a8dc-7ce3cab63a52"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"\[LeftDoubleBracket]\[LeftDoubleBracket]\[LeftDoubleBracket]\
+\[LeftDoubleBracket]\[RightDoubleBracket]\[RightDoubleBracket]\
+\[RightDoubleBracket]\[RightDoubleBracket]\"\>", 
+   ",", "\<\"\[LeftDoubleBracket]\[LeftDoubleBracket]\[LeftDoubleBracket]\
+\[RightDoubleBracket]\[LeftDoubleBracket]\[RightDoubleBracket]\
+\[RightDoubleBracket]\[RightDoubleBracket]\"\>", 
+   ",", "\<\"\[LeftDoubleBracket]\[LeftDoubleBracket]\[LeftDoubleBracket]\
+\[RightDoubleBracket]\[RightDoubleBracket]\[LeftDoubleBracket]\
+\[RightDoubleBracket]\[RightDoubleBracket]\"\>", 
+   ",", "\<\"\[LeftDoubleBracket]\[LeftDoubleBracket]\[LeftDoubleBracket]\
+\[RightDoubleBracket]\[RightDoubleBracket]\[RightDoubleBracket]\
+\[LeftDoubleBracket]\[RightDoubleBracket]\"\>", 
+   ",", "\<\"\[LeftDoubleBracket]\[LeftDoubleBracket]\[RightDoubleBracket]\
+\[LeftDoubleBracket]\[LeftDoubleBracket]\[RightDoubleBracket]\
+\[RightDoubleBracket]\[RightDoubleBracket]\"\>", 
+   ",", "\<\"\[LeftDoubleBracket]\[LeftDoubleBracket]\[RightDoubleBracket]\
+\[LeftDoubleBracket]\[RightDoubleBracket]\[LeftDoubleBracket]\
+\[RightDoubleBracket]\[RightDoubleBracket]\"\>", 
+   ",", "\<\"\[LeftDoubleBracket]\[LeftDoubleBracket]\[RightDoubleBracket]\
+\[LeftDoubleBracket]\[RightDoubleBracket]\[RightDoubleBracket]\
+\[LeftDoubleBracket]\[RightDoubleBracket]\"\>", 
+   ",", "\<\"\[LeftDoubleBracket]\[LeftDoubleBracket]\[RightDoubleBracket]\
+\[RightDoubleBracket]\[LeftDoubleBracket]\[LeftDoubleBracket]\
+\[RightDoubleBracket]\[RightDoubleBracket]\"\>", 
+   ",", "\<\"\[LeftDoubleBracket]\[LeftDoubleBracket]\[RightDoubleBracket]\
+\[RightDoubleBracket]\[LeftDoubleBracket]\[RightDoubleBracket]\
+\[LeftDoubleBracket]\[RightDoubleBracket]\"\>", 
+   ",", "\<\"\[LeftDoubleBracket]\[RightDoubleBracket]\[LeftDoubleBracket]\
+\[LeftDoubleBracket]\[LeftDoubleBracket]\[RightDoubleBracket]\
+\[RightDoubleBracket]\[RightDoubleBracket]\"\>", 
+   ",", "\<\"\[LeftDoubleBracket]\[RightDoubleBracket]\[LeftDoubleBracket]\
+\[LeftDoubleBracket]\[RightDoubleBracket]\[LeftDoubleBracket]\
+\[RightDoubleBracket]\[RightDoubleBracket]\"\>", 
+   ",", "\<\"\[LeftDoubleBracket]\[RightDoubleBracket]\[LeftDoubleBracket]\
+\[LeftDoubleBracket]\[RightDoubleBracket]\[RightDoubleBracket]\
+\[LeftDoubleBracket]\[RightDoubleBracket]\"\>", 
+   ",", "\<\"\[LeftDoubleBracket]\[RightDoubleBracket]\[LeftDoubleBracket]\
+\[RightDoubleBracket]\[LeftDoubleBracket]\[LeftDoubleBracket]\
+\[RightDoubleBracket]\[RightDoubleBracket]\"\>", 
+   ",", "\<\"\[LeftDoubleBracket]\[RightDoubleBracket]\[LeftDoubleBracket]\
+\[RightDoubleBracket]\[LeftDoubleBracket]\[RightDoubleBracket]\
+\[LeftDoubleBracket]\[RightDoubleBracket]\"\>"}], "}"}]], "Output",
+ CellLabel->"Out[3]=",
+ CellID->805228618,ExpressionUUID->"d124fa82-5896-4be3-8558-26c0b932b5b2"]
+}, Open  ]],
+
+Cell["All angle brackets:", "ExampleText",
+ CellID->246803505,ExpressionUUID->"14f820d2-b1ee-49ab-832c-76cc08e41a84"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"AllBalancedGroupingSymbols", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+    "\"\<\[LeftAngleBracket]\>\"", ",", "\"\<\[RightAngleBracket]\>\""}], 
+    "}"}], ",", "4"}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`RecreationalMathematics`"],
+ CellLabel->"In[4]:=",
+ CellID->276279951,ExpressionUUID->"8514078a-7b6b-4b60-9d6d-658b47f8de05"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"\[LeftAngleBracket]\[LeftAngleBracket]\[LeftAngleBracket]\
+\[LeftAngleBracket]\[RightAngleBracket]\[RightAngleBracket]\
+\[RightAngleBracket]\[RightAngleBracket]\"\>", 
+   ",", "\<\"\[LeftAngleBracket]\[LeftAngleBracket]\[LeftAngleBracket]\
+\[RightAngleBracket]\[LeftAngleBracket]\[RightAngleBracket]\
+\[RightAngleBracket]\[RightAngleBracket]\"\>", 
+   ",", "\<\"\[LeftAngleBracket]\[LeftAngleBracket]\[LeftAngleBracket]\
+\[RightAngleBracket]\[RightAngleBracket]\[LeftAngleBracket]\
+\[RightAngleBracket]\[RightAngleBracket]\"\>", 
+   ",", "\<\"\[LeftAngleBracket]\[LeftAngleBracket]\[LeftAngleBracket]\
+\[RightAngleBracket]\[RightAngleBracket]\[RightAngleBracket]\
+\[LeftAngleBracket]\[RightAngleBracket]\"\>", 
+   ",", "\<\"\[LeftAngleBracket]\[LeftAngleBracket]\[RightAngleBracket]\
+\[LeftAngleBracket]\[LeftAngleBracket]\[RightAngleBracket]\[RightAngleBracket]\
+\[RightAngleBracket]\"\>", 
+   ",", "\<\"\[LeftAngleBracket]\[LeftAngleBracket]\[RightAngleBracket]\
+\[LeftAngleBracket]\[RightAngleBracket]\[LeftAngleBracket]\[RightAngleBracket]\
+\[RightAngleBracket]\"\>", 
+   ",", "\<\"\[LeftAngleBracket]\[LeftAngleBracket]\[RightAngleBracket]\
+\[LeftAngleBracket]\[RightAngleBracket]\[RightAngleBracket]\[LeftAngleBracket]\
+\[RightAngleBracket]\"\>", 
+   ",", "\<\"\[LeftAngleBracket]\[LeftAngleBracket]\[RightAngleBracket]\
+\[RightAngleBracket]\[LeftAngleBracket]\[LeftAngleBracket]\[RightAngleBracket]\
+\[RightAngleBracket]\"\>", 
+   ",", "\<\"\[LeftAngleBracket]\[LeftAngleBracket]\[RightAngleBracket]\
+\[RightAngleBracket]\[LeftAngleBracket]\[RightAngleBracket]\[LeftAngleBracket]\
+\[RightAngleBracket]\"\>", 
+   ",", "\<\"\[LeftAngleBracket]\[RightAngleBracket]\[LeftAngleBracket]\
+\[LeftAngleBracket]\[LeftAngleBracket]\[RightAngleBracket]\[RightAngleBracket]\
+\[RightAngleBracket]\"\>", 
+   ",", "\<\"\[LeftAngleBracket]\[RightAngleBracket]\[LeftAngleBracket]\
+\[LeftAngleBracket]\[RightAngleBracket]\[LeftAngleBracket]\[RightAngleBracket]\
+\[RightAngleBracket]\"\>", 
+   ",", "\<\"\[LeftAngleBracket]\[RightAngleBracket]\[LeftAngleBracket]\
+\[LeftAngleBracket]\[RightAngleBracket]\[RightAngleBracket]\[LeftAngleBracket]\
+\[RightAngleBracket]\"\>", 
+   ",", "\<\"\[LeftAngleBracket]\[RightAngleBracket]\[LeftAngleBracket]\
+\[RightAngleBracket]\[LeftAngleBracket]\[LeftAngleBracket]\[RightAngleBracket]\
+\[RightAngleBracket]\"\>", 
+   ",", "\<\"\[LeftAngleBracket]\[RightAngleBracket]\[LeftAngleBracket]\
+\[RightAngleBracket]\[LeftAngleBracket]\[RightAngleBracket]\[LeftAngleBracket]\
+\[RightAngleBracket]\"\>"}], "}"}]], "Output",
+ CellLabel->"Out[4]=",
+ CellID->40235709,ExpressionUUID->"2c5d9935-5349-42a8-86d6-ecb8b7250506"]
+}, Open  ]],
+
+Cell["All bracketing bars:", "ExampleText",
+ CellID->30943308,ExpressionUUID->"7b55d2e1-5749-4700-b3a9-e8c86806530e"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"AllBalancedGroupingSymbols", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+    "\"\<\[LeftBracketingBar]\>\"", ",", "\"\<\[RightBracketingBar]\>\""}], 
+    "}"}], ",", "4"}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`RecreationalMathematics`"],
+ CellLabel->"In[5]:=",
+ CellID->106074317,ExpressionUUID->"234e5fc0-dbdc-4791-ad89-c1b943bd9d58"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"\[LeftBracketingBar]\[LeftBracketingBar]\[LeftBracketingBar]\
+\[LeftBracketingBar]\[RightBracketingBar]\[RightBracketingBar]\
+\[RightBracketingBar]\[RightBracketingBar]\"\>", 
+   ",", "\<\"\[LeftBracketingBar]\[LeftBracketingBar]\[LeftBracketingBar]\
+\[RightBracketingBar]\[LeftBracketingBar]\[RightBracketingBar]\
+\[RightBracketingBar]\[RightBracketingBar]\"\>", 
+   ",", "\<\"\[LeftBracketingBar]\[LeftBracketingBar]\[LeftBracketingBar]\
+\[RightBracketingBar]\[RightBracketingBar]\[LeftBracketingBar]\
+\[RightBracketingBar]\[RightBracketingBar]\"\>", 
+   ",", "\<\"\[LeftBracketingBar]\[LeftBracketingBar]\[LeftBracketingBar]\
+\[RightBracketingBar]\[RightBracketingBar]\[RightBracketingBar]\
+\[LeftBracketingBar]\[RightBracketingBar]\"\>", 
+   ",", "\<\"\[LeftBracketingBar]\[LeftBracketingBar]\[RightBracketingBar]\
+\[LeftBracketingBar]\[LeftBracketingBar]\[RightBracketingBar]\
+\[RightBracketingBar]\[RightBracketingBar]\"\>", 
+   ",", "\<\"\[LeftBracketingBar]\[LeftBracketingBar]\[RightBracketingBar]\
+\[LeftBracketingBar]\[RightBracketingBar]\[LeftBracketingBar]\
+\[RightBracketingBar]\[RightBracketingBar]\"\>", 
+   ",", "\<\"\[LeftBracketingBar]\[LeftBracketingBar]\[RightBracketingBar]\
+\[LeftBracketingBar]\[RightBracketingBar]\[RightBracketingBar]\
+\[LeftBracketingBar]\[RightBracketingBar]\"\>", 
+   ",", "\<\"\[LeftBracketingBar]\[LeftBracketingBar]\[RightBracketingBar]\
+\[RightBracketingBar]\[LeftBracketingBar]\[LeftBracketingBar]\
+\[RightBracketingBar]\[RightBracketingBar]\"\>", 
+   ",", "\<\"\[LeftBracketingBar]\[LeftBracketingBar]\[RightBracketingBar]\
+\[RightBracketingBar]\[LeftBracketingBar]\[RightBracketingBar]\
+\[LeftBracketingBar]\[RightBracketingBar]\"\>", 
+   ",", "\<\"\[LeftBracketingBar]\[RightBracketingBar]\[LeftBracketingBar]\
+\[LeftBracketingBar]\[LeftBracketingBar]\[RightBracketingBar]\
+\[RightBracketingBar]\[RightBracketingBar]\"\>", 
+   ",", "\<\"\[LeftBracketingBar]\[RightBracketingBar]\[LeftBracketingBar]\
+\[LeftBracketingBar]\[RightBracketingBar]\[LeftBracketingBar]\
+\[RightBracketingBar]\[RightBracketingBar]\"\>", 
+   ",", "\<\"\[LeftBracketingBar]\[RightBracketingBar]\[LeftBracketingBar]\
+\[LeftBracketingBar]\[RightBracketingBar]\[RightBracketingBar]\
+\[LeftBracketingBar]\[RightBracketingBar]\"\>", 
+   ",", "\<\"\[LeftBracketingBar]\[RightBracketingBar]\[LeftBracketingBar]\
+\[RightBracketingBar]\[LeftBracketingBar]\[LeftBracketingBar]\
+\[RightBracketingBar]\[RightBracketingBar]\"\>", 
+   ",", "\<\"\[LeftBracketingBar]\[RightBracketingBar]\[LeftBracketingBar]\
+\[RightBracketingBar]\[LeftBracketingBar]\[RightBracketingBar]\
+\[LeftBracketingBar]\[RightBracketingBar]\"\>"}], "}"}]], "Output",
+ CellLabel->"Out[5]=",
+ CellID->94063371,ExpressionUUID->"6ce6a983-cb5e-4c62-a2bc-c84820d8587c"]
+}, Open  ]],
+
+Cell["All double bracketing bars:", "ExampleText",
+ CellID->758456342,ExpressionUUID->"09b4b66f-95b0-44f2-9ec2-9b268461603e"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"AllBalancedGroupingSymbols", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+    "\"\<\[LeftDoubleBracketingBar]\>\"", ",", 
+     "\"\<\[RightDoubleBracketingBar]\>\""}], "}"}], ",", "4"}], 
+  "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`RecreationalMathematics`"],
+ CellLabel->"In[6]:=",
+ CellID->341738217,ExpressionUUID->"1e58e8f5-1c88-45b4-ab38-8120c78c82d5"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"\[LeftDoubleBracketingBar]\[LeftDoubleBracketingBar]\
+\[LeftDoubleBracketingBar]\[LeftDoubleBracketingBar]\
+\[RightDoubleBracketingBar]\[RightDoubleBracketingBar]\
+\[RightDoubleBracketingBar]\[RightDoubleBracketingBar]\"\>", 
+   ",", "\<\"\[LeftDoubleBracketingBar]\[LeftDoubleBracketingBar]\
+\[LeftDoubleBracketingBar]\[RightDoubleBracketingBar]\
+\[LeftDoubleBracketingBar]\[RightDoubleBracketingBar]\
+\[RightDoubleBracketingBar]\[RightDoubleBracketingBar]\"\>", 
+   ",", "\<\"\[LeftDoubleBracketingBar]\[LeftDoubleBracketingBar]\
+\[LeftDoubleBracketingBar]\[RightDoubleBracketingBar]\
+\[RightDoubleBracketingBar]\[LeftDoubleBracketingBar]\
+\[RightDoubleBracketingBar]\[RightDoubleBracketingBar]\"\>", 
+   ",", "\<\"\[LeftDoubleBracketingBar]\[LeftDoubleBracketingBar]\
+\[LeftDoubleBracketingBar]\[RightDoubleBracketingBar]\
+\[RightDoubleBracketingBar]\[RightDoubleBracketingBar]\
+\[LeftDoubleBracketingBar]\[RightDoubleBracketingBar]\"\>", 
+   ",", "\<\"\[LeftDoubleBracketingBar]\[LeftDoubleBracketingBar]\
+\[RightDoubleBracketingBar]\[LeftDoubleBracketingBar]\
+\[LeftDoubleBracketingBar]\[RightDoubleBracketingBar]\
+\[RightDoubleBracketingBar]\[RightDoubleBracketingBar]\"\>", 
+   ",", "\<\"\[LeftDoubleBracketingBar]\[LeftDoubleBracketingBar]\
+\[RightDoubleBracketingBar]\[LeftDoubleBracketingBar]\
+\[RightDoubleBracketingBar]\[LeftDoubleBracketingBar]\
+\[RightDoubleBracketingBar]\[RightDoubleBracketingBar]\"\>", 
+   ",", "\<\"\[LeftDoubleBracketingBar]\[LeftDoubleBracketingBar]\
+\[RightDoubleBracketingBar]\[LeftDoubleBracketingBar]\
+\[RightDoubleBracketingBar]\[RightDoubleBracketingBar]\
+\[LeftDoubleBracketingBar]\[RightDoubleBracketingBar]\"\>", 
+   ",", "\<\"\[LeftDoubleBracketingBar]\[LeftDoubleBracketingBar]\
+\[RightDoubleBracketingBar]\[RightDoubleBracketingBar]\
+\[LeftDoubleBracketingBar]\[LeftDoubleBracketingBar]\
+\[RightDoubleBracketingBar]\[RightDoubleBracketingBar]\"\>", 
+   ",", "\<\"\[LeftDoubleBracketingBar]\[LeftDoubleBracketingBar]\
+\[RightDoubleBracketingBar]\[RightDoubleBracketingBar]\
+\[LeftDoubleBracketingBar]\[RightDoubleBracketingBar]\
+\[LeftDoubleBracketingBar]\[RightDoubleBracketingBar]\"\>", 
+   ",", "\<\"\[LeftDoubleBracketingBar]\[RightDoubleBracketingBar]\
+\[LeftDoubleBracketingBar]\[LeftDoubleBracketingBar]\[LeftDoubleBracketingBar]\
+\[RightDoubleBracketingBar]\[RightDoubleBracketingBar]\
+\[RightDoubleBracketingBar]\"\>", 
+   ",", "\<\"\[LeftDoubleBracketingBar]\[RightDoubleBracketingBar]\
+\[LeftDoubleBracketingBar]\[LeftDoubleBracketingBar]\
+\[RightDoubleBracketingBar]\[LeftDoubleBracketingBar]\
+\[RightDoubleBracketingBar]\[RightDoubleBracketingBar]\"\>", 
+   ",", "\<\"\[LeftDoubleBracketingBar]\[RightDoubleBracketingBar]\
+\[LeftDoubleBracketingBar]\[LeftDoubleBracketingBar]\
+\[RightDoubleBracketingBar]\[RightDoubleBracketingBar]\
+\[LeftDoubleBracketingBar]\[RightDoubleBracketingBar]\"\>", 
+   ",", "\<\"\[LeftDoubleBracketingBar]\[RightDoubleBracketingBar]\
+\[LeftDoubleBracketingBar]\[RightDoubleBracketingBar]\
+\[LeftDoubleBracketingBar]\[LeftDoubleBracketingBar]\
+\[RightDoubleBracketingBar]\[RightDoubleBracketingBar]\"\>", 
+   ",", "\<\"\[LeftDoubleBracketingBar]\[RightDoubleBracketingBar]\
+\[LeftDoubleBracketingBar]\[RightDoubleBracketingBar]\
+\[LeftDoubleBracketingBar]\[RightDoubleBracketingBar]\
+\[LeftDoubleBracketingBar]\[RightDoubleBracketingBar]\"\>"}], "}"}]], "Output",
+ CellLabel->"Out[6]=",
+ CellID->246587175,ExpressionUUID->"df7fb785-a170-4b39-aa23-75650c6f0344"]
+}, Open  ]],
+
+Cell["All string template symbols:", "ExampleText",
+ CellID->735417286,ExpressionUUID->"193f7b62-284d-440a-993e-7d7bf2de5810"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"AllBalancedGroupingSymbols", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"\"\<<*\>\"", ",", "\"\<*>\>\""}], "}"}], ",", "4"}], 
+  "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`RecreationalMathematics`"],
+ CellLabel->"In[7]:=",
+ CellID->130647240,ExpressionUUID->"a0fc409b-d3e8-4226-a42f-f2dc668864dd"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"<*<*<*<**>*>*>*>\"\>", ",", "\<\"<*<*<**><**>*>*>\"\>", 
+   ",", "\<\"<*<*<**>*><**>*>\"\>", ",", "\<\"<*<*<**>*>*><**>\"\>", 
+   ",", "\<\"<*<**><*<**>*>*>\"\>", ",", "\<\"<*<**><**><**>*>\"\>", 
+   ",", "\<\"<*<**><**>*><**>\"\>", ",", "\<\"<*<**>*><*<**>*>\"\>", 
+   ",", "\<\"<*<**>*><**><**>\"\>", ",", "\<\"<**><*<*<**>*>*>\"\>", 
+   ",", "\<\"<**><*<**><**>*>\"\>", ",", "\<\"<**><*<**>*><**>\"\>", 
+   ",", "\<\"<**><**><*<**>*>\"\>", ",", "\<\"<**><**><**><**>\"\>"}], 
+  "}"}]], "Output",
+ CellLabel->"Out[7]=",
+ CellID->173835754,ExpressionUUID->"6e040fe3-b626-496b-8d9e-72ff0f52089c"]
+}, Open  ]]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "3"}, 
+  Closed]]]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  DynamicBox[ToBoxes[
+    If[
+     MatchQ[
+      CurrentValue[
+       EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "4"},
+        Closed], 
+      Alternatives[Open, True]], 
+     Style[
+      Graphics[{
+        Thickness[0.18], 
+        RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+        Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+       PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+      0.68 Inherited], 
+     Rotate[
+      Style[
+       Graphics[{
+         Thickness[0.18], 
+         RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+         Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+        PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+       0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+   ImageSizeCache->{
+    13.600000000000001`, {0.5800000000000001, 13.020000000000001`}}]],
+  ExpressionUUID->"f6818c40-1c56-4371-baeb-472384a7d88e"],
+ Cell[BoxData[
+  TemplateBox[{1},
+   "Spacer1"]],ExpressionUUID->"8ab8ba37-6903-4ee8-b0a5-56750adc597b"],
+ "Properties & Relations",
+ "\[NonBreakingSpace]\[NonBreakingSpace]",
+ Cell["(1)", "ExampleCount",ExpressionUUID->
+  "01f98737-5580-4561-ad9a-1f04d4535e81"]
+}], "ExampleSection", "ExampleSection",
+ WholeCellGroupOpener->True,
+ CacheGraphics->False,
+ CellID->108954176,ExpressionUUID->"d1f70ce0-0136-44df-828b-e5a7088b876c"],
+
+Cell["\<\
+The number of balanced grouping symbols is the Catalan number:\
+\>", "ExampleText",
+ CellID->72641369,ExpressionUUID->"10eb6450-f5e8-4b8a-a96e-959811808478"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Length", "[", 
+  RowBox[{"AllBalancedGroupingSymbols", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"\<(\>\"", ",", "\"\<)\>\""}], "}"}], ",", "10"}], "]"}], 
+  "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`RecreationalMathematics`"],
+ CellLabel->"In[1]:=",
+ CellID->20466332,ExpressionUUID->"b635b2fd-ade6-4046-a3e2-b79313e0cd64"],
+
+Cell[BoxData["16796"], "Output",
+ CellLabel->"Out[1]=",
+ CellID->320240888,ExpressionUUID->"c35785ac-6468-4526-80a3-182ffded9b6b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CatalanNumber", "[", "10", "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`RecreationalMathematics`"],
+ CellLabel->"In[2]:=",
+ CellID->522221308,ExpressionUUID->"0075670c-ba40-4e27-a274-e2c81826b868"],
+
+Cell[BoxData["16796"], "Output",
+ CellLabel->"Out[2]=",
+ CellID->270263977,ExpressionUUID->"2e0a59e1-6679-41c1-8fdf-7f1eb1e9c433"]
+}, Open  ]]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "4"}, 
+  Closed]]]]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "PrimaryExamplesSection"}, 
+  Closed]]]],
+
+Cell[BoxData[GridBox[{
+   {
+    DynamicBox[FEPrivate`ImportImage[
+      FrontEnd`FileName[{"Documentation", "FooterIcons"}, "RelatedGuide.png"]],
+     ImageSizeCache->{50., {27., 33.}}], GridBox[{
+      {
+       StyleBox[
+        RowBox[{"Related", " ", "Guides"}], "MoreAboutSection"]},
+      {
+       RowBox[{"\[FilledVerySmallSquare]", Cell[BoxData[
+         TemplateBox[{
+           Cell[
+            TextData["Math Puzzles"]], 
+           "paclet:PeterBurbery/RecreationalMathematics/guide/MathPuzzles"},
+          "RefLinkPlain",
+          BaseStyle->{"MoreAbout"}]], "MoreAbout",ExpressionUUID->
+         "d6560cce-6fcc-4582-bfa7-90daa7f4628e"]}]}
+     }]}
+  }]], "MoreAboutSection",ExpressionUUID->"da78e3e6-db2b-4096-9ccc-\
+b5fbb83eb138"],
+
+Cell[" ", "FooterCell",ExpressionUUID->"fce00113-bea4-4f7e-914c-016b39851375"]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{900., 604.8},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"AllBalancedGroupingSymbols",
+TaggingRules->{
+ "ModificationHighlight" -> False, "ColorType" -> "", "LinkTrails" -> "", 
+  "HasOptions" -> True, "ExampleCounter" -> 1, 
+  "Openers" -> {
+   "PrimaryExamplesSection" -> Open, 
+    "ExampleSection" -> {
+     "0" -> Open, "1" -> Closed, "3" -> Closed, "4" -> Closed}}, "NewStyles" -> 
+  True, "CitationPopupData" -> $Failed, "ShowCitation" -> False, 
+  "RootCaptions" -> "", 
+  "Metadata" -> {
+   "built" -> "{2022, 10, 1, 12, 30, 16.7155219}", 
+    "history" -> {"XX", "", "", ""}, "context" -> 
+    "PeterBurbery`RecreationalMathematics`", "keywords" -> {}, 
+    "specialkeywords" -> {}, "tutorialcollectionlinks" -> {}, "index" -> True,
+     "label" -> "Peter Burbery/ Recreational Mathematics Symbol", "language" -> 
+    "en", "paclet" -> "PeterBurbery/RecreationalMathematics", "status" -> 
+    "None", "summary" -> 
+    "AllBalancedGroupingSymbols[{openingsymbol, closingsymbol}, n] generates \
+the set of all balanced forms of openingsymbol and closingsymbol with n \
+opening symbols", "synonyms" -> {}, "tabletags" -> {}, "title" -> 
+    "AllBalancedGroupingSymbols", "titlemodifier" -> "", "windowtitle" -> 
+    "AllBalancedGroupingSymbols", "type" -> "Symbol", "uri" -> 
+    "PeterBurbery/RecreationalMathematics/ref/AllBalancedGroupingSymbols"}},
+CellContext->"Global`",
+FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData[
+    StyleDefinitions -> FrontEnd`FileName[{"Wolfram"}, "Reference.nb"]]], 
+   Cell[
+    StyleData["Input"], CellContext -> "Global`"], 
+   Cell[
+    StyleData["Output"], CellContext -> "Global`"]}, Visible -> False, 
+  FrontEndVersion -> "13.1 for Microsoft Windows (64-bit) (June 16, 2022)", 
+  StyleDefinitions -> "Default.nb"],
+ExpressionUUID->"57f2bfb5-32dd-4faf-851c-863bf5e26d58"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "PrimaryExamplesSection"->{
+  Cell[7483, 197, 1417, 37, 35, "PrimaryExamplesSection",ExpressionUUID->"7f5b184f-91a5-47e5-b618-46700f0d825d",
+   CellTags->"PrimaryExamplesSection",
+   CellID->136044]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"PrimaryExamplesSection", 43574, 1024}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[598, 21, 4631, 111, 56, "AnchorBarGrid",ExpressionUUID->"ba1f9955-654b-41e4-a453-f38f94fa3e35",
+ CellID->1],
+Cell[5232, 134, 119, 0, 23, "ContextNameCell",ExpressionUUID->"41fbb814-6f3f-4ebe-98b6-9b2352903bd5"],
+Cell[CellGroupData[{
+Cell[5376, 138, 569, 14, 56, "ObjectNameGrid",ExpressionUUID->"2df44360-ae82-47e6-ba3a-1a3b09845247"],
+Cell[5948, 154, 1498, 38, 111, "Usage",ExpressionUUID->"693c3b33-156d-48ab-acd1-5efc97ce95ea",
+ CellID->747303446]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7483, 197, 1417, 37, 35, "PrimaryExamplesSection",ExpressionUUID->"7f5b184f-91a5-47e5-b618-46700f0d825d",
+ CellTags->"PrimaryExamplesSection",
+ CellID->136044],
+Cell[8903, 236, 228, 4, 26, "Input",ExpressionUUID->"8965fa6d-bf57-4bb7-b6cc-4c514df14fac",
+ CellID->881572408],
+Cell[CellGroupData[{
+Cell[9156, 244, 1398, 36, 30, "ExampleSection",ExpressionUUID->"24f264a3-df5f-4a75-8dd3-e9eabe980697",
+ CellID->187912268],
+Cell[10557, 282, 147, 1, 38, "ExampleText",ExpressionUUID->"a1ea68c1-56a7-4b32-a553-9832776f786f",
+ CellID->188377867],
+Cell[CellGroupData[{
+Cell[10729, 287, 329, 8, 26, "Input",ExpressionUUID->"0969d7c9-8841-4b31-b99c-1734fd32e5ef",
+ CellID->348952175],
+Cell[11061, 297, 269, 5, 35, "Output",ExpressionUUID->"5d417490-92e2-479d-b317-0bfbf2faab73",
+ CellID->80040315]
+}, Open  ]],
+Cell[11345, 305, 109, 1, 38, "ExampleText",ExpressionUUID->"7ab52c1d-c3d8-435a-aba4-4ee88362d2a9",
+ CellID->156199380],
+Cell[CellGroupData[{
+Cell[11479, 310, 328, 8, 26, "Input",ExpressionUUID->"09c945fb-b509-4e1b-92ea-91792d6cf843",
+ CellID->97256339],
+Cell[11810, 320, 1364, 24, 96, "Output",ExpressionUUID->"8972f5ce-927f-4e41-a99b-40adf406bd5c",
+ CellID->23146698]
+}, Open  ]]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "0"}, Closed]]]],
+Cell[CellGroupData[{
+Cell[13323, 352, 1411, 37, 30, "ExampleSection",ExpressionUUID->"cf7fca0d-60cb-402c-8ff7-cae29eac4c69",
+ CellID->89464102],
+Cell[14737, 391, 157, 2, 70, "ExampleText",ExpressionUUID->"e7d19423-1a3e-4990-b3c1-ca0ca5de5984",
+ CellID->38101075],
+Cell[CellGroupData[{
+Cell[14919, 397, 328, 8, 70, "Input",ExpressionUUID->"95921ba3-24fe-4bf9-a176-e317446732ce",
+ CellID->2775345],
+Cell[15250, 407, 845, 15, 103, "Output",ExpressionUUID->"4b9e776e-1326-4ee5-bcb8-981a9e2a44af",
+ CellID->610024159]
+}, Open  ]]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "1"}, Closed]]]],
+Cell[CellGroupData[{
+Cell[16244, 430, 1419, 37, 24, "ExampleSection",ExpressionUUID->"b3b6c929-9c69-4a55-987b-9eb3081cb1c2",
+ CellID->905532210],
+Cell[17666, 469, 136, 1, 70, "ExampleText",ExpressionUUID->"8d8ed770-e0e1-476d-b6ff-306f891f85da",
+ CellID->308619342],
+Cell[CellGroupData[{
+Cell[17827, 474, 353, 8, 70, "Input",ExpressionUUID->"af734d57-90aa-43d3-a804-d453a5652e7b",
+ CellID->176603379],
+Cell[18183, 484, 1868, 31, 51, "Output",ExpressionUUID->"f9967b0a-8681-4410-be9b-9e203cde1c05",
+ CellID->43231335]
+}, Open  ]],
+Cell[20066, 518, 119, 1, 70, "ExampleText",ExpressionUUID->"bc882764-6996-4492-8907-066c2ef99d04",
+ CellID->209023059],
+Cell[CellGroupData[{
+Cell[20210, 523, 356, 8, 70, "Input",ExpressionUUID->"2a8d9f9d-b71a-48ac-b01b-d5d902a5ce26",
+ CellID->78922093],
+Cell[20569, 533, 2095, 32, 51, "Output",ExpressionUUID->"456c7627-272e-428a-ae13-9a5d5027e01c",
+ CellID->47838937]
+}, Open  ]],
+Cell[22679, 568, 118, 1, 70, "ExampleText",ExpressionUUID->"8f7d50d1-d1de-4f88-9eeb-052cc4ee8368",
+ CellID->940976686],
+Cell[CellGroupData[{
+Cell[22822, 573, 375, 9, 70, "Input",ExpressionUUID->"4ee636fa-d5ba-4cc2-a8dc-7ce3cab63a52",
+ CellID->157843498],
+Cell[23200, 584, 2793, 45, 51, "Output",ExpressionUUID->"d124fa82-5896-4be3-8558-26c0b932b5b2",
+ CellID->805228618]
+}, Open  ]],
+Cell[26008, 632, 117, 1, 70, "ExampleText",ExpressionUUID->"14f820d2-b1ee-49ab-832c-76cc08e41a84",
+ CellID->246803505],
+Cell[CellGroupData[{
+Cell[26150, 637, 373, 9, 70, "Input",ExpressionUUID->"8514078a-7b6b-4b60-9d6d-658b47f8de05",
+ CellID->276279951],
+Cell[26526, 648, 2680, 45, 51, "Output",ExpressionUUID->"2c5d9935-5349-42a8-86d6-ecb8b7250506",
+ CellID->40235709]
+}, Open  ]],
+Cell[29221, 696, 117, 1, 70, "ExampleText",ExpressionUUID->"7b55d2e1-5749-4700-b3a9-e8c86806530e",
+ CellID->30943308],
+Cell[CellGroupData[{
+Cell[29363, 701, 375, 9, 70, "Input",ExpressionUUID->"234e5fc0-dbdc-4791-ad89-c1b943bd9d58",
+ CellID->106074317],
+Cell[29741, 712, 2792, 45, 51, "Output",ExpressionUUID->"6ce6a983-cb5e-4c62-a2bc-c84820d8587c",
+ CellID->94063371]
+}, Open  ]],
+Cell[32548, 760, 125, 1, 70, "ExampleText",ExpressionUUID->"09b4b66f-95b0-44f2-9ec2-9b268461603e",
+ CellID->758456342],
+Cell[CellGroupData[{
+Cell[32698, 765, 391, 10, 70, "Input",ExpressionUUID->"1e58e8f5-1c88-45b4-ab38-8120c78c82d5",
+ CellID->341738217],
+Cell[33092, 777, 3493, 59, 51, "Output",ExpressionUUID->"df7fb785-a170-4b39-aa23-75650c6f0344",
+ CellID->246587175]
+}, Open  ]],
+Cell[36600, 839, 126, 1, 70, "ExampleText",ExpressionUUID->"193f7b62-284d-440a-993e-7d7bf2de5810",
+ CellID->735417286],
+Cell[CellGroupData[{
+Cell[36751, 844, 331, 8, 70, "Input",ExpressionUUID->"a0fc409b-d3e8-4226-a42f-f2dc668864dd",
+ CellID->130647240],
+Cell[37085, 854, 640, 11, 66, "Output",ExpressionUUID->"6e040fe3-b626-496b-8d9e-72ff0f52089c",
+ CellID->173835754]
+}, Open  ]]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "3"}, Closed]]]],
+Cell[CellGroupData[{
+Cell[37874, 873, 1429, 37, 70, "ExampleSection",ExpressionUUID->"d1f70ce0-0136-44df-828b-e5a7088b876c",
+ CellID->108954176],
+Cell[39306, 912, 167, 3, 70, "ExampleText",ExpressionUUID->"10eb6450-f5e8-4b8a-a96e-959811808478",
+ CellID->72641369],
+Cell[CellGroupData[{
+Cell[39498, 919, 365, 9, 70, "Input",ExpressionUUID->"b635b2fd-ade6-4046-a3e2-b79313e0cd64",
+ CellID->20466332],
+Cell[39866, 930, 130, 2, 35, "Output",ExpressionUUID->"c35785ac-6468-4526-80a3-182ffded9b6b",
+ CellID->320240888]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[40033, 937, 226, 4, 70, "Input",ExpressionUUID->"0075670c-ba40-4e27-a274-e2c81826b868",
+ CellID->522221308],
+Cell[40262, 943, 130, 2, 35, "Output",ExpressionUUID->"2e0a59e1-6679-41c1-8fdf-7f1eb1e9c433",
+ CellID->270263977]
+}, Open  ]]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "4"}, Closed]]]]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "PrimaryExamplesSection"}, Closed]]]],
+Cell[40634, 954, 747, 19, 70, "MoreAboutSection",ExpressionUUID->"da78e3e6-db2b-4096-9ccc-b5fbb83eb138"],
+Cell[41384, 975, 78, 0, 70, "FooterCell",ExpressionUUID->"fce00113-bea4-4f7e-914c-016b39851375"]
+}
+]
+*)
+
+(* End of internal cache information *)
+

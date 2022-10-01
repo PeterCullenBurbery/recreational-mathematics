@@ -11,7 +11,7 @@
             ,
             "Hash"
             ->
-            "20ceb512ade22c5e57d63b3b840ebae440c3b7cb2112e420f202a1a2322c6f4a"
+            "43c142abc420e31e3d329572f21823b9eca59e5c93c0496830e67140e7d210ef"
                 
         |>
         ,
@@ -24,7 +24,21 @@
             ,
             "Hash"
             ->
-            "dad8489b57b044d51c75f1aae14eb4e34f4c382f58c6962ec241f7597e845af3"
+            "ce832bad51b8d75dd1a9a1508a9c01377fc9516a069801a8072618e92f4634e7"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\AllBalancedGroupingSymbols.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "2038bc6fd5802f2cd63b4f797883cb820e3b4a757224ff91a4587a85ead109ad"
                 
         |>
         ,
@@ -46,13 +60,55 @@
             "File"
             ->
             File[
+                "Documentation\\English\\ReferencePages\\Symbols\\CatalanUnrank.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "dd2c092f7edb61bd9de057cdd64779efa5fbd0d5fdb037f432f27ec8d02fb22c"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\Derangements.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "564f2ac01482d751edd1bcdfe6be1e635f0184353a763fc9cb87c568ff9c1927"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\DyckPaths.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "24bd878b6bd061d52347699ef723eba4e91cab53602dbc7d73d2806a64e76a13"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
                 "Documentation\\English\\ReferencePages\\Symbols\\EulerLinePoints.nb"
                     
             ]
             ,
             "Hash"
             ->
-            "a10065c945d9ce81cf43f1e68c5524c8e971c85d4a0404e5d133806ba5f80335"
+            "e75ec3c48e53f3407c46a386299fe2b14ef4f8c00462287a8bd03a37cec3ac93"
                 
         |>
         ,
@@ -67,6 +123,20 @@
             "Hash"
             ->
             "dbe51bdd86465c6309baeb825ef3f1bc2d51d1f3d1fb1d40d5693a8beb48ba58"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\IntegralNumberQ.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "382b28f55a10e82e3db537d0e5a6639d560302393d8e2e664d68d54cefc5b051"
                 
         |>
         ,

@@ -9,6 +9,9 @@ NinePointCubic;
 EulerLinePoints;
 NinePointQuadric;
 BalancedTernary;
+CatalanUnrank;
+AllBalancedGroupingSymbols;
+Derangements;
 Begin["`Private`"];
 
 (* Define your public and private symbols here. *)
@@ -48,6 +51,33 @@ list=Normal[n]/.\!\(\*UnderscriptBox[\(1\), \(_\)]\)-> -1;
 FromDigits[list,3],
 len=Ceiling[Log[3,1+2Abs[n]]];
 Row[(IntegerDigits[-n- Quotient[3^len-1,2],3,len]-1)/.{{}->{0},-1->\!\(\*UnderscriptBox[\(1\), \(_\)]\)}]]]
+
+CatalanUnrank//ClearAll
+CatalanUnrank[n_,rank_]:= 
+Module[{ lo=0,y=0, a=Table[0,2 n],m},
+Do[
+m=Binomial[2 n -x, n-(x+y+1)/2]-Binomial[2 n -x, n-1-(x+y+1)/2];
+(*these terms make the Catalan triangle, or ballot numbers*)
+If[rank<= lo+m-1,
+y=y+1;
+a[[x]]=0,
+lo=lo+m;
+y=y-1;
+a[[x]]=1],
+{x,1,2 n}];
+a]
+
+
+
+Derangements//ClearAll
+Derangements[n_?IntegerQ]:=With[
+{perms=Permutations[Range@n]},
+Pick[perms,Length/@PermutationSupport/@perms,n]
+]/;n>=0
+
+AllBalancedGroupingSymbols//ClearAll
+AllBalancedGroupingSymbols[{openingsymbol_,closingsymbol_},numberofgroups_]:=StringJoin[ResourceFunction["CatalanUnrank"][numberofgroups,#]/.{0->openingsymbol,1->closingsymbol}]&/@Range[0,CatalanNumber[numberofgroups]-1]
+
 
 
 
