@@ -15,6 +15,7 @@ Derangements;
 IntegralNumberQ;
 DyckPaths;
 DiagonalWalkPlot;
+ParenthesizedExpressions
 Begin["`Private`"];
 
 (* Define your public and private symbols here. *)
@@ -110,6 +111,16 @@ Accumulate[(sign (CatalanUnrank[n,#1]/.{0->-1}))
 /. {-1->{0,verticaldirectionsign},1->{horizontaldirectionsign,0}}],
 {0,0}],Transpose[{horizontaldirectionsign Range[0,n],
 verticaldirectionsign Range[0,n]}]},Ticks->OptionValue[Ticks],options]&)/@Range[0,CatalanNumber[n]-1]]/@{1,-1}]
+
+ParenthesizedExpressions//ClearAll;
+ParenthesizedExpressions[n_?IntegerQ]:=Block[{f},SetAttributes[f,{Flat,OneIdentity}];
+e:CirclePlus[___,_List,___]:=Distribute[Unevaluated[e],
+List];
+f[Sequence@@Array[Indexed[x,##]&,n]]//.{f[x__]:>ReplaceList[f[x],f[u_,v_]:>CirclePlus[u,v]]}//Flatten]
+ParenthesizedExpressions[n_,indexedsymbol_]:=Block[{f},SetAttributes[f,{Flat,OneIdentity}];
+e:CirclePlus[___,_List,___]:=Distribute[Unevaluated[e],
+List];
+f[Sequence@@Array[Indexed[indexedsymbol,##]&,n]]//.{f[x__]:>ReplaceList[f[x],f[u_,v_]:>CirclePlus[u,v]]}//Flatten]
 
 
 End[]; (* End `Private` *)
