@@ -3,7 +3,7 @@
 BeginPackage["PeterBurbery`RecreationalMathematics`"];
 
 (* Declare your packages public symbols here. *)
-
+EvenPermutations;
 FivePointConic;
 NinePointCubic;
 EulerLinePoints;
@@ -15,7 +15,11 @@ Derangements;
 IntegralNumberQ;
 DyckPaths;
 DiagonalWalkPlot;
-ParenthesizedExpressions
+ParenthesizedExpressions;
+PermutationGraph;
+FullBinaryTrees;
+FindRegularPolygonTriangulations;
+Multichoose;
 Begin["`Private`"];
 
 (* Define your public and private symbols here. *)
@@ -113,14 +117,56 @@ Accumulate[(sign (CatalanUnrank[n,#1]/.{0->-1}))
 verticaldirectionsign Range[0,n]}]},Ticks->OptionValue[Ticks],options]&)/@Range[0,CatalanNumber[n]-1]]/@{1,-1}]
 
 ParenthesizedExpressions//ClearAll;
-ParenthesizedExpressions[n_?IntegerQ]:=Block[{f},SetAttributes[f,{Flat,OneIdentity}];
+(*ParenthesizedExpressions[n_?IntegerQ]:=Block[{f},SetAttributes[f,{Flat,OneIdentity}];
 e:CirclePlus[___,_List,___]:=Distribute[Unevaluated[e],
 List];
-f[Sequence@@Array[Indexed[x,##]&,n]]//.{f[x__]:>ReplaceList[f[x],f[u_,v_]:>CirclePlus[u,v]]}//Flatten]
-ParenthesizedExpressions[n_,indexedsymbol_]:=Block[{f},SetAttributes[f,{Flat,OneIdentity}];
+f[Sequence@@(ToExpression@Array[Subscript["x",##]&,n])]//.{f[x__]:>ReplaceList[f[x],f[u_,v_]:>CirclePlus[u,v]]}//Flatten]*)
+(*this doesn't work because it adds the full context like *)
+ParenthesizedExpressions[n_,variables_]:=Block[{f},SetAttributes[f,{Flat,OneIdentity}];
 e:CirclePlus[___,_List,___]:=Distribute[Unevaluated[e],
 List];
-f[Sequence@@Array[Indexed[indexedsymbol,##]&,n]]//.{f[x__]:>ReplaceList[f[x],f[u_,v_]:>CirclePlus[u,v]]}//Flatten]
+f[Sequence@@variables]//.{f[x__]:>ReplaceList[f[x],f[u_,v_]:>CirclePlus[u,v]]}//Flatten]/;Length[variables]==n
+
+
+PermutationGraph//ClearAll
+Options[PermutationGraph]=Options[Graph];
+
+PermutationGraph[p_?PermutationListQ,opts:OptionsPattern[]]:=Module[{q=InversePermutation[p]//PermutationList},RelationGraph[((#1<#2&&q[[#1]]>q[[#2]])||(#1>#2&&q[[#1]]<q[[#2]]))&,Range[Length[q]],opts]
+]
+
+
+EvenPermutations//ClearAll
+EvenPermutations[list_List, count_Integer]:= Module[{ag,len},
+len=Length[list];
+ag=AlternatingGroup[len];
+Permute[list,#]&/@RandomPermutation[ag,count]
+]
+EvenPermutations[list_List]:= Module[{rmax=20,ag,len},
+len=Length[list];
+ag=AlternatingGroup[len];
+If[len<10,
+Permute[list,ag],
+Permute[list,#]&/@RandomPermutation[ag,rmax]
+]
+]
+
+
+FullBinaryTrees[n_]:=UnlabeledTree[ExpressionTree[#]]&/@ParenthesizedExpressions[n,ConstantArray[1,n]]
+
+
+
+FindRegularPolygonTriangulations//ClearAll
+crosscheck[{{aa_,bb_},{cc_,dd_}}] :=
+ If[Length[Union[{aa,bb,cc,dd}]]==3, True,
+If[bb<cc || bb>dd,True,False]]
+linechecker[zz_List] := If[Union[Map[crosscheck[#]&,Subsets[zz,{2}]]]=={True},True,False]
+TriangulationsFunction//ClearAll
+TriangulationsFunction[k_]:=First@Table[Last/@Select[Sort[Map[{linechecker[#],#}&,Sort/@Subsets[Sort[Drop[Flatten[Reverse[Table[{a,b},{a,1,sides-2},{b,a+2,sides}]],1],-1]],{sides-3}]]],First[#]==True&],{sides,{k}}];
+FindRegularPolygonTriangulations[k_]:=Block[{gg,pts,lines},gg=k;pts=Table[N[{Cos[x],Sin[x]}],{x,2\[Pi]/gg,2Pi,2Pi/gg}];lines=TriangulationsFunction[k];
+Table[Graphics[{Line/@Map[pts[[#]]&,lines[[n]]],Line[Append[pts,pts[[1]]]]},ImageSize->Tiny],{n,1,Length[lines]}]]
+
+Multichoose//ClearAll
+Multichoose[n_,k_]:=Binomial[n+k-1,k]
 
 
 End[]; (* End `Private` *)

@@ -2044,7 +2044,7 @@ Cell[BoxData[""], "Template",
 }, Closed]]
 }, Open  ]]
 },
-WindowSize->{1141.2, 585.6},
+WindowSize->{1141.2, 575.4},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
 TaggingRules-><|"Paclet" -> "PeterBurbery/RecreationalMathematics"|>,
 CellContext->"Global`",

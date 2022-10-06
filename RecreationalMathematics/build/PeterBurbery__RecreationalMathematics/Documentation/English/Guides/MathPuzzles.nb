@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     13219,        334]
-NotebookOptionsPosition[     10246,        271]
-NotebookOutlinePosition[     11943,        313]
-CellTagsIndexPosition[     11900,        310]
+NotebookDataLength[     21189,        538]
+NotebookOptionsPosition[     17036,        455]
+NotebookOutlinePosition[     18732,        497]
+CellTagsIndexPosition[     18689,        494]
 WindowTitle->Math Puzzles
 WindowFrame->Normal*)
 
@@ -28,11 +28,11 @@ Cell[BoxData[GridBox[{
            "Spacer1"], Cell[
           "PETER BURBERY/ RECREATIONAL MATHEMATICS GUIDE", "PacletNameCell",
            TextAlignment->Center,ExpressionUUID->
-           "764f3e8b-742a-4aae-aa91-d9fb8606c43b"], 
+           "c6a35d8a-c5c6-4275-935f-5ff423d5af15"], 
           TemplateBox[{8},
            "Spacer1"]}]],
          TextAlignment->Center,ExpressionUUID->
-         "adf1df41-e3ca-4a6f-9e99-0edfb3f03195"],
+         "f98b6fce-e998-45cf-98cd-c22b2933aac6"],
         Background->RGBColor[0.85098, 0.396078, 0],
         ItemSize->Full], ""}
      },
@@ -52,8 +52,8 @@ Cell[BoxData[GridBox[{
             AspectRatio->1,
             ImageSize->20,
             PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
-           "c5920a4f-d334-410d-8ad7-3140bc52707a"]
-         }],ExpressionUUID->"3cb14ad4-9034-4e30-bdda-896f015e575c"],
+           "7abe1f27-5d93-4dd5-94ca-c5422edb5a6b"]
+         }],ExpressionUUID->"4d841e57-759b-4eb2-b7e0-06a40ab688d6"],
          StripOnInput->False], {"\<\"AllBalancedGroupingSymbols\"\>":>
         Documentation`HelpLookup[
         "paclet:PeterBurbery/RecreationalMathematics/ref/\
@@ -62,20 +62,42 @@ AllBalancedGroupingSymbols"], "\<\"BalancedTernary\"\>":>
         "paclet:PeterBurbery/RecreationalMathematics/ref/BalancedTernary"], "\
 \<\"CatalanUnrank\"\>":>Documentation`HelpLookup[
         "paclet:PeterBurbery/RecreationalMathematics/ref/CatalanUnrank"], "\<\
-\"EulerLinePoints\"\>":>Documentation`HelpLookup[
+\"Derangements\"\>":>Documentation`HelpLookup[
+        "paclet:PeterBurbery/RecreationalMathematics/ref/Derangements"], \
+"\<\"DiagonalWalkPlot\"\>":>Documentation`HelpLookup[
+        "paclet:PeterBurbery/RecreationalMathematics/ref/DiagonalWalkPlot"], \
+"\<\"DyckPaths\"\>":>Documentation`HelpLookup[
+        "paclet:PeterBurbery/RecreationalMathematics/ref/DyckPaths"], \
+"\<\"EulerLinePoints\"\>":>Documentation`HelpLookup[
         "paclet:PeterBurbery/RecreationalMathematics/ref/EulerLinePoints"], "\
-\<\"FivePointConic\"\>":>Documentation`HelpLookup[
+\<\"EvenPermutations\"\>":>Documentation`HelpLookup[
+        "paclet:PeterBurbery/RecreationalMathematics/ref/EvenPermutations"], \
+"\<\"FindRegularPolygonTriangulations\"\>":>Documentation`HelpLookup[
+        "paclet:PeterBurbery/RecreationalMathematics/ref/\
+FindRegularPolygonTriangulations"], "\<\"FivePointConic\"\>":>
+        Documentation`HelpLookup[
         "paclet:PeterBurbery/RecreationalMathematics/ref/FivePointConic"], \
+"\<\"FullBinaryTrees\"\>":>Documentation`HelpLookup[
+        "paclet:PeterBurbery/RecreationalMathematics/ref/FullBinaryTrees"], "\
+\<\"IntegralNumberQ\"\>":>Documentation`HelpLookup[
+        "paclet:PeterBurbery/RecreationalMathematics/ref/IntegralNumberQ"], "\
+\<\"Multichoose\"\>":>Documentation`HelpLookup[
+        "paclet:PeterBurbery/RecreationalMathematics/ref/Multichoose"], \
 "\<\"NinePointCubic\"\>":>Documentation`HelpLookup[
         "paclet:PeterBurbery/RecreationalMathematics/ref/NinePointCubic"], \
 "\<\"NinePointQuadric\"\>":>Documentation`HelpLookup[
-        "paclet:PeterBurbery/RecreationalMathematics/ref/NinePointQuadric"]},
+        "paclet:PeterBurbery/RecreationalMathematics/ref/NinePointQuadric"], \
+"\<\"ParenthesizedExpressions\"\>":>Documentation`HelpLookup[
+        "paclet:PeterBurbery/RecreationalMathematics/ref/\
+ParenthesizedExpressions"], "\<\"PermutationGraph\"\>":>
+        Documentation`HelpLookup[
+        "paclet:PeterBurbery/RecreationalMathematics/ref/PermutationGraph"]},
         Appearance->None,
         MenuAppearance->Automatic,
         MenuStyle->"GuideFunction"],
        MouseAppearanceTag["LinkHand"]]],
       LineSpacing->{1.4, 0},ExpressionUUID->
-      "fef38467-fdde-4474-8ccd-be86202a757e"],
+      "bef38394-2194-4155-951c-8a4410a78356"],
      "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
 \[ThickSpace]",
      Cell[BoxData[
@@ -91,8 +113,8 @@ AllBalancedGroupingSymbols"], "\<\"BalancedTernary\"\>":>
             AspectRatio->1,
             ImageSize->20,
             PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
-           "14c12198-c8f7-456b-9d4a-db4852d30f91"]
-         }],ExpressionUUID->"2cd1ce3b-beac-4360-bf5b-b7bcccadc69d"],
+           "646142a4-55bc-479f-ac74-7efa434e760a"]
+         }],ExpressionUUID->"978f7850-3948-42b9-890b-17e46cfe534b"],
          StripOnInput->
           False], {"\<\"PeterBurbery/RecreationalMathematics/guide/\
 MathPuzzles\"\>":>None, "\<\"Copy Wolfram Documentation Center URL\"\>":>
@@ -121,7 +143,7 @@ RecreationalMathematics/guide/MathPuzzles.html"], StandardForm]], "Input",
          Null], "\<\"Go to web URL\"\>":>FrontEndExecute[{
           NotebookLocate[{
             URL[If[
-               TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$98445], 
+               TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$32817], 
                "http://reference.wolfram.com/system-modeler/", 
                "http://reference.wolfram.com/language/"] <> 
              "PeterBurbery/RecreationalMathematics/guide/MathPuzzles" <> 
@@ -131,16 +153,16 @@ RecreationalMathematics/guide/MathPuzzles.html"], StandardForm]], "Input",
         MenuStyle->"URLMenu"],
        MouseAppearanceTag["LinkHand"]]],
       LineSpacing->{1.4, 0},ExpressionUUID->
-      "8d33c3e8-ef31-4d16-8b27-5432836674ee"]
+      "385bacd1-88d8-41c3-9b1e-cc8ee57fb439"]
     }], "AnchorBar",
      CacheGraphics->False,ExpressionUUID->
-     "0ecda309-0165-40b3-a3c4-2eae1f564890"]}
+     "72806065-279c-4302-ba05-c6d8b40911a9"]}
   }]], "AnchorBarGrid",
  GridBoxOptions->{GridBoxItemSize->{"Columns" -> {
      Scaled[0.65], {
       Scaled[0.34]}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
    "RowsIndexed" -> {}}},
- CellID->1,ExpressionUUID->"71f7f633-e3f2-4b4c-a9aa-e548862cd6fd"],
+ CellID->1,ExpressionUUID->"121736e5-7c59-4173-ad0f-a555a7d407a6"],
 
 Cell[CellGroupData[{
 
@@ -152,7 +174,7 @@ This paclet contains functions for recreational mathematics and math puzzles.\
 \>", "GuideAbstract",
  CellID->766522471,ExpressionUUID->"d75cb774-9ecb-470b-977a-6b0cd1540771"],
 
-Cell["\t", "GuideDelimiterSubsection",ExpressionUUID->"60757b49-d7c6-4ff4-830a-a3185783b71c"],
+Cell["\t", "GuideDelimiterSubsection",ExpressionUUID->"717017d3-eb46-47fe-ad3e-3bd40fdb05e1"],
 
 Cell[TextData[{
  Cell[BoxData[
@@ -264,10 +286,172 @@ AllBalancedGroupingSymbols", "PeterBurbery Package Symbol"},
  StyleBox["\[LongDash]", "GuideEmDash"],
  " Find all balanced grouping symbols"
 }], "GuideText",
- CellID->155435951,ExpressionUUID->"fe789800-9447-470c-a382-97d0b6214610"]
+ CellID->155435951,ExpressionUUID->"fe789800-9447-470c-a382-97d0b6214610"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["Derangements"]], 
+    "paclet:PeterBurbery/RecreationalMathematics/ref/Derangements", 
+    "PeterBurbery Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",ExpressionUUID->
+  "13fb1030-be7a-4a34-8074-b6c8f009bcdd"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " Give all the ways the numbers 1, 2, \[Ellipsis], n can be scrambled \
+completely"
+}], "GuideText",
+ CellID->97602250,ExpressionUUID->"654c2d23-4cfe-4302-94d9-0ac77a746a22"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["IntegralNumberQ"]], 
+    "paclet:PeterBurbery/RecreationalMathematics/ref/IntegralNumberQ", 
+    "PeterBurbery Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",ExpressionUUID->
+  "0c83f1f3-dc39-4208-8198-0116caf97af3"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " yields True if the input is a valid integer and False otherwise."
+}], "GuideText",
+ CellID->4528958,ExpressionUUID->"11ae8650-e78b-4caf-a378-28f531e71402"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["DyckPaths"]], 
+    "paclet:PeterBurbery/RecreationalMathematics/ref/DyckPaths", 
+    "PeterBurbery Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",ExpressionUUID->
+  "6045429e-96f5-4992-bfc7-68bb5f03ff8c"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " generate a list of Dyck paths"
+}], "GuideText",
+ CellID->92588744,ExpressionUUID->"37ca3f7e-e524-4bf6-a1bb-22a630d35c92"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["DiagonalWalkPlot"]], 
+    "paclet:PeterBurbery/RecreationalMathematics/ref/DiagonalWalkPlot", 
+    "PeterBurbery Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",ExpressionUUID->
+  "62707fea-19e2-42ec-bf86-b036d3c3b71f"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " generate a plot of all diagonal walks in a specific direction with a \
+specific length"
+}], "GuideText",
+ CellID->130380131,ExpressionUUID->"96d8259d-fd51-40e3-894c-53826fe7df37"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["ParenthesizedExpressions"]], 
+    "paclet:PeterBurbery/RecreationalMathematics/ref/\
+ParenthesizedExpressions", "PeterBurbery Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",ExpressionUUID->
+  "02889c59-a13b-4805-b657-45822acd15b1"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " generate all parenthesized expressions with a specific number of elements "
+}], "GuideText",
+ CellID->6318545,ExpressionUUID->"d5a7fb63-253b-4d49-87a4-15f81248d7ef"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["PermutationGraph"]], 
+    "paclet:PeterBurbery/RecreationalMathematics/ref/PermutationGraph", 
+    "PeterBurbery Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",ExpressionUUID->
+  "c830a656-a570-4801-9593-f9818b97b439"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " Compute the permutation graph of a permutation"
+}], "GuideText",
+ CellID->322734605,ExpressionUUID->"3c68cfe2-f314-4eeb-b2e6-025769848123"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["EvenPermutations"]], 
+    "paclet:PeterBurbery/RecreationalMathematics/ref/EvenPermutations", 
+    "PeterBurbery Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",ExpressionUUID->
+  "482eee78-930b-41ba-8986-00dc4fb232d8"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " Get even permutations of a list"
+}], "GuideText",
+ CellID->187698,ExpressionUUID->"b95979a3-0c27-4121-943f-c67f42824870"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["FullBinaryTrees"]], 
+    "paclet:PeterBurbery/RecreationalMathematics/ref/FullBinaryTrees", 
+    "PeterBurbery Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",ExpressionUUID->
+  "0982c589-4145-40fe-85e8-fdea6d96434e"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " find all full binary trees with a certain number of leaves"
+}], "GuideText",
+ CellID->126761543,ExpressionUUID->"50aa38f5-5cf0-4819-8b61-b21a7bddc75a"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["FindRegularPolygonTriangulations"]], 
+    "paclet:PeterBurbery/RecreationalMathematics/ref/\
+FindRegularPolygonTriangulations", "PeterBurbery Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",ExpressionUUID->
+  "413926b3-9f17-4fc1-b491-412d71104bb1"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " find all ways to triangulate an n-sided regular polygon"
+}], "GuideText",
+ CellID->465048909,ExpressionUUID->"7feba779-8736-4b7f-a469-166b30988387"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["Multichoose"]], 
+    "paclet:PeterBurbery/RecreationalMathematics/ref/Multichoose", 
+    "PeterBurbery Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",ExpressionUUID->
+  "1d76be6e-27e0-4bf4-8d7d-2d47a6223f1c"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " Evaluate the multichoose operation for combinatorics"
+}], "GuideText",
+ CellID->3364418,ExpressionUUID->"c4a00f5c-0465-490b-b560-865eba61c2ce"]
 }, Open  ]],
 
-Cell[" ", "FooterCell",ExpressionUUID->"7ffafb56-511b-4cfb-8276-09ff2f9a3b0d"]
+Cell[" ", "FooterCell",ExpressionUUID->"33698f2c-7e49-4344-8521-c71b26f97d4d"]
 },
 Saveable->False,
 ScreenStyleEnvironment->"Working",
@@ -282,7 +466,7 @@ TaggingRules->{
   "NewStyles" -> True, "CitationPopupData" -> {"", ""}, "ShowCitation" -> 
   False, "RootCaptions" -> "", 
   "Metadata" -> {
-   "built" -> "{2022, 10, 1, 12, 30, 15.6575200}", 
+   "built" -> "{2022, 10, 3, 9, 44, 27.6510031}", 
     "history" -> {"??", "", "", ""}, "context" -> 
     "PeterBurbery`RecreationalMathematics`", "keywords" -> {}, 
     "specialkeywords" -> {}, "tutorialcollectionlinks" -> {}, "index" -> True,
@@ -291,7 +475,7 @@ TaggingRules->{
     "None", "summary" -> 
     "This paclet contains functions for recreational mathematics and math \
 puzzles.", "synonyms" -> {}, "tabletags" -> 
-    DocumentationBuild`Make`Private`tabletaggingrules$98407, "title" -> 
+    DocumentationBuild`Make`Private`tabletaggingrules$32769, "title" -> 
     "Math Puzzles", "titlemodifier" -> "", "windowtitle" -> "Math Puzzles", 
     "type" -> "Guide", "uri" -> 
     "PeterBurbery/RecreationalMathematics/guide/MathPuzzles"}},
@@ -299,7 +483,7 @@ CacheGraphics->False,
 FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
 StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
   CharacterEncoding -> "UTF-8"],
-ExpressionUUID->"d6834528-caaa-41fd-b70a-8f2b9c549cba"
+ExpressionUUID->"a33d341c-0d7e-4346-8683-808acc5d5382"
 ]
 (* End of Notebook Content *)
 
@@ -312,30 +496,50 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[584, 21, 5370, 121, 70, "AnchorBarGrid",ExpressionUUID->"71f7f633-e3f2-4b4c-a9aa-e548862cd6fd",
+Cell[584, 21, 6730, 143, 70, "AnchorBarGrid",ExpressionUUID->"121736e5-7c59-4173-ad0f-a555a7d407a6",
  CellID->1],
 Cell[CellGroupData[{
-Cell[5979, 146, 108, 1, 70, "GuideTitle",ExpressionUUID->"895af459-da26-4907-92e1-bafcbfc10d30",
+Cell[7339, 168, 108, 1, 70, "GuideTitle",ExpressionUUID->"895af459-da26-4907-92e1-bafcbfc10d30",
  CellID->47751474],
-Cell[6090, 149, 185, 3, 70, "GuideAbstract",ExpressionUUID->"d75cb774-9ecb-470b-977a-6b0cd1540771",
+Cell[7450, 171, 185, 3, 70, "GuideAbstract",ExpressionUUID->"d75cb774-9ecb-470b-977a-6b0cd1540771",
  CellID->766522471],
-Cell[6278, 154, 93, 0, 70, "GuideDelimiterSubsection",ExpressionUUID->"60757b49-d7c6-4ff4-830a-a3185783b71c"],
-Cell[6374, 156, 537, 14, 70, "GuideText",ExpressionUUID->"4a15b041-8d58-433f-a248-b8dcd715c567",
+Cell[7638, 176, 93, 0, 70, "GuideDelimiterSubsection",ExpressionUUID->"717017d3-eb46-47fe-ad3e-3bd40fdb05e1"],
+Cell[7734, 178, 537, 14, 70, "GuideText",ExpressionUUID->"4a15b041-8d58-433f-a248-b8dcd715c567",
  CellID->53745090],
-Cell[6914, 172, 543, 14, 70, "GuideText",ExpressionUUID->"cf779964-80df-4cb6-adc3-5a23d457d8d6",
+Cell[8274, 194, 543, 14, 70, "GuideText",ExpressionUUID->"cf779964-80df-4cb6-adc3-5a23d457d8d6",
  CellID->63230984],
-Cell[7460, 188, 546, 14, 70, "GuideText",ExpressionUUID->"0acf0fe4-d049-474e-980a-bc0a6a7a8076",
+Cell[8820, 210, 546, 14, 70, "GuideText",ExpressionUUID->"0acf0fe4-d049-474e-980a-bc0a6a7a8076",
  CellID->690571822],
-Cell[8009, 204, 537, 14, 70, "GuideText",ExpressionUUID->"1e9e3716-024d-41f2-84a4-ac18f01a0fb4",
+Cell[9369, 226, 537, 14, 70, "GuideText",ExpressionUUID->"1e9e3716-024d-41f2-84a4-ac18f01a0fb4",
  CellID->644878940],
-Cell[8549, 220, 525, 14, 70, "GuideText",ExpressionUUID->"7f1f58ea-27c8-4aa4-93df-b46733ca9214",
+Cell[9909, 242, 525, 14, 70, "GuideText",ExpressionUUID->"7f1f58ea-27c8-4aa4-93df-b46733ca9214",
  CellID->29481855],
-Cell[9077, 236, 535, 14, 70, "GuideText",ExpressionUUID->"473be1b1-e817-4c0d-b5ca-779ad16523f0",
+Cell[10437, 258, 535, 14, 70, "GuideText",ExpressionUUID->"473be1b1-e817-4c0d-b5ca-779ad16523f0",
  CellID->170589115],
-Cell[9615, 252, 534, 14, 70, "GuideText",ExpressionUUID->"fe789800-9447-470c-a382-97d0b6214610",
- CellID->155435951]
+Cell[10975, 274, 534, 14, 70, "GuideText",ExpressionUUID->"fe789800-9447-470c-a382-97d0b6214610",
+ CellID->155435951],
+Cell[11512, 290, 554, 15, 70, "GuideText",ExpressionUUID->"654c2d23-4cfe-4302-94d9-0ac77a746a22",
+ CellID->97602250],
+Cell[12069, 307, 543, 14, 70, "GuideText",ExpressionUUID->"11ae8650-e78b-4caf-a378-28f531e71402",
+ CellID->4528958],
+Cell[12615, 323, 497, 14, 70, "GuideText",ExpressionUUID->"37ca3f7e-e524-4bf6-a1bb-22a630d35c92",
+ CellID->92588744],
+Cell[13115, 339, 569, 15, 70, "GuideText",ExpressionUUID->"96d8259d-fd51-40e3-894c-53826fe7df37",
+ CellID->130380131],
+Cell[13687, 356, 568, 14, 70, "GuideText",ExpressionUUID->"d5a7fb63-253b-4d49-87a4-15f81248d7ef",
+ CellID->6318545],
+Cell[14258, 372, 529, 14, 70, "GuideText",ExpressionUUID->"3c68cfe2-f314-4eeb-b2e6-025769848123",
+ CellID->322734605],
+Cell[14790, 388, 511, 14, 70, "GuideText",ExpressionUUID->"b95979a3-0c27-4121-943f-c67f42824870",
+ CellID->187698],
+Cell[15304, 404, 539, 14, 70, "GuideText",ExpressionUUID->"50aa38f5-5cf0-4819-8b61-b21a7bddc75a",
+ CellID->126761543],
+Cell[15846, 420, 567, 14, 70, "GuideText",ExpressionUUID->"7feba779-8736-4b7f-a469-166b30988387",
+ CellID->465048909],
+Cell[16416, 436, 523, 14, 70, "GuideText",ExpressionUUID->"c4a00f5c-0465-490b-b560-865eba61c2ce",
+ CellID->3364418]
 }, Open  ]],
-Cell[10164, 269, 78, 0, 70, "FooterCell",ExpressionUUID->"7ffafb56-511b-4cfb-8276-09ff2f9a3b0d"]
+Cell[16954, 453, 78, 0, 70, "FooterCell",ExpressionUUID->"33698f2c-7e49-4344-8521-c71b26f97d4d"]
 }
 ]
 *)

@@ -7,7 +7,7 @@ PacletObject[
     "Creator" -> "Peter Cullen Burbery",
     "License" -> "MIT",
     "PublisherID" -> "PeterBurbery",
-    "Version" -> "1.10.0",
+    "Version" -> "1.15.0",
     "WolframVersion" -> "13.1+",
     "Extensions" -> {
       {
@@ -27,10 +27,16 @@ PacletObject[
           "PeterBurbery`RecreationalMathematics`DiagonalWalkPlot",
           "PeterBurbery`RecreationalMathematics`DyckPaths",
           "PeterBurbery`RecreationalMathematics`EulerLinePoints",
+          "PeterBurbery`RecreationalMathematics`EvenPermutations",
+          "PeterBurbery`RecreationalMathematics`FindRegularPolygonTriangulations",
           "PeterBurbery`RecreationalMathematics`FivePointConic",
+          "PeterBurbery`RecreationalMathematics`FullBinaryTrees",
           "PeterBurbery`RecreationalMathematics`IntegralNumberQ",
+          "PeterBurbery`RecreationalMathematics`Multichoose",
           "PeterBurbery`RecreationalMathematics`NinePointCubic",
-          "PeterBurbery`RecreationalMathematics`NinePointQuadric"
+          "PeterBurbery`RecreationalMathematics`NinePointQuadric",
+          "PeterBurbery`RecreationalMathematics`ParenthesizedExpressions",
+          "PeterBurbery`RecreationalMathematics`PermutationGraph"
         }
       },
       {"Documentation", "Language" -> "English"}

@@ -6,25 +6,12 @@
             "File"
             ->
             File[
-                "Kernel\\RecreationalMathematics.wl"
-            ]
-            ,
-            "Hash"
-            ->
-            "e6abdbd4c2c70d2d0a718838745420f55ab8a115f0304da07ccf4410a7f151c8"
-                
-        |>
-        ,
-        <|
-            "File"
-            ->
-            File[
                 "Documentation\\English\\Guides\\MathPuzzles.nb"
             ]
             ,
             "Hash"
             ->
-            "ce832bad51b8d75dd1a9a1508a9c01377fc9516a069801a8072618e92f4634e7"
+            "2926332e19e117931fce60a8b186c7015c80ceb8939c1a6c1982ee5dc276fe54"
                 
         |>
         ,
@@ -38,7 +25,7 @@
             ,
             "Hash"
             ->
-            "31facbc705be75fa442d2fba46be06706fa989cbd1333f5341a8d63663e8d9d9"
+            "4e51c79fcf738bf13fe770f88cea20f25c6cb8b552e0dfb9405fde57100536ea"
                 
         |>
         ,
@@ -94,7 +81,7 @@
             ,
             "Hash"
             ->
-            "7f99c7fbd0a09174373d8f6fb107069742815efbfc6cb8f68e730cd89a66a83a"
+            "6b49eb8ca351c444f4f7367fcca35bb3224b6c851bd6eece5abafdd874f04bac"
                 
         |>
         ,
@@ -108,7 +95,7 @@
             ,
             "Hash"
             ->
-            "953ab8b0b22c4c31f07872d37f906791a4b0a36f7abad411ba3de2b502727c06"
+            "2d46be96de4d222a8d9d79ddb47cdcec65d17b14d005e04e100e902740f000f0"
                 
         |>
         ,
@@ -130,6 +117,34 @@
             "File"
             ->
             File[
+                "Documentation\\English\\ReferencePages\\Symbols\\EvenPermutations.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "52b302aeb03414ea203160f0db8b2f9bace6f007786440b7710b2e52a46631cd"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\FindRegularPolygonTriangulations.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "d011dc46118e95d4c5eefbff0553825f89ca246cdb7cf1f0bacf9aabc1af629f"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
                 "Documentation\\English\\ReferencePages\\Symbols\\FivePointConic.nb"
                     
             ]
@@ -137,6 +152,20 @@
             "Hash"
             ->
             "dbe51bdd86465c6309baeb825ef3f1bc2d51d1f3d1fb1d40d5693a8beb48ba58"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\FullBinaryTrees.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "1e676ee8182886fa15646de259648dd06274aee7d74319c741e252ed92402137"
                 
         |>
         ,
@@ -158,13 +187,27 @@
             "File"
             ->
             File[
+                "Documentation\\English\\ReferencePages\\Symbols\\Multichoose.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "fa1396fbea55e7dfdccec69d4c2514ed71055713d46cca7e1d8f50165be7dc1b"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
                 "Documentation\\English\\ReferencePages\\Symbols\\NinePointCubic.nb"
                     
             ]
             ,
             "Hash"
             ->
-            "d94340e62a761b2df3f49b7c9dff0dc20061e6e3edc2226e7c0d6d5b960982cd"
+            "a03ac1a1acb0727f285b45d75d2646385070fefe080f9513d97e5c3040695a82"
                 
         |>
         ,
@@ -179,6 +222,34 @@
             "Hash"
             ->
             "547687197dcb11fb36866cb06d361fe7aa25586af256769fc0a52211101789e6"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\ParenthesizedExpressions.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "c6851e2be0ac0ff6cdda261cd007d191562e5506ce5af7d14446dccafbad3cea"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\PermutationGraph.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "1f408b1aaf50b952a40056f409272d5aced83c9c3383860b0a6a27dc2352b455"
                 
         |>
     }

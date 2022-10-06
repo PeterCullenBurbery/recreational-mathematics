@@ -1,0 +1,559 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     21080,        549]
+NotebookOptionsPosition[     15878,        441]
+NotebookOutlinePosition[     18093,        496]
+CellTagsIndexPosition[     18008,        491]
+WindowTitle->Multichoose
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[GridBox[{
+   {GridBox[{
+      {
+       ItemBox[Cell[BoxData[
+         RowBox[{
+          TemplateBox[{12},
+           "Spacer1"], Cell[
+          "PETER BURBERY/ RECREATIONAL MATHEMATICS SYMBOL", "PacletNameCell",
+           TextAlignment->Center,ExpressionUUID->
+           "92c35735-078d-4567-82e1-05121012d808"], 
+          TemplateBox[{8},
+           "Spacer1"]}]],
+         TextAlignment->Center,ExpressionUUID->
+         "05b48c44-a5d7-4d60-92dc-5422d13f1461"],
+        Background->RGBColor[0.490196, 0.576471, 0.690196],
+        ItemSize->Full], ""}
+     },
+     GridBoxAlignment->{"Rows" -> {{Center}}},
+     GridBoxItemSize->{"Columns" -> {Full, 
+         Scaled[0.02]}, "Rows" -> {{2.5}}}], Cell[TextData[{
+     Cell[BoxData[
+      TagBox[
+       ActionMenuBox[
+        FrameBox[Cell[TextData[{
+          "Related Guides",
+          " ",
+          Cell[BoxData[
+           GraphicsBox[
+            {GrayLevel[0.66667], Thickness[0.13], 
+             LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+            AspectRatio->1,
+            ImageSize->20,
+            PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
+           "dad1c318-8db1-4102-bc32-b65801d39efc"]
+         }],ExpressionUUID->"c7e9a5e0-4c5f-4297-ad57-e34d1014d4c3"],
+         StripOnInput->False], {"\<\"Math Puzzles\"\>":>
+        Documentation`HelpLookup[
+        "paclet:PeterBurbery/RecreationalMathematics/guide/MathPuzzles"]},
+        Appearance->None,
+        MenuAppearance->Automatic,
+        MenuStyle->"MoreAbout"],
+       MouseAppearanceTag["LinkHand"]]],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "5f4a9344-6d5d-4dec-8668-d13465b33576"],
+     "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
+\[ThickSpace]",
+     Cell[BoxData[
+      TagBox[
+       ActionMenuBox[
+        FrameBox[Cell[TextData[{
+          "URL",
+          " ",
+          Cell[BoxData[
+           GraphicsBox[
+            {GrayLevel[0.66667], Thickness[0.13], 
+             LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+            AspectRatio->1,
+            ImageSize->20,
+            PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
+           "638a005f-4b8e-4806-9828-c368d4921f10"]
+         }],ExpressionUUID->"8b3526b7-b7de-466a-9b63-63e2cbb5af8a"],
+         StripOnInput->
+          False], {"\<\"PeterBurbery/RecreationalMathematics/ref/Multichoose\"\
+\>":>None, "\<\"Copy Wolfram Documentation Center URL\"\>":>
+        Module[{DocumentationSearch`Private`nb$}, 
+         DocumentationSearch`Private`nb$ = NotebookPut[
+            Notebook[{
+              Cell["PeterBurbery/RecreationalMathematics/ref/Multichoose"]}, 
+             Visible -> False]]; 
+         SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+         FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+         NotebookClose[DocumentationSearch`Private`nb$]; Null], 
+        Delimiter, "\<\"Copy web URL\"\>":>
+        Module[{DocumentationSearch`Private`nb$}, 
+         DocumentationSearch`Private`nb$ = NotebookPut[
+            Notebook[{
+              Cell[
+               BoxData[
+                MakeBoxes[
+                 Hyperlink[
+                 "http://reference.wolfram.com/language/PeterBurbery/\
+RecreationalMathematics/ref/Multichoose.html"], StandardForm]], "Input", 
+               TextClipboardType -> "PlainText"]}, Visible -> False]]; 
+         SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+         FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+         NotebookClose[DocumentationSearch`Private`nb$]; 
+         Null], "\<\"Go to web URL\"\>":>FrontEndExecute[{
+          NotebookLocate[{
+            URL[If[
+               TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$33717], 
+               "http://reference.wolfram.com/system-modeler/", 
+               "http://reference.wolfram.com/language/"] <> 
+             "PeterBurbery/RecreationalMathematics/ref/Multichoose" <> 
+             ".html"], None}]}]},
+        Appearance->None,
+        MenuAppearance->Automatic,
+        MenuStyle->"URLMenu"],
+       MouseAppearanceTag["LinkHand"]]],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "0dfa15fd-86b4-4e3e-87e5-0e352cd8a581"]
+    }], "AnchorBar",
+     CacheGraphics->False,ExpressionUUID->
+     "74ba697f-6a46-40fd-a522-e86baef88af5"]}
+  }]], "AnchorBarGrid",
+ GridBoxOptions->{GridBoxItemSize->{"Columns" -> {
+     Scaled[0.65], {
+      Scaled[0.34]}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
+   "RowsIndexed" -> {}}},
+ CellID->1,ExpressionUUID->"2dd415a1-ce7c-4c8b-b42f-3eb3ec179a69"],
+
+Cell["PeterBurbery`RecreationalMathematics`", "ContextNameCell",ExpressionUUID->"941b73f2-57e7-47a2-9812-ff0946e5d64a"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[GridBox[{
+   {Cell[TextData[{
+     Cell[
+     "Multichoose", "ObjectName",ExpressionUUID->
+      "d65d69c0-c6b6-4227-a96d-66799d63c808"],
+     Cell[BoxData[
+      TemplateBox[{8},
+       "Spacer1"]],ExpressionUUID->"7d6c91ae-7b5f-4fcd-bdfc-d7dcd1dd869b"],
+     Cell[BoxData[
+     ""], "ObjectNameTranslation",ExpressionUUID->
+      "6c711c2d-e7ef-40f3-b5a5-307623fed88a"]
+    }],ExpressionUUID->"9ffe5dbf-0e91-46e3-8313-03ae8372ae62"], 
+    "\[SpanFromLeft]"}
+  }]], "ObjectNameGrid",ExpressionUUID->"4886b386-991b-4d3e-8856-\
+6ed069ef1918"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       TemplateBox[{
+         Cell[
+          TextData["Multichoose"]], 
+         "paclet:PeterBurberyRecreationalMathematics/ref/Multichoose", 
+         "PeterBurberyRecreationalMathematics Package Symbol"},
+        "PackageLink",
+        BaseStyle->"InlineFormula"], "[", 
+       RowBox[{
+        StyleBox["n", "TI"], ",", 
+        StyleBox["k", "TI"]}], "]"}]], "InlineFormula",
+      FontFamily->"Source Sans Pro",ExpressionUUID->
+      "b22aa390-284c-415b-820d-caa9e8958b86"],
+     "\[LineSeparator]calculates the number of multisets of length ",
+     Cell[BoxData[
+      StyleBox["k", "TI"]], "InlineFormula",
+      FontFamily->"Source Sans Pro",ExpressionUUID->
+      "fb66fda0-140a-4b39-9f44-749a03315f18"],
+     " on ",
+     Cell[BoxData[
+      StyleBox["n", "TI"]], "InlineFormula",
+      FontFamily->"Source Sans Pro",ExpressionUUID->
+      "7ff549aa-e559-4c85-8b82-663ab66160a4"],
+     " symbols"
+    }],ExpressionUUID->"e82e2888-db97-419c-8b34-5e5c9b416a08"]}
+  }]], "Usage",
+ CellID->56190837,ExpressionUUID->"044049bd-0d30-43d7-93f6-72d15cf3a802"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[Cell[BoxData[
+ ButtonBox[Cell[TextData[{
+   Cell[BoxData[
+    DynamicBox[ToBoxes[
+      If[
+       MatchQ[
+        CurrentValue[
+         EvaluationNotebook[], {TaggingRules, "Openers", "NotesSection"}, 
+         Closed], 
+        Alternatives[Open, True]], 
+       Style[
+        Graphics[{
+          Thickness[0.18], 
+          RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+          Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+         PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+        0.68 Inherited], 
+       Rotate[
+        Style[
+         Graphics[{
+           Thickness[0.18], 
+           RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+           Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+          PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+         0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+     ImageSizeCache->{
+      13.600000000000001`, {0.5800000000000001, 13.020000000000001`}}]],
+    ExpressionUUID->"65cc8a46-61b4-4e98-a5b0-2594bd62f803"],
+   Cell[BoxData[
+    TemplateBox[{1},
+     "Spacer1"]],ExpressionUUID->"f6ea0f1f-fae8-4313-af97-8ccfcd7e1901"],
+   "Details and Options"
+  }], "NotesFrameText",ExpressionUUID->"a1a7569e-147f-4132-ba08-d3cf8fc49ab3"],
+  Appearance->{Automatic, None, "Normal", Automatic},
+  BaseStyle->None,
+  ButtonFunction:>(FrontEndExecute[{
+     FrontEnd`SelectionMove[
+      FrontEnd`SelectedNotebook[], All, ButtonCell], 
+     FrontEndToken["OpenCloseGroup"], 
+     FrontEnd`SelectionMove[
+      FrontEnd`SelectedNotebook[], After, CellContents]}]& ),
+  Evaluator->None,
+  Method->
+   "Preemptive"]],ExpressionUUID->"cc555300-910c-4496-b3b5-a450aa712679"]], \
+"NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CacheGraphics->False,
+ CellID->17696683,ExpressionUUID->"c52e3bda-6d9c-465d-aa0c-c4e12e873145"],
+
+Cell[TextData[{
+ "The symbol for the multichoose operation is ",
+ Cell[BoxData[
+  RowBox[{"(", 
+   RowBox[{"(", GridBox[{
+      {"n"},
+      {"k"}
+     }], ")"}], ")"}]], "Text",ExpressionUUID->
+  "159a97dc-bed8-4765-b081-402dbe60e0ce"],
+ "."
+}], "ExampleText",
+ CellID->731353438,ExpressionUUID->"5dc29563-5b7d-4c54-bd05-3ec4b090bf6f"],
+
+Cell[TextData[{
+ "The multichoose operation can be expressed in terms of the binomial \
+coefficient as",
+ Cell[BoxData[
+  RowBox[{"(", GridBox[{
+     {
+      RowBox[{"n", "+", "k", "-", "1"}]},
+     {"k"}
+    }], ")"}]], "Text",ExpressionUUID->"30770e81-5cae-4abb-aed7-67ddf99384e3"],
+ "."
+}], "ExampleText",
+ CellID->5350411,ExpressionUUID->"0b664adb-0e22-498d-b82b-6131955519b7"],
+
+Cell["\<\
+The multichoose operation can also be expressed in terms of the multinomial \
+coefficient as (n-1,k)!.\
+\>", "ExampleText",
+ CellID->377268316,ExpressionUUID->"fdab02c9-bca1-43fb-88ed-4906c41fabe3"]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "NotesSection"}, Closed]]]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  DynamicBox[ToBoxes[
+    If[
+     MatchQ[
+      CurrentValue[
+       EvaluationNotebook[], {
+       TaggingRules, "Openers", "PrimaryExamplesSection"}, Open], 
+      Alternatives[True, Open]], 
+     Style[
+      Graphics[{
+        Thickness[0.18], 
+        RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+        Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+       PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+      0.68 Inherited], 
+     Rotate[
+      Style[
+       Graphics[{
+         Thickness[0.18], 
+         RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+         Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+        PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+       0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+   ImageSizeCache->{13.600000000000001`, {5., 8.600000000000001}}]],
+  ExpressionUUID->"8aeb55ca-5945-4bd4-91fe-d88431b1c627"],
+ Cell[BoxData[
+  TemplateBox[{1},
+   "Spacer1"]],ExpressionUUID->"8c249214-fe8d-4ef6-9300-6c6570878433"],
+ "Examples",
+ "\[NonBreakingSpace]\[NonBreakingSpace]",
+ Cell["(1)", "ExampleCount",ExpressionUUID->
+  "2b564229-98eb-4c5f-af38-f38f4d364279"]
+}], "PrimaryExamplesSection",
+ WholeCellGroupOpener->True,
+ CacheGraphics->False,
+ CellTags->"PrimaryExamplesSection",
+ CellID->677095444,ExpressionUUID->"b46d1e9d-cabf-4db7-96d9-b49b2c9cecfc"],
+
+Cell[BoxData[
+ RowBox[{"Needs", "[", "\"\<PeterBurbery`RecreationalMathematics`\>\"", 
+  "]"}]], "Input", "ExampleInitialization",
+ CellLabel->"In[1]:=",
+ CellID->224391480,ExpressionUUID->"96786914-6b03-4676-a63c-d170ae6ad1ae"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  DynamicBox[ToBoxes[
+    If[
+     MatchQ[
+      CurrentValue[
+       EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "0"},
+        Closed], 
+      Alternatives[Open, True]], 
+     Style[
+      Graphics[{
+        Thickness[0.18], 
+        RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+        Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+       PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+      0.68 Inherited], 
+     Rotate[
+      Style[
+       Graphics[{
+         Thickness[0.18], 
+         RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+         Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+        PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+       0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+   ImageSizeCache->{13.600000000000001`, {5., 8.600000000000001}}]],
+  ExpressionUUID->"21911bf4-6b75-4cab-b56a-7e24325d4904"],
+ Cell[BoxData[
+  TemplateBox[{1},
+   "Spacer1"]],ExpressionUUID->"9ef46aa4-6b2f-4346-b38b-886ab3587d84"],
+ "Basic Examples",
+ "\[NonBreakingSpace]\[NonBreakingSpace]",
+ Cell["(1)", "ExampleCount",ExpressionUUID->
+  "c743f033-de76-449e-a4a7-f8f445aa0054"]
+}], "ExampleSection", "ExampleSection",
+ WholeCellGroupOpener->True,
+ CacheGraphics->False,
+ CellID->39633560,ExpressionUUID->"959e680c-68e9-4eca-b0a8-7f1cd511af94"],
+
+Cell["Compute 7 multichoose 3:", "ExampleText",
+ CellID->684443711,ExpressionUUID->"e6fd083f-b2b8-473c-bfbc-c70ec35758b6"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Multichoose", "[", 
+  RowBox[{"7", ",", "3"}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`RecreationalMathematics`"],
+ CellLabel->"In[1]:=",
+ CellID->200719420,ExpressionUUID->"493cff45-0f56-471b-8f36-1b446360ab19"],
+
+Cell[BoxData["84"], "Output",
+ CellLabel->"Out[1]=",
+ CellID->605821387,ExpressionUUID->"851918f7-2ca6-43d0-9449-a2d98e54d5a9"]
+}, Open  ]],
+
+Cell["\<\
+A recipe calls for 5 pinches of spice out of 9 spices. How many arrangements \
+are there?\
+\>", "ExampleText",
+ CellID->42602666,ExpressionUUID->"0f9723e2-3c2f-45a2-bd02-441947794a06"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Multichoose", "[", 
+  RowBox[{"9", ",", "5"}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`RecreationalMathematics`"],
+ CellLabel->"In[2]:=",
+ CellID->244445949,ExpressionUUID->"a253bad0-faa3-48c6-832e-8581b944f804"],
+
+Cell[BoxData["1287"], "Output",
+ CellLabel->"Out[2]=",
+ CellID->592117940,ExpressionUUID->"7ebd612b-57ee-413c-8473-6ef059e65e2c"]
+}, Open  ]],
+
+Cell["\<\
+Solve the bars and stars  problem for 17 bars and 11 stars:  \
+\>", "ExampleText",
+ CellID->382981397,ExpressionUUID->"b665538a-1b74-4e84-a5b8-f9a75da15256"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Multichoose", "[", 
+  RowBox[{"17", ",", "11"}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`RecreationalMathematics`"],
+ CellLabel->"In[3]:=",
+ CellID->712704195,ExpressionUUID->"e269ad8c-f25f-4155-8154-73cd0f0df44f"],
+
+Cell[BoxData["13037895"], "Output",
+ CellLabel->"Out[3]=",
+ CellID->209784875,ExpressionUUID->"29b905b4-b33c-432f-a18f-dbb13b014ecc"]
+}, Open  ]]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "0"}, 
+  Closed]]]]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "PrimaryExamplesSection"}, 
+  Closed]]]],
+
+Cell[BoxData[GridBox[{
+   {
+    DynamicBox[FEPrivate`ImportImage[
+      FrontEnd`FileName[{"Documentation", "FooterIcons"}, "RelatedGuide.png"]],
+     ImageSizeCache->{50., {27., 33.}}], GridBox[{
+      {
+       StyleBox[
+        RowBox[{"Related", " ", "Guides"}], "MoreAboutSection"]},
+      {
+       RowBox[{"\[FilledVerySmallSquare]", Cell[BoxData[
+         TemplateBox[{
+           Cell[
+            TextData["Math Puzzles"]], 
+           "paclet:PeterBurbery/RecreationalMathematics/guide/MathPuzzles"},
+          "RefLinkPlain",
+          BaseStyle->{"MoreAbout"}]], "MoreAbout",ExpressionUUID->
+         "6bb54fe9-4955-4f81-b103-afbaf070f24d"]}]}
+     }]}
+  }]], "MoreAboutSection",ExpressionUUID->"4688e7a4-b5ed-46da-b786-\
+d1ecaf2f7487"],
+
+Cell[" ", "FooterCell",ExpressionUUID->"fc388166-c2e3-4a56-a34c-c14e632705d6"]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{900., 604.8},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"Multichoose",
+TaggingRules->{
+ "ModificationHighlight" -> False, "ColorType" -> "", "LinkTrails" -> "", 
+  "HasOptions" -> True, "ExampleCounter" -> 1, 
+  "Openers" -> {
+   "PrimaryExamplesSection" -> Open, "ExampleSection" -> {"0" -> Open}, 
+    "NotesSection" -> Closed}, "NewStyles" -> True, 
+  "CitationPopupData" -> $Failed, "ShowCitation" -> False, "RootCaptions" -> 
+  "", "Metadata" -> {
+   "built" -> "{2022, 10, 3, 9, 44, 28.7147833}", 
+    "history" -> {"XX", "", "", ""}, "context" -> 
+    "PeterBurbery`RecreationalMathematics`", "keywords" -> {}, 
+    "specialkeywords" -> {}, "tutorialcollectionlinks" -> {}, "index" -> True,
+     "label" -> "Peter Burbery/ Recreational Mathematics Symbol", "language" -> 
+    "en", "paclet" -> "PeterBurbery/RecreationalMathematics", "status" -> 
+    "None", "summary" -> 
+    "Multichoose[n, k] calculates the number of multisets of length k on n \
+symbols", "synonyms" -> {}, "tabletags" -> {}, "title" -> "Multichoose", 
+    "titlemodifier" -> "", "windowtitle" -> "Multichoose", "type" -> "Symbol",
+     "uri" -> "PeterBurbery/RecreationalMathematics/ref/Multichoose"}},
+CellContext->"Global`",
+FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData[
+    StyleDefinitions -> FrontEnd`FileName[{"Wolfram"}, "Reference.nb"]]], 
+   Cell[
+    StyleData["Input"], CellContext -> "Global`"], 
+   Cell[
+    StyleData["Output"], CellContext -> "Global`"]}, Visible -> False, 
+  FrontEndVersion -> "13.1 for Microsoft Windows (64-bit) (June 16, 2022)", 
+  StyleDefinitions -> "Default.nb"],
+ExpressionUUID->"c38d9559-a61c-48f7-a67c-b5b113f0ae91"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "PrimaryExamplesSection"->{
+  Cell[10002, 271, 1420, 37, 35, "PrimaryExamplesSection",ExpressionUUID->"b46d1e9d-cabf-4db7-96d9-b49b2c9cecfc",
+   CellTags->"PrimaryExamplesSection",
+   CellID->677095444]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"PrimaryExamplesSection", 17808, 484}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[583, 21, 4556, 108, 56, "AnchorBarGrid",ExpressionUUID->"2dd415a1-ce7c-4c8b-b42f-3eb3ec179a69",
+ CellID->1],
+Cell[5142, 131, 119, 0, 23, "ContextNameCell",ExpressionUUID->"941b73f2-57e7-47a2-9812-ff0946e5d64a"],
+Cell[CellGroupData[{
+Cell[5286, 135, 554, 14, 56, "ObjectNameGrid",ExpressionUUID->"4886b386-991b-4d3e-8856-6ed069ef1918"],
+Cell[5843, 151, 1143, 29, 111, "Usage",ExpressionUUID->"044049bd-0d30-43d7-93f6-72d15cf3a802",
+ CellID->56190837]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7023, 185, 1918, 48, 37, "NotesSection",ExpressionUUID->"c52e3bda-6d9c-465d-aa0c-c4e12e873145",
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellID->17696683],
+Cell[8944, 235, 336, 11, 70, "ExampleText",ExpressionUUID->"5dc29563-5b7d-4c54-bd05-3ec4b090bf6f",
+ CellID->731353438],
+Cell[9283, 248, 381, 11, 70, "ExampleText",ExpressionUUID->"0b664adb-0e22-498d-b82b-6131955519b7",
+ CellID->5350411],
+Cell[9667, 261, 208, 4, 70, "ExampleText",ExpressionUUID->"fdab02c9-bca1-43fb-88ed-4906c41fabe3",
+ CellID->377268316]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "NotesSection"}, Closed]]]],
+Cell[CellGroupData[{
+Cell[10002, 271, 1420, 37, 35, "PrimaryExamplesSection",ExpressionUUID->"b46d1e9d-cabf-4db7-96d9-b49b2c9cecfc",
+ CellTags->"PrimaryExamplesSection",
+ CellID->677095444],
+Cell[11425, 310, 228, 4, 26, "Input",ExpressionUUID->"96786914-6b03-4676-a63c-d170ae6ad1ae",
+ CellID->224391480],
+Cell[CellGroupData[{
+Cell[11678, 318, 1397, 36, 30, "ExampleSection",ExpressionUUID->"959e680c-68e9-4eca-b0a8-7f1cd511af94",
+ CellID->39633560],
+Cell[13078, 356, 122, 1, 38, "ExampleText",ExpressionUUID->"e6fd083f-b2b8-473c-bfbc-c70ec35758b6",
+ CellID->684443711],
+Cell[CellGroupData[{
+Cell[13225, 361, 246, 5, 26, "Input",ExpressionUUID->"493cff45-0f56-471b-8f36-1b446360ab19",
+ CellID->200719420],
+Cell[13474, 368, 127, 2, 35, "Output",ExpressionUUID->"851918f7-2ca6-43d0-9449-a2d98e54d5a9",
+ CellID->605821387]
+}, Open  ]],
+Cell[13616, 373, 194, 4, 38, "ExampleText",ExpressionUUID->"0f9723e2-3c2f-45a2-bd02-441947794a06",
+ CellID->42602666],
+Cell[CellGroupData[{
+Cell[13835, 381, 246, 5, 26, "Input",ExpressionUUID->"a253bad0-faa3-48c6-832e-8581b944f804",
+ CellID->244445949],
+Cell[14084, 388, 129, 2, 35, "Output",ExpressionUUID->"7ebd612b-57ee-413c-8473-6ef059e65e2c",
+ CellID->592117940]
+}, Open  ]],
+Cell[14228, 393, 167, 3, 38, "ExampleText",ExpressionUUID->"b665538a-1b74-4e84-a5b8-f9a75da15256",
+ CellID->382981397],
+Cell[CellGroupData[{
+Cell[14420, 400, 248, 5, 26, "Input",ExpressionUUID->"e269ad8c-f25f-4155-8154-73cd0f0df44f",
+ CellID->712704195],
+Cell[14671, 407, 133, 2, 35, "Output",ExpressionUUID->"29b905b4-b33c-432f-a18f-dbb13b014ecc",
+ CellID->209784875]
+}, Open  ]]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "0"}, Closed]]]]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "PrimaryExamplesSection"}, Closed]]]],
+Cell[15046, 418, 747, 19, 70, "MoreAboutSection",ExpressionUUID->"4688e7a4-b5ed-46da-b786-d1ecaf2f7487"],
+Cell[15796, 439, 78, 0, 70, "FooterCell",ExpressionUUID->"fc388166-c2e3-4a56-a34c-c14e632705d6"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
